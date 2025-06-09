@@ -1,4 +1,4 @@
-# 本科毕业论文 <br> Undergraduate Thesis <br> 大學畢業論文
+# 本科毕业论文 大學畢業論文 <br> Undergraduate Thesis
 
 - 完成时间：2025.5 <br>
 
