@@ -85,6 +85,3 @@ This study constructed a forest AGB modeling framework that is interpretable, re
 ### 5 总结与展望
 - 5.1 主要结论
 - 5.2 存在的不足与研究展望
-### 参考文献
-### 附录A
-### 致谢
