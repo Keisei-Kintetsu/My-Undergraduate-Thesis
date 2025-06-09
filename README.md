@@ -42,13 +42,22 @@ Based on the 8-year time series mapping, the dynamic evolution analysis of fores
 
 This study constructed a forest AGB modeling framework that is interpretable, replicable, with high spatial resolution and time continuity without relying on ground sample data, providing a feasible idea for large-scale remote sensing ecological monitoring. The research results provide data support and decision-making reference for forest resource management, carbon stock accounting and sustainable development strategy formulation in Guangdong Province.
 
+
+### 关键词
+
+森林地上生物量，多源遥感，GEDI，XGBoost建模，时空变化分析
+
+###  Keywords
+
+Forest Aboveground Biomass, Multi-source Remote Sensing, GEDI, XGBoost Modeling, Spatiotemporal Analysis
+
 ## 目录
 
 ### 1 绪论
 - 1.1 研究背景与意义
 - 1.2 国内外研究现状
-  - 1.2.1 基于样方清查与异速生长方程的森林AGB估算现状与分析
-  - 1.2.2 基于光学影像和SAR 数据的森林AGB反演现状与分析 
+  - 1.2.1 基于样方清查与异速生长方程的森林 AGB 估算现状与分析
+  - 1.2.2 基于光学影像和 SAR 数据的森林 AGB 反演现状与分析 
   - 1.2.3 基于LiDAR 联合光学影像和SAR的森林AGB反演现状与分析
 - 1.3 研究内容
 - 1.4 技术路线
@@ -77,13 +86,13 @@ This study constructed a forest AGB modeling framework that is interpretable, re
 - 4.1 广东省森林地上生物量反演结果及其描述性统计
 - 4.2 广东省森林地上生物量的空间分布
 - 4.3 与现有森林地上生物量产品比较
-  - 4.3.1 与Yang 等人的森林地上生物量产品对比
-  - 4.3.2 与ESA CCI 森林地上生物量产品对比
-  - 4.3.3 与CFATD 森林地上生物量产品对比
+  - 4.3.1 与 Yang 等人的森林地上生物量产品对比
+  - 4.3.2 与 ESA CCI 森林地上生物量产品对比
+  - 4.3.3 与 CFATD 森林地上生物量产品对比
 - 4.4 2017-2024 年广东省森林地上生物量的变化趋势分析
   - 4.4.1 变异系数分析
   - 4.4.2 线性回归分析
-  - 4.4.3 基于Theil-Sen 方法与Mann-Kendall 检验的趋势分析
+  - 4.4.3 基于 Theil-Sen 方法与 Mann-Kendall 检验的趋势分析
 - 4.5 广东省森林地上生物量可能的未来变化趋势分析
 ### 5 总结与展望
 - 5.1 主要结论
