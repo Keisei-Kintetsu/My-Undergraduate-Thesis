@@ -8,7 +8,7 @@
 
 - Title: Retrieval of forest aboveground biomass in Guangdong Province from 2017 to 2024 based on multi-source remote sensing data
 
-***
+
 
 ## 摘要
 
@@ -24,3 +24,17 @@
 
 本研究在不依赖地面样方数据的前提下，构建了具备可解释性、可复制性、空间分辨率较高、时间连续的森林AGB建模框架，为大尺度遥感生态监测提供了可行思路。研究结果为广东省森林资源管理、碳储量核算与可持续发展战略制定提供了数据支持与决策参考。
 
+
+## Abstract
+
+Forest aboveground biomass (AGB) is an important indicator reflecting the structure and carbon storage of forest ecosystems, and is of great significance for resource monitoring and climate governance under the background of carbon peak and carbon neutrality. The previous AGB estimation method based on sample inventory has high accuracy locally, but is significantly limited in large-scale and spatial continuous mapping. With the development of remote sensing technology, multi-source data fusion and machine learning methods provide a feasible path for achieving high-resolution, continuous, and multi-temporal AGB inversion.
+
+This study takes Guangdong Province as the study area, selects GEDI L4A footprint-level AGB from 2019 to 2023 as the target variable, integrates Sentinel-2 optical images, Sentinel-1 radar images, and Copernicus 30m DEM data, and constructs a multi-source remote sensing feature dataset. A total of 67 candidate variables in 5 categories were extracted, including 12 apparent reflectance bands, 11 vegetation indices, 24 NDVI texture features, 15 radar and radar texture features, and 3 terrain factors. The XGBoost regression model was used to model and extrapolate the 30m resolution pixels, and multiple groups of comparative experiments and spatiotemporal dynamic analysis were carried out, and finally the "wall-to-wall" mapping results of forest AGB in Guangdong Province from 2017 to 2024 were formed.
+
+After the 20 selected key variables (such as Slope, NDVI8A5, MNDWI, VV\_diss, etc.) were input into the XGBoost model, the ten-fold cross-validation results showed that its inversion accuracy was better than that of the traditional regression and random forest models, reaching $R^2$ = 0.607, RMSE = 36.51 Mg/ha, and MAE = 22.51 Mg/ha. The SHAP interpretation method further revealed the model mechanism and found that the influence of most variables on AGB showed a nonlinear relationship, among which Slope was the key threshold at 14°, NDVI8A5 turned from negative to positive near 0.6, and VV\_diss, MNDWI, etc. had multi-segment effects.
+
+To further verify the robustness of the modeling strategy, three types of more than 30 comparative experiments were designed to systematically evaluate the effects of different laser beam types (coverage/full power), sensitivity thresholds (0.95-0.98), day and night time periods, spatial resolutions (30m–500m) and variable combinations on model accuracy. The results show that the combination of full-power beam at night and footprint points with a sensitivity threshold greater than 0.98 can achieve the best accuracy; although the 30m resolution is not the most accurate, the spatial expression is more refined, achieving a good balance between practicality and expression ability.
+
+Based on the 8-year time series mapping, the dynamic evolution analysis of forest AGB in Guangdong Province was carried out. Overall, the average annual growth rate of forest AGB in Guangdong Province from 2017 to 2024 was 1.12 Mg/ha, and the provincial average value increased from 89.2 Mg/ha to 97.7 Mg/ha, showing a good trend of sustained growth. Regionally, northern Guangdong and the Pearl River Delta are high-value AGB clusters, while coastal areas such as Zhanjiang and Shantou have relatively low AGB. The results of the joint test of Sen slope and Mann-Kendall showed that 80.62\% of the pixels had no significant change, 10.6\% showed significant and extremely significant growth, and the strongest trend was seen in Jieyang, Shanwei, Chaozhou and other places. The overall mean of the Hurst index was 0.609, indicating that the AGB change of Guangdong's forest ecosystem had a certain degree of continuity.
+
+This study constructed a forest AGB modeling framework that is interpretable, replicable, with high spatial resolution and time continuity without relying on ground sample data, providing a feasible idea for large-scale remote sensing ecological monitoring. The research results provide data support and decision-making reference for forest resource management, carbon stock accounting and sustainable development strategy formulation in Guangdong Province.
