@@ -1,6 +1,6 @@
-# 我毕业于中山大学地理信息科学专业，这是我的本科毕业论文!
+# 我的本科毕业论文 My Undergraduate Thesis 我的大學畢業論文
 
-# I graduated from Sun Yat-sen University, majoring in Geographic Information Science, and this is my undergraduate thesis!
+
 
 This is your README. READMEs are where you can communicate what your project is and how to use it.
 
