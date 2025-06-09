@@ -1,9 +1,9 @@
-##  Sun Yat-sen University Undergraduate Thesis <br>  中山大学本科毕业论文
+##  中山大学本科毕业论文 <br>  Sun Yat-sen University Undergraduate Thesis 
 
-# Retrieval of forest aboveground biomass in Guangdong Province from 2017 to 2024 based on multi-source remote sensing data <br> 基于多源遥感数据的广东省 2017-2024 年森林地上生物量反演
+# 基于多源遥感数据的广东省 2017-2024 年森林地上生物量反演 <br> Retrieval of forest aboveground biomass in Guangdong Province from 2017 to 2024 based on multi-source remote sensing data
 
-- Major: Geographic Information Science
 - 专业：地理信息科学
+- Major: Geographic Information Science
 - 2025.5 
 
 
