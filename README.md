@@ -58,7 +58,7 @@ Forest Aboveground Biomass, Multi-source Remote Sensing, GEDI, XGBoost Modeling,
 - 1.2 国内外研究现状
   - 1.2.1 基于样方清查与异速生长方程的森林 AGB 估算现状与分析
   - 1.2.2 基于光学影像和 SAR 数据的森林 AGB 反演现状与分析 
-  - 1.2.3 基于LiDAR 联合光学影像和SAR的森林AGB反演现状与分析
+  - 1.2.3 基于 LiDAR 联合光学影像和 SAR 的森林 AGB 反演现状与分析
 - 1.3 研究内容
 - 1.4 技术路线
 
