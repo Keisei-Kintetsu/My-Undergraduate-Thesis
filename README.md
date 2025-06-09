@@ -4,6 +4,8 @@
 
 ![Cover-image.png](https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/refs/heads/main/Cover-image.png)
 
+- 作者：梁而正
+- Author: Erzheng Liang
 - 专业：地理信息科学
 - Major: Geographic Information Science
 - 2025.5 
