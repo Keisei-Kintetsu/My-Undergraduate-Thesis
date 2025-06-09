@@ -1,4 +1,6 @@
-% !TeX root = ../thesis.tex
+---
+bibliography: [sysu.bib]
+---
 
 ## 绪论
 
@@ -7,7 +9,7 @@
 
 
 森林是地球上面积最大、分布最广、资源最丰富、组成最复杂的陆地生态系统\cite{hong2025decoding}，其占据地球生物圈总初级生产力的约 75\%，并储存了全球约 80\% 的植物生物量\cite{王锴2023中国陆地生态系统碳汇稳定性的空间分布特征及驱动机制,pan2013structure}，
-在全球陆地碳循环中起着“碳汇”的作用\cite{williams2024global,BSDZ20050200H,herold2019role}。森林地上生物量（Aboveground Biomass, AGB）是指森林植被地表以上所有活生物体的总质量，包括乔木、灌木、草本植物及其他植物组织\cite{tsitsi2016remote,cartus2025parametric}，通常表示为单位面积内所有植被（枝、干、叶）干物质量的总和\cite{DLKJ200706000}。AGB 在林业与生态研究中具有广泛应用，例如用于评估植被结构、衡量碳从大气中固定的速率与规模，是反映森林生态系统生产力水平与碳储量的关键参数\cite{varvia2024estimation}。准确估算 AGB 对于揭示区域至全球尺度的森林碳储量动态，以及理解自然生态系统在气候变化缓解中的作用具有重要意义\cite{mo2023integrated}。
+在全球陆地碳循环中起着“碳汇”的作用[@williams2024global];@BSDZ20050200H;@herold2019role。森林地上生物量（Aboveground Biomass, AGB）是指森林植被地表以上所有活生物体的总质量，包括乔木、灌木、草本植物及其他植物组织\cite{tsitsi2016remote,cartus2025parametric}，通常表示为单位面积内所有植被（枝、干、叶）干物质量的总和\cite{DLKJ200706000}。AGB 在林业与生态研究中具有广泛应用，例如用于评估植被结构、衡量碳从大气中固定的速率与规模，是反映森林生态系统生产力水平与碳储量的关键参数\cite{varvia2024estimation}。准确估算 AGB 对于揭示区域至全球尺度的森林碳储量动态，以及理解自然生态系统在气候变化缓解中的作用具有重要意义\cite{mo2023integrated}。
 
 
 激光雷达（Light Detection and Ranging，LiDAR）作为一种主动遥感手段，具有高空间分辨率、高垂直穿透能力和不受光照限制的全天候测量优势\cite{lefsky2002lidar2,JJZZ202411012}。与被动光学遥感不同，LiDAR 通过激光脉冲穿透森林冠层并记录植被的垂直结构信息，能够提供详细的三维结构参数\cite{lefsky2002lidar}，因而在森林 AGB 反演中展现出独特的技术优势\cite{borsah2023lidar}。目前，地基激光雷达（TLS）和机载激光雷达（ALS）在小范围样地尺度上已被广泛应用\cite{jakubowski2013tradeoffs}，其估算精度高、数据质量优，适合用于精细森林结构调查与地面样本数据获取\cite{mashhadi2025lidar}。然而，这类激光雷达设备通常成本高、作业周期长，且受限于飞行平台与地形条件，难以在省域乃至国家尺度开展连续大范围的应用研究。
