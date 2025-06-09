@@ -1,4 +1,4 @@
-# 本科毕业论文 大學畢業論文 <br> Undergraduate Thesis
+# 本科毕业论文 <br> Undergraduate Thesis
 
 - 完成时间：2025.5 <br>
 
@@ -8,8 +8,5 @@
 
 - Title: Retrieval of forest aboveground biomass in Guangdong Province from 2017 to 2024 based on multi-source remote sensing data
 
+***
 
-
-This is your README. READMEs are where you can communicate what your project is and how to use it.
-
-Write your name on line 6, save it, and then head back to GitHub Desktop.
