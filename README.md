@@ -38,3 +38,21 @@ To further verify the robustness of the modeling strategy, three types of more t
 Based on the 8-year time series mapping, the dynamic evolution analysis of forest AGB in Guangdong Province was carried out. Overall, the average annual growth rate of forest AGB in Guangdong Province from 2017 to 2024 was 1.12 Mg/ha, and the provincial average value increased from 89.2 Mg/ha to 97.7 Mg/ha, showing a good trend of sustained growth. Regionally, northern Guangdong and the Pearl River Delta are high-value AGB clusters, while coastal areas such as Zhanjiang and Shantou have relatively low AGB. The results of the joint test of Sen slope and Mann-Kendall showed that 80.62\% of the pixels had no significant change, 10.6\% showed significant and extremely significant growth, and the strongest trend was seen in Jieyang, Shanwei, Chaozhou and other places. The overall mean of the Hurst index was 0.609, indicating that the AGB change of Guangdong's forest ecosystem had a certain degree of continuity.
 
 This study constructed a forest AGB modeling framework that is interpretable, replicable, with high spatial resolution and time continuity without relying on ground sample data, providing a feasible idea for large-scale remote sensing ecological monitoring. The research results provide data support and decision-making reference for forest resource management, carbon stock accounting and sustainable development strategy formulation in Guangdong Province.
+
+## 目录
+
+1 绪论. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+
+1.1 研究背景与意义. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+
+1.2 国内外研究现状. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+
+1.2.1 基于样方清查与异速生长方程的森林AGB 估算现状与分析. . . 2
+
+1.2.2 基于光学影像和SAR 数据的森林AGB 反演现状与分析. . . . . . 3
+
+1.2.3 基于LiDAR 联合光学影像和SAR 的森林AGB 反演现状与分析. 3
+
+1.3 研究内容. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+
+1.4 技术路线. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
