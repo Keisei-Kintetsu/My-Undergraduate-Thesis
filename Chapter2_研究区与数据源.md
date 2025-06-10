@@ -490,121 +490,121 @@ Sentinel-1 卫星工作于 C 波段，提供了单极化（HH 或 VV）和双极
         <td></td>
         <td>EVI</td>
         <td>增强植被指数</td>
-        <td>$ \text{EVI} = 2.5\frac{\text{B8} - \text{B4}}{\text{B8} + 6 \text{B4} - 7.5  \text{B2} + 1} $</td>
+        <td>$ \text{EVI} = 2.5\dfrac{\text{B8} - \text{B4}}{\text{B8} + 6 \text{B4} - 7.5  \text{B2} + 1} $</td>
     </tr>
     <tr>
         <td></td>
         <td>SAVI</td>
         <td>土壤调节植被指数</td>
-        <td>$ \text{SAVI} = \frac{\text{B8} - \text{B4}}{\text{B8} + \text{B4} + 0.5} \times (1 + 0.5) $</td>
+        <td>$ \text{SAVI} = \dfrac{\text{B8} - \text{B4}}{\text{B8} + \text{B4} + 0.5} \times (1 + 0.5) $</td>
     </tr>
     <tr>
         <td></td>
         <td>ARVI</td>
         <td>大气校正植被指数</td>
-        <td>$ \text{ARVI} = \frac{\text{B8} - (2 \times \text{B4} - \text{B2})}{\text{B8} + (2 \times \text{B4} - \text{B2})} $</td>
+        <td>$ \text{ARVI} = \dfrac{\text{B8} - (2 \times \text{B4} - \text{B2})}{\text{B8} + (2 \times \text{B4} - \text{B2})} $</td>
     </tr>
     <tr>
         <td></td>
         <td>GRVI</td>
         <td>绿色归一化植被指数</td>
-        <td>$\text{GRVI} = \frac{\text{B3} - \text{B4}}{\text{B3} + \text{B4}}$</td>
+        <td>$\text{GRVI} = \dfrac{\text{B3} - \text{B4}}{\text{B3} + \text{B4}}$</td>
     </tr>
     <tr>
         <td></td>
         <td>GNDVI</td>
         <td>绿色归一化差异植被指数</td>
-        <td>$ \text{GNDVI} = {\text{B8} - \text{B3}}{\text{B8} + \text{B3}} $</td>
+        <td>$ \text{GNDVI} = \dfrac{\text{B8} - \text{B3}}{\text{B8} + \text{B3}} $</td>
     </tr>
     <tr>
         <td></td>
         <td>MNDWI</td>
         <td>改进的归一化差异水体指数</td>
-        <td>$ \text{MSRVI} = \frac{\text{B3} - \text{B11}}{\text{B3} + \text{B11}} $</td>
+        <td>$ \text{MSRVI} = \dfrac{\text{B3} - \text{B11}}{\text{B3} + \text{B11}} $</td>
     </tr>
     <tr>
         <td></td>
         <td>MSRVI</td>
         <td>改进型简单比值植被指数</td>
-        <td>$ \text{MSRVI} = \frac{\text{B8}/\text{B4} - 1}{\sqrt{\text{B8}/\text{B4}} + 1} $</td>
+        <td>$ \text{MSRVI} = \dfrac{\text{B8}/\text{B4} - 1}{\sqrt{\text{B8}/\text{B4}} + 1} $</td>
     </tr>
     <tr>
         <td></td>
         <td>NDBI</td>
         <td>归一化建筑指数</td>
-        <td>$ \text{NDBI} = \frac{\text{B11} - \text{B8}}{\text{B11} + \text{B8}} $</td>
+        <td>$ \text{NDBI} = \dfrac{\text{B11} - \text{B8}}{\text{B11} + \text{B8}} $</td>
     </tr>
     <tr>
         <td></td>
         <td>OSAVI</td>
         <td>优化土壤调节植被指数</td>
-        <td>$ \text{OSAVI} = \frac{\text{B8} - \text{B4}}{\text{B8} + \text{B4} + 0.16} $</td>
+        <td>$ \text{OSAVI} = \dfrac{\text{B8} - \text{B4}}{\text{B8} + \text{B4} + 0.16} $</td>
     </tr>
     <tr>
         <td></td>
         <td>RDVI</td>
         <td>比值差植被指数</td>
-        <td>$ \text{RDVI} = \frac{\text{B8} - \text{B4}}{\sqrt{\text{B8} + \text{B4}}} $</td>
+        <td>$ \text{RDVI} = \dfrac{\text{B8} - \text{B4}}{\sqrt{\text{B8} + \text{B4}}} $</td>
     </tr>
     <tr>
         <td></td>
         <td>TDVI</td>
         <td>变形植被指数</td>
-        <td>$ \text{TDVI} = 1.5 \times \frac{\text{B8} - \text{B4}}{\text{B8}^2 + \text{B4} + 1} $</td>
+        <td>$ \text{TDVI} = 1.5 \times \dfrac{\text{B8} - \text{B4}}{\text{B8}^2 + \text{B4} + 1} $</td>
     </tr>
     <tr>
         <td></td>
         <td>GVI</td>
         <td>绿色植被指数</td>
-        <td>$ \text{TDVI} = \frac{\text{B8}}{\text{B3}} $</td>
+        <td>$ \text{TDVI} = \dfrac{\text{B8}}{\text{B3}} $</td>
     </tr>
     <tr>
         <td></td>
         <td>NDVI84</td>
         <td>归一化植被指数</td>
-        <td>$ \text{NDVI84} = \frac{\text{B8} - \text{B4}}{\text{B8} + \text{B4}} $</td>
+        <td>$ \text{NDVI84} = \dfrac{\text{B8} - \text{B4}}{\text{B8} + \text{B4}} $</td>
     </tr>
     <tr>
         <td></td>
         <td>NDVI85</td>
         <td>归一化植被指数</td>
-        <td>$ \text{NDVI85} = \frac{\text{B8} - \text{B5}}{\text{B8} + \text{B5}} $</td>
+        <td>$ \text{NDVI85} = \dfrac{\text{B8} - \text{B5}}{\text{B8} + \text{B5}} $</td>
     </tr>
     <tr>
         <td></td>
         <td>NDVI86</td>
         <td>归一化植被指数</td>
-        <td>$ \text{NDVI86} = \frac{\text{B8} - \text{B6}}{\text{B8} + \text{B6}} $</td>
+        <td>$ \text{NDVI86} = \dfrac{\text{B8} - \text{B6}}{\text{B8} + \text{B6}} $</td>
     </tr>
     <tr>
         <td></td>
         <td>NDVI87</td>
         <td>归一化植被指数</td>
-        <td>$ \text{NDVI87} = \frac{\text{B8} - \text{B7}}{\text{B8} + \text{B7}} $</td>
+        <td>$ \text{NDVI87} = \dfrac{\text{B8} - \text{B7}}{\text{B8} + \text{B7}} $</td>
     </tr>
     <tr>
         <td></td>
         <td>NDVI8A4</td>
         <td>归一化植被指数</td>
-        <td>$ \text{NDVI8A4} = \frac{\text{B8A} - \text{B4}}{\text{B8A} + \text{B4}} $</td>
+        <td>$ \text{NDVI8A4} = \dfrac{\text{B8A} - \text{B4}}{\text{B8A} + \text{B4}} $</td>
     </tr>
     <tr>
         <td></td>
         <td>NDVI8A5</td>
         <td>归一化植被指数</td>
-        <td>$ \text{NDVI8A5} = \frac{\text{B8A} - \text{B5}}{\text{B8A} + \text{B5}} $</td>
+        <td>$ \text{NDVI8A5} = \dfrac{\text{B8A} - \text{B5}}{\text{B8A} + \text{B5}} $</td>
     </tr>
     <tr>
         <td></td>
         <td>NDVI8A6</td>
         <td>归一化植被指数</td>
-        <td>$ \text{NDVI8A6} = \frac{\text{B8A} - \text{B6}}{\text{B8A} + \text{B6}} $</td>
+        <td>$ \text{NDVI8A6} = \dfrac{\text{B8A} - \text{B6}}{\text{B8A} + \text{B6}} $</td>
     </tr>
     <tr>
         <td></td>
         <td>NDVI8A7</td>
         <td>归一化植被指数</td>
-        <td>$ \text{NDVI8A7} = \frac{\text{B8A} - \text{B7}}{\text{B8A} + \text{B7}} $</td>
+        <td>$ \text{NDVI8A7} = \dfrac{\text{B8A} - \text{B7}}{\text{B8A} + \text{B7}} $</td>
     </tr>
     <tr>
         <td>光学纹理特征</td>
