@@ -51,6 +51,8 @@ GEDI 数据产品具有不同的形式。1级和2级为较低级数据，由LPDA
 
 
 GEDI L4A数据是目前全球唯一在足迹尺度上，结合参数建模与严格误差控制框架，对地上生物量（密度）进行高精度估算的全球尺度卫星产品。于2022年由马里兰大学Duncanson团队开发。该数据在全球13,989个样地中，用机载激光雷达（ALS）数据模拟GEDI波形，并结合已有的地面样地AGB数据，建立校准数据库。以普通最小二乘回归（Ordinary Least Squares，OLS）为基础的参数化模型形式，引入对RH（Relative Height）指标和AGB的变换（对数或平方根变换），即
+
 $$h(\text{AGB})=\sum_{j=1}^{p} B_{j} f\left(x_{j}\right)+\varepsilon $$
+
 $$\widehat{\text{AGB}}=h \left(\sum_{j=1}^{p} \hat{B_{j}} f\left(x_{j}\right)+\varepsilon\right)$$
 其中，$B_{j}$是回归系数和$p$个预测因子$x_j$（如RH98、RH50），$f()$是变换函数（恒等式、对数或平方根），$h()$是反变换函数（恒等式、指数函数或二次幂），$\varepsilon$是均值为零的正态分布误差项。
