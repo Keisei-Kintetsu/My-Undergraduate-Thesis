@@ -57,56 +57,56 @@ GEDI 数据产品具有不同的形式。1级和2级为较低级数据，由 LPD
 <div align="center">
 <table>
     <tr>
-        <th>级别名</th>
+        <td>级别名</td>
         <td>数据形式</td>
         <td>数据产品</td>
         <td>分辨率</td>
         <td>数据负责团队</td>
     </tr>
     <tr>
-        <th>L1B</th>
+        <td>L1B</td>
         <td>足迹级</td>
         <td>地理定位波形</td>
         <td>25m直径</td>
         <td>LPDAAC</td>
     </tr>
     <tr>
-        <th>L2A</th>
+        <td>L2A</td>
         <td>足迹级</td>
         <td>地面高程、冠层高度、相对高度</td>
         <td>25m直径</td>
         <td>LPDAAC</td>
     </tr>
     <tr>
-        <th>L2B</th>
+        <td>L2B</td>
         <td>足迹级</td>
         <td>冠层覆盖度及其剖面、叶面积指数及其剖面</td>
         <td>25m直径</td>
         <td>LPDAAC</td>
     </tr>
     <tr>
-        <th>L3</th>
+        <td>L3</td>
         <td>格网</td>
         <td>树冠高度指标</td>
         <td>1km格网</td>
         <td>ORNLDAAC</td>
     </tr>
     <tr>
-        <th>L4A</th>
+        <td>L4A</td>
         <td>足迹级</td>
         <td>地上生物量相关指标</td>
         <td>25m直径</td>
         <td>ORNLDAAC</td>
     </tr>
     <tr>
-        <th>L4B</th>
+        <td>L4B</td>
         <td>格网</td>
         <td>地上生物量密度</td>
         <td>1km格网</td>
         <td>ORNLDAAC</td>
     </tr>
     <tr>
-        <th>L4C</th>
+        <td>L4C</td>
         <td>足迹级</td>
         <td>波形结构复杂性指数</td>
         <td>25m直径</td>
