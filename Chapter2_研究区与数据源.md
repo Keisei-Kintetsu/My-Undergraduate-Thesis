@@ -608,49 +608,49 @@ Sentinel-1 卫星工作于 C 波段，提供了单极化（HH 或 VV）和双极
     </tr>
     <tr>
         <td>光学纹理特征</td>
-        <td>NDVI84\_ent</td>
+        <td>NDVI84_ent</td>
         <td>NDVI84信息熵</td>
         <td>$\text{ent}=-\sum_{i=1}^{N} \sum_{j=1}^{N} P_{i j} \log P_{i j}$</td>
     </tr>
     <tr>
         <td>(共24个)</td>
-        <td>NDVI85\_ent</td>
+        <td>NDVI85_ent</td>
         <td>NDVI85信息熵</td>
         <td>$\text{ent}=-\sum_{i=1}^{N} \sum_{j=1}^{N} P_{i j} \log P_{i j}$</td>
     </tr>
     <tr>
         <td></td>
-        <td>NDVI86\_ent</td>
+        <td>NDVI86_ent</td>
         <td>NDVI86信息熵</td>
         <td>$\text{ent}=-\sum_{i=1}^{N} \sum_{j=1}^{N} P_{i j} \log P_{i j}$</td>
     </tr>
     <tr>
         <td></td>
-        <td>NDVI87\_ent</td>
+        <td>NDVI87_ent</td>
         <td>NDVI87信息熵</td>
         <td>$\text{ent}=-\sum_{i=1}^{N} \sum_{j=1}^{N} P_{i j} \log P_{i j}$</td>
     </tr>
     <tr>
         <td></td>
-        <td>NDVI8A4\_ent</td>
+        <td>NDVI8A4_ent</td>
         <td>NDVI8A4信息熵</td>
         <td>$\text{ent}=-\sum_{i=1}^{N} \sum_{j=1}^{N} P_{i j} \log P_{i j}$</td>
     </tr>
     <tr>
         <td></td>
-        <td>NDVI8A5\_ent</td>
+        <td>NDVI8A5_ent</td>
         <td>NDVI8A5信息熵</td>
         <td>$\text{ent}=-\sum_{i=1}^{N} \sum_{j=1}^{N} P_{i j} \log P_{i j}$</td>
     </tr>
     <tr>
         <td></td>
-        <td>NDVI8A6\_ent</td>
+        <td>NDVI8A6_ent</td>
         <td>NDVI8A6信息熵</td>
         <td>$\text{ent}=-\sum_{i=1}^{N} \sum_{j=1}^{N} P_{i j} \log P_{i j}$</td>
     </tr>
     <tr>
         <td></td>
-        <td>NDVI8A7\_ent</td>
+        <td>NDVI8A7_ent</td>
         <td>NDVI8A7信息熵</td>
         <td>$\text{ent}=-\sum_{i=1}^{N} \sum_{j=1}^{N} P_{i j} \log P_{i j}$</td>
     </tr>
@@ -689,97 +689,97 @@ $$ \text{diss} = \sum_{i,j} P_{ij} |i - j| $$
     </tr>
     <tr>
         <td></td>
-        <td>NDVI84\_const</td>
+        <td>NDVI84_const</td>
         <td>NDVI84对比度</td>
         <td>$\text{const}= \sum_{i=1}^{N} \sum_{j=1}^{N} (i - j)^2 P_{ij}$</td>
     </tr>
     <tr>
         <td></td>
-        <td>NDVI85\_const</td>
+        <td>NDVI85_const</td>
         <td>NDVI85对比度</td>
         <td>$\text{const}= \sum_{i=1}^{N} \sum_{j=1}^{N} (i - j)^2 P_{ij}$</td>
     </tr>
     <tr>
         <td></td>
-        <td>NDVI86\_const</td>
+        <td>NDVI86_const</td>
         <td>NDVI86对比度</td>
         <td>$\text{const}= \sum_{i=1}^{N} \sum_{j=1}^{N} (i - j)^2 P_{ij}$</td>
     </tr>
     <tr>
         <td></td>
-        <td>NDVI87\_const</td>
+        <td>NDVI87_const</td>
         <td>NDVI87对比度</td>
         <td>$\text{const}= \sum_{i=1}^{N} \sum_{j=1}^{N} (i - j)^2 P_{ij}$</td>
     </tr>
     <tr>
         <td></td>
-        <td>NDVI8A4\_const</td>
+        <td>NDVI8A4_const</td>
         <td>NDVI8A4对比度</td>
         <td>$\text{const}= \sum_{i=1}^{N} \sum_{j=1}^{N} (i - j)^2 P_{ij}$</td>
     </tr>
     <tr>
         <td></td>
-        <td>NDVI8A5\_const</td>
+        <td>NDVI8A5_const</td>
         <td>NDVI8A5对比度</td>
         <td>$\text{const}= \sum_{i=1}^{N} \sum_{j=1}^{N} (i - j)^2 P_{ij}$</td>
     </tr>
     <tr>
         <td></td>
-        <td>NDVI8A6\_const</td>
+        <td>NDVI8A6_const</td>
         <td>NDVI8A6对比度</td>
         <td>$\text{const}= \sum_{i=1}^{N} \sum_{j=1}^{N} (i - j)^2 P_{ij}$</td>
     </tr>
     <tr>
         <td></td>
-        <td>NDVI8A7\_const</td>
+        <td>NDVI8A7_const</td>
         <td>NDVI8A7对比度</td>
         <td>$\text{const}= \sum_{i=1}^{N} \sum_{j=1}^{N} (i - j)^2 P_{ij}$</td>
     </tr>
     <tr>
         <td></td>
-        <td>NDVI84\_var</td>
+        <td>NDVI84_var</td>
         <td>NDVI84方差</td>
         <td>$\text{var}=\sum_{i=1}^{N} \sum_{j=1}^{N}(i-\mu)^{2} P_{i j}$</td>
     </tr>
     <tr>
         <td></td>
-        <td>NDVI85\_var</td>
+        <td>NDVI85_var</td>
         <td>NDVI85方差</td>
         <td>$\text{var}=\sum_{i=1}^{N} \sum_{j=1}^{N}(i-\mu)^{2} P_{i j}$</td>
     </tr>
     <tr>
         <td></td>
-        <td>NDVI86\_var</td>
+        <td>NDVI86_var</td>
         <td>NDVI86方差</td>
         <td>$\text{var}=\sum_{i=1}^{N} \sum_{j=1}^{N}(i-\mu)^{2} P_{i j}$</td>
     </tr>
     <tr>
         <td></td>
-        <td>NDVI87\_var</td>
+        <td>NDVI87_var</td>
         <td>NDVI87方差</td>
         <td>$\text{var}=\sum_{i=1}^{N} \sum_{j=1}^{N}(i-\mu)^{2} P_{i j}$</td>
     </tr>
     <tr>
         <td></td>
-        <td>NDVI8A4\_var</td>
+        <td>NDVI8A4_var</td>
         <td>NDVI8A4方差</td>
         <td>$\text{var}=\sum_{i=1}^{N} \sum_{j=1}^{N}(i-\mu)^{2} P_{i j}$</td>
     </tr>
     <tr>
         <td></td>
-        <td>NDVI8A5\_var</td>
+        <td>NDVI8A5_var</td>
         <td>NDVI8A5方差</td>
         <td>$\text{var}=\sum_{i=1}^{N} \sum_{j=1}^{N}(i-\mu)^{2} P_{i j}$</td>
     </tr>
     <tr>
         <td></td>
-        <td>NDVI8A6\_var</td>
+        <td>NDVI8A6_var</td>
         <td>NDVI8A6方差</td>
         <td>$\text{var}=\sum_{i=1}^{N} \sum_{j=1}^{N}(i-\mu)^{2} P_{i j}$</td>
     </tr>
     <tr>
         <td></td>
-        <td>NDVI8A7\_var</td>
+        <td>NDVI8A7_var</td>
         <td>NDVI8A7方差</td>
         <td>$\text{var}=\sum_{i=1}^{N} \sum_{j=1}^{N}(i-\mu)^{2} P_{i j}$</td>
     </tr>
@@ -799,79 +799,79 @@ $$ \text{diss} = \sum_{i,j} P_{ij} |i - j| $$
         <td></td>
         <td>S1\_RVI</td>
         <td>雷达植被指数</td>
-        <td>\( \text{RVI} = \dfrac{4 \text{VH}}{\text{VH} +\text{VV}} \)</td>
+        <td>$\text{RVI} = \dfrac{4 \text{VH}}{\text{VH} +\text{VV}}$</td>
     </tr>
     <tr>
         <td></td>
-        <td>S1\_sum</td>
+        <td>S1_sum</td>
         <td>VV与VH相加</td>
         <td>VV+VH</td>
     </tr>
     <tr>
         <td></td>
-        <td>S1\_diff</td>
+        <td>S1_diff</td>
         <td>VV与VH相减</td>
         <td>VV-VH</td>
     </tr>
     <tr>
         <td></td>
-        <td>S1\_prod</td>
+        <td>S1_prod</td>
         <td>VV与VH相乘</td>
         <td>VV $\times$ VH</td>
     </tr>
     <tr>
         <td></td>
-        <td>S1\_rept</td>
+        <td>S1_rept</td>
         <td>VV与VH相除</td>
         <td>VV/VH</td>
     </tr>
     <tr>
         <td>雷达纹理</td>
-        <td>VV\_ent</td>
+        <td>VV_ent</td>
         <td>VV信息熵</td>
         <td>$\text{ent}=-\sum_{i=1}^{N} \sum_{j=1}^{N} P_{i j} \log P_{i j}$</td>
     </tr>
     <tr>
         <td>特征 (共8个)</td>
-        <td>VH\_ent</td>
+        <td>VH_ent</td>
         <td>VH信息熵</td>
         <td>$\text{ent}=-\sum_{i=1}^{N} \sum_{j=1}^{N} P_{i j} \log P_{i j}$</td>
     </tr>
     <tr>
         <td></td>
-        <td>VV\_const</td>
+        <td>VV_const</td>
         <td>VV对比度</td>
         <td>$\text{const}=\sum_{i=1}^{N} \sum_{j=1}^{N} (i - j)^2 P_{ij}$</td>
     </tr>
     <tr>
         <td></td>
-        <td>VH\_const</td>
+        <td>VH_const</td>
         <td>VH对比度</td>
         <td>$\text{const}=\sum_{i=1}^{N} \sum_{j=1}^{N} (i - j)^2 P_{ij}$</td>
     </tr>
     <tr>
         <td></td>
-        <td>VV\_var</td>
+        <td>VV_var</td>
         <td>VV方差</td>
         <td>$\text{var}=\sum_{i=1}^{N} \sum_{j=1}^{N}(i-\mu)^{2} P_{i j}$</td>
     </tr>
     <tr>
         <td></td>
-        <td>VH\_var</td>
+        <td>VH_var</td>
         <td>VH方差</td>
         <td>$\text{var}=\sum_{i=1}^{N} \sum_{j=1}^{N}(i-\mu)^{2} P_{i j}$</td>
     </tr>
     <tr>
         <td></td>
-        <td>VV\_diss</td>
+        <td>VV_diss</td>
         <td>VV不相似度</td>
-        <td>$ \text{diss}=\sum{i,j}P_{i,j}|i-j| $</td>
+        <td>$\text{diss}=\sum{i,j}P_{i,j}|i-j|$</td>
     </tr>
     <tr>
         <td></td>
-        <td>VH\_diss</td>
+        <td>VH_diss</td>
         <td>VH不相似度</td>
-        <td>$ \text{diss}=\sum{i,j}P_{i,j}|i-j| $</td>
+        <td>$\text{diss}=\sum{i,j}P_{i,j}|i-j|$</td>
     </tr>
     <tr>
         <td>地形特征</td>
