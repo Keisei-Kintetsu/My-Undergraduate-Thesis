@@ -31,13 +31,6 @@
 
 GEDI 是在 2018 年 12 月 5 日搭载于国际空间站（International Space Station, ISS）日本实验舱外设施的星载激光雷达系统，原计划运行两年，后延长至2023年3月，持续提供全球森林动态监测数据。GEDI 仪器同时发射三束激光。其中一束分成两束覆盖光束（Coverage Laser），另外两束激光为全功率光束（Full Power Laser）。这四束激光中，通过每一束都会通过光束摆动单元（Beam Dithering Units, BDUs）进行抖动分束，以产生八条地面轨迹，在约 4.2 公里的幅宽内沿飞行轨迹方向相隔约 600 米。星下轨道左侧的四束覆盖光束均来自上述第一台激光器，而右侧的四束功率光束则来自两台激光器）。每条地面轨道的激光光束覆盖面积直径为 25 米，沿轨道间距为 60 米。
 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=1\textwidth]{figures/GEDI轨道示意图测试.pdf}
-    \caption{GEDI地面采样模式示意图\cite{dubayah2020global}}
-    \label{GEDI轨道示意图}
-\end{figure}
-
 ![这是图片](https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/864d045f7c92cea96a111013258b4f82c0c64692/figure/GEDI%E8%BD%A8%E9%81%93%E7%A4%BA%E6%84%8F%E5%9B%BE%E6%B5%8B%E8%AF%95.svg)
 
 为展示GEDI观测在广东省内的空间覆盖情况，将研究区划分为1kmx1km的栅格单元，并统计每个栅格内的GEDI足迹数量，生成足迹密度图（单位：个/km$^{2}$）。从数值上看，2022年为观测密度最高的一年，平均密度达108813.38个/km$^{2}$，最大值达到1354648.88个/km$^{2}$。2023年因GEDI任务于3月退役，足迹数量减少，平均值降至17688.98个/km$^{2}$。五年合并后的足迹密度平均值达355393.19 个/km$^{2}$。
@@ -54,3 +47,14 @@ GEDI 数据产品具有不同的形式。1级和2级为较低级数据，由LPDA
 | L4A | 足迹级  | 地上生物量相关指标           | 25m直径 | ORNLDAAC |
 | L4B | 格网   | 地上生物量密度             | 1km格网 | ORNLDAAC |
 | L4C | 足迹级  | 波形结构复杂性指数           | 25m直径 | ORNLDAAC |
+
+
+
+GEDI L4A数据是目前全球唯一在足迹尺度上，结合参数建模与严格误差控制框架，对地上生物量（密度）进行高精度估算的全球尺度卫星产品。于2022年由马里兰大学Duncanson团队开发。该数据在全球13,989个样地中，用机载激光雷达（ALS）数据模拟GEDI波形，并结合已有的地面样地AGB数据，建立校准数据库。以普通最小二乘回归（Ordinary Least Squares，OLS）为基础的参数化模型形式，引入对RH（Relative Height）指标和AGB的变换（对数或平方根变换），即
+$$
+    h(\text{AGB})=\sum_{j=1}^{p} B_{j} f\left(x_{j}\right)+\varepsilon 
+$$
+$$
+    \widehat{\text{AGB}}=h \left(\sum_{j=1}^{p} \hat{B_{j}} f\left(x_{j}\right)+\varepsilon\right)
+$$
+其中，$B_{j}$是回归系数和$p$个预测因子$x_j$（如RH98、RH50），$f()$是变换函数（恒等式、对数或平方根），$h()$是反变换函数（恒等式、指数函数或二次幂），$\varepsilon$是均值为零的正态分布误差项。
