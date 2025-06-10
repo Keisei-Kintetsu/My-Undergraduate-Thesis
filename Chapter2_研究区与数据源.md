@@ -164,10 +164,10 @@ $$\widehat{\text{AGB}}=h \left(\sum_{j=1}^{p} \hat{B_{j}} f\left(x_{j}\right)+\v
 <div align="center">
 <table>
     <tr>
-        <td>过滤方式</td>
-        <td>数据</td>
-        <td>准则</td>
-        <td>参考文献</td>
+        <th>过滤方式</th>
+        <th>数据</th>
+        <th>准则</th>
+        <th>参考文献</th>
     </tr>
     <tr>
         <td>质量控制</td>
@@ -231,11 +231,11 @@ Sentinel-2 卫星群由两颗同步卫星 Sentinel-2A 和 2B 组成，是目前�
 <div align="center">
 <table>
     <tr>
-        <td>~</td>
-        <td>波段内容</td>
-        <td>中心波长(nm)</td>
-        <td>波段宽度(nm)</td>
-        <td>空间分辨率(m)</td>
+        <th>~</th>
+        <th>波段内容</th>
+        <th>中心波长(nm)</th>
+        <th>波段宽度(nm)</th>
+        <th>空间分辨率(m)</th>
     </tr>
     <tr>
         <td>波段1</td>
@@ -358,10 +358,10 @@ Sentinel-1 卫星工作于 C 波段，提供了单极化（HH 或 VV）和双极
 <div align="center">
 <table>
     <tr>
-        <td>极化方式</td>
-        <td>空间分辨率 (m)</td>
-        <td>波段类型</td>
-        <td>极化描述</td>
+        <th>极化方式</th>
+        <th>空间分辨率 (m)</th>
+        <th>波段类型</th>
+        <th>极化描述</th>
     </tr>
     <tr>
         <td>HH</td>
