@@ -22,4 +22,4 @@
 #### 2.1.3 森林资源状况
 广东省森林资源丰富，分布有大量原始森林。根据2023年CLCD土地分类数据，森林覆盖面积1.43亿亩，森林覆盖率达53.03\%，以亚热带常绿针叶林及常绿阔叶林为主要林种。其中广州、惠州、东莞、珠海、肇庆、佛山、江门、深圳、中山、汕头、梅州、韶关和阳江共13个城市于2008年至2022年陆续被评为“国家森林城市”称号。广东省建设有多个森林公园，如小坑国家森林公园、韶关国家森林公园、流溪河国家森林公园、鼎湖山森林公园等。
 
-![这是图片](https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/46edb306e3fdb9fda1d826326f864763f49dfbf7/figure/%E7%A0%94%E7%A9%B6%E5%8C%BA2.svg)
+![这是图片](https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/aa15264dc7826346ce410867c5f1d82da7002a5a/figure/%E5%B9%BF%E4%B8%9C%E6%A0%91%E7%A7%8D%E7%BB%98%E5%9B%BE.svg)
