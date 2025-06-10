@@ -24,6 +24,9 @@
 
 ![这是图片](https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/aa15264dc7826346ce410867c5f1d82da7002a5a/figure/%E5%B9%BF%E4%B8%9C%E6%A0%91%E7%A7%8D%E7%BB%98%E5%9B%BE.svg)
 
+<p align="center">
+图2.2 广东省植被分布图
+</p>
 
 
 ### 2.2 数据源
@@ -57,3 +60,22 @@ $$h(\text{AGB})=\sum_{j=1}^{p} B_{j} f\left(x_{j}\right)+\varepsilon $$
 $$\widehat{\text{AGB}}=h \left(\sum_{j=1}^{p} \hat{B_{j}} f\left(x_{j}\right)+\varepsilon\right)$$
 
 其中， $B_{j}$ 是回归系数和 $p$ 个预测因子 $x_j$ （如RH98、RH50）， $f()$ 是变换函数（恒等式、对数或平方根）， $h()$ 是反变换函数（恒等式、指数函数或二次幂）， $\varepsilon$ 是均值为零的正态分布误差项。
+
+模型开发者考虑了1至4个RH指标及其两两交互项的组合，最终筛选出最具解释力且具泛化能力的变量子集。为了进一步提升模型的适用性与准确性，产品在全球范围内引入了“地理分层”的策略，即依据EBT（Evergreen Broadleaf Trees，常绿阔叶树）、ENT（Evergreen Needleleaf Trees，常绿针叶树）、DBT（Deciduous Broadleaf Trees，落叶阔叶树）、GSW（Grasslands/Shrublands/Woodlands，草地/灌木丛/林地）4种植被功能类型（Plant Functional Type, PFT）与地理区域划分建模单元。层次化建模思想极大提升了模型的空间适应性与预测精度。
+
+
+
+| 字段名称              | 字段含义               | 单位/取值     |
+|-------------------|--------------------|-----------|
+| shot\_number      | 激光点号               |           |
+| lat\_lowestmode   | 最低模式中心的纬度          | 度         |
+| lon\_lowestmode   | 最低模式中心的经度          | 度         |
+| agbd              | 地上生物量密度            | Mg/ha     |
+| agbd\_pi\_lower   | 地上生物量密度下限预测区间      | Mg/ha     |
+| agbd\_pi\_upper   | 地上生物量密度上限预测区间      | Mg/ha     |
+| 12\_quality\_flag | 标记识别对生物量预测最有用的L2数据 | 0或1       |
+| 14\_quality\_flag | 标记最有用的生物量预测的选择     | 0或1       |
+| sensitivity       | 激光光束灵敏度            | 0.90-1.00 |
+| beam              | 激光（器）编号            | 整数，0-11   |
+
+在GEDI数据处理过程中，通过筛选‘Degradation flag’等于0和‘l4\_quality\_flag’为1的数据。接着，在波束选择过程中，仅保留全功率波束（即Beams编号为0101、0110、1000或1011）并设定波束灵敏度阈值为0.98（‘Sensitivity’大于0.98）。此外，为减少太阳背景光的影响，采用了太阳高度角控制，仅选择夜间（‘solar\_elevation’小于0）的数据。为了应对地形因素对GEDI足迹的干扰，选取坡度低于30°的足迹。同时，通过参考椭球偏离控制，即要求GEDI高程与哥白尼数字高程模型计算出的高程差绝对值小于50m。最后，为降低空间异质性带来的不确定性，将GEDI L4A数据与Sentinel-2数据中的NDVI84进行比值运算，并要求标准差小于1。
