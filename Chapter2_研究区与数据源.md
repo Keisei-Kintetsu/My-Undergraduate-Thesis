@@ -80,7 +80,7 @@ $$\widehat{\text{AGB}}=h \left(\sum_{j=1}^{p} \hat{B_{j}} f\left(x_{j}\right)+\v
 ![这是图片](https://github.com/Keisei-Kintetsu/My-Undergraduate-Thesis/blob/main/figure/gedi_agbd_%E6%8B%BC%E5%9B%BE-%E5%B8%A6%E6%A0%87%E7%AD%BE.png?raw=true)
 
 <p align="center">
-GEDI L4A 数据：足迹级地上生物量密度(a) 2019 年; (b) 2020 年; (c) 2021 年; (d) 2022年; (e) 2023 年
+图2.5 GEDI L4A 数据：足迹级地上生物量密度(a) 2019 年; (b) 2020 年; (c) 2021 年; (d) 2022年; (e) 2023 年
 </p>
 
 <p align="center">
