@@ -797,7 +797,7 @@ $$ \text{diss} = \sum_{i,j} P_{ij} |i - j| $$
     </tr>
     <tr>
         <td></td>
-        <td>S1\_RVI</td>
+        <td>S1_RVI</td>
         <td>雷达植被指数</td>
         <td>$\text{RVI} = \dfrac{4 \text{VH}}{\text{VH} +\text{VV}}$</td>
     </tr>
