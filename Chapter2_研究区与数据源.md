@@ -277,7 +277,7 @@ Sentinel-2 卫星群由两颗同步卫星 Sentinel-2A 和 2B 组成，是目前�
 <div align="center">
 <table>
     <tr>
-        <th>~</th>
+        <th></th>
         <th>波段内容</th>
         <th>中心波长(nm)</th>
         <th>波段宽度(nm)</th>
@@ -459,6 +459,204 @@ Sentinel-1 卫星工作于 C 波段，提供了单极化（HH 或 VV）和双极
 ## 2.3 特征因子提取
 
 光学特征方面，利用2017-2024年逐年中值合成的Sentinel-2多光谱数据，提取12个原始波段（B2-B8、B8A、B11-B12）的表观反射率。为增强植被信息表征能力，计算了11种指数，包括增强型植被指数（EVI）、土壤调节植被指数（SAVI）、大气抗阻植被指数（ARVI）等经典指数。特别地，针对Sentinel-2特有的红边波段优势，构建8种归一化植被指数变体（NDVI84、NDVI85、NDVI86、NDVI87、NDVI8A4、NDVI8A5、NDVI8A6、NDVI8A7），充分挖掘红边波段对植被生理参数的敏感特性。
+
+
+<p align="center">
+表2.6 光学特征、光学纹理特征
+</p>
+
+
+<div align="center">
+<table>
+    <tr>
+        <td></td>
+        <td>缩写</td>
+        <td>特征</td>
+        <td>计算方式</td>
+    </tr>
+    <tr>
+        <td>光学特征</td>
+        <td>B2 - B8,</td>
+        <td>Sentinel-2各波段反射率</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>(共25个)</td>
+        <td>B8A,B11,B12</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>EVI</td>
+        <td>增强植被指数</td>
+        <td>\( \text{EVI} = 2.5\dfrac{\text{B8} - \text{B4}}{\text{B8} + 6 \text{B4} - 7.5  \text{B2} + 1} \)</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>SAVI</td>
+        <td>土壤调节植被指数</td>
+        <td>\( \text{SAVI} = \dfrac{\text{B8} - \text{B4}}{\text{B8} + \text{B4} + 0.5} \times (1 + 0.5) \)</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>ARVI</td>
+        <td>大气校正植被指数</td>
+        <td>\( \text{ARVI} = \dfrac{\text{B8} - (2 \times \text{B4} - \text{B2})}{\text{B8} + (2 \times \text{B4} - \text{B2})} \)</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>GRVI</td>
+        <td>绿色归一化植被指数</td>
+        <td>\( \text{GRVI} = \dfrac{\text{B3} - \text{B4}}{\text{B3} + \text{B4}} \)</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>GNDVI</td>
+        <td>绿色归一化差异植被指数</td>
+        <td>\( \text{GNDVI} = \dfrac{\text{B8} - \text{B3}}{\text{B8} + \text{B3}} \)</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>MNDWI</td>
+        <td>改进的归一化差异水体指数</td>
+        <td>\( \text{MSRVI} = \dfrac{\text{B3} - \text{B11}}{\text{B3} + \text{B11}} \)</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>MSRVI</td>
+        <td>改进型简单比值植被指数</td>
+        <td>\( \text{MSRVI} = \dfrac{\text{B8}/\text{B4} - 1}{\sqrt{\text{B8}/\text{B4}} + 1} \)</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>NDBI</td>
+        <td>归一化建筑指数</td>
+        <td>\( \text{NDBI} = \dfrac{\text{B11} - \text{B8}}{\text{B11} + \text{B8}} \)</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>OSAVI</td>
+        <td>优化土壤调节植被指数</td>
+        <td>\( \text{OSAVI} = \dfrac{\text{B8} - \text{B4}}{\text{B8} + \text{B4} + 0.16} \)</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>RDVI</td>
+        <td>比值差植被指数</td>
+        <td>\( \text{RDVI} = \dfrac{\text{B8} - \text{B4}}{\sqrt{\text{B8} + \text{B4}}} \)</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>TDVI</td>
+        <td>变形植被指数</td>
+        <td>\( \text{TDVI} = 1.5 \times \dfrac{\text{B8} - \text{B4}}{\text{B8}^2 + \text{B4} + 1} \)</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>GVI</td>
+        <td>绿色植被指数</td>
+        <td>\( \text{TDVI} = \dfrac{\text{B8}}{\text{B3}}\)</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>NDVI84</td>
+        <td>归一化植被指数</td>
+        <td>\( \text{NDVI84} = \dfrac{\text{B8} - \text{B4}}{\text{B8} + \text{B4}} \)</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>NDVI85</td>
+        <td>归一化植被指数</td>
+        <td>\( \text{NDVI85} = \dfrac{\text{B8} - \text{B5}}{\text{B8} + \text{B5}} \)</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>NDVI86</td>
+        <td>归一化植被指数</td>
+        <td>\( \text{NDVI86} = \dfrac{\text{B8} - \text{B6}}{\text{B8} + \text{B6}} \)</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>NDVI87</td>
+        <td>归一化植被指数</td>
+        <td>\( \text{NDVI87} = \dfrac{\text{B8} - \text{B7}}{\text{B8} + \text{B7}} \)</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>NDVI8A4</td>
+        <td>归一化植被指数</td>
+        <td>\( \text{NDVI8A4} = \dfrac{\text{B8A} - \text{B4}}{\text{B8A} + \text{B4}} \)</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>NDVI8A5</td>
+        <td>归一化植被指数</td>
+        <td>\( \text{NDVI8A5} = \dfrac{\text{B8A} - \text{B5}}{\text{B8A} + \text{B5}} \)</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>NDVI8A6</td>
+        <td>归一化植被指数</td>
+        <td>\( \text{NDVI8A6} = \dfrac{\text{B8A} - \text{B6}}{\text{B8A} + \text{B6}} \)</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>NDVI8A7</td>
+        <td>归一化植被指数</td>
+        <td>\( \text{NDVI8A7} = \dfrac{\text{B8A} - \text{B7}}{\text{B8A} + \text{B7}} \)</td>
+    </tr>
+    <tr>
+        <td>光学纹理特征</td>
+        <td>NDVI84\_ent</td>
+        <td>NDVI84信息熵</td>
+        <td>$\text{ent}=-\sum_{i=1}^{N} \sum_{j=1}^{N} P_{i j} \log P_{i j}$</td>
+    </tr>
+    <tr>
+        <td>(共24个)</td>
+        <td>NDVI85\_ent</td>
+        <td>NDVI85信息熵</td>
+        <td>$\text{ent}=-\sum_{i=1}^{N} \sum_{j=1}^{N} P_{i j} \log P_{i j}$</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>NDVI86\_ent</td>
+        <td>NDVI86信息熵</td>
+        <td>$\text{ent}=-\sum_{i=1}^{N} \sum_{j=1}^{N} P_{i j} \log P_{i j}$</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>NDVI87\_ent</td>
+        <td>NDVI87信息熵</td>
+        <td>$\text{ent}=-\sum_{i=1}^{N} \sum_{j=1}^{N} P_{i j} \log P_{i j}$</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>NDVI8A4\_ent</td>
+        <td>NDVI8A4信息熵</td>
+        <td>$\text{ent}=-\sum_{i=1}^{N} \sum_{j=1}^{N} P_{i j} \log P_{i j}$</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>NDVI8A5\_ent</td>
+        <td>NDVI8A5信息熵</td>
+        <td>$\text{ent}=-\sum_{i=1}^{N} \sum_{j=1}^{N} P_{i j} \log P_{i j}$</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>NDVI8A6\_ent</td>
+        <td>NDVI8A6信息熵</td>
+        <td>$\text{ent}=-\sum_{i=1}^{N} \sum_{j=1}^{N} P_{i j} \log P_{i j}$</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>NDVI8A7\_ent</td>
+        <td>NDVI8A7信息熵</td>
+        <td>$\text{ent}=-\sum_{i=1}^{N} \sum_{j=1}^{N} P_{i j} \log P_{i j}$</td>
+    </tr>
+</table>
+
+</div>
 
 为提取空间纹理信息，采用灰度共生矩阵（Gray Level Co-occurrence Matrix, GLCM）方法对8种 NDVI 数据进行了纹理特征计算。设置 $5 \times 5$ 像元窗口尺寸，分别计算了信息熵（Entropy）、对比度（Contrast）和方差（Variance）三类纹理指标。其中，信息熵（$\text{ent}$）量化图像信息的不确定性；对比度（$\text{const}$）反映图像局部灰度变化程度；方差（$\text{var}$）描述像元值的离散程度。最终获得 24 个纹理特征（8 种 NDVI × 3 个指标）。设 $P_{ij}$ 表示灰度共生矩阵中灰度级 $(i, j)$ 的归一化概率值，$N$ 为灰度级总数（如 8-bit 图像时 $N=256$ ），则三种纹理特征的计算公式如下：
 
