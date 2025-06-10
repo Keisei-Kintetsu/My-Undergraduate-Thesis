@@ -260,7 +260,7 @@ Sentinel-1 卫星工作于 C 波段，提供了单极化（HH 或 VV）和双极
 </p>
 
 <div align="center">
-<table  style="font-size: 10px">
+<table>
     <tr>
         <td>极化方式</td>
         <td>空间分辨率 (m)</td>
@@ -325,3 +325,10 @@ $$ \text{ent} = -\sum_{i=1}^{N} \sum_{j=1}^{N} P_{ij} \log P_{ij} $$
 $$ \text{const} = \sum_{i=1}^{N} \sum_{j=1}^{N} (i - j)^2 P_{ij} $$
 
 $$ \text{var} = \sum_{i=1}^{N} \sum_{j=1}^{N} (i - \mu)^2 P_{ij}, \quad \text{其中 } \mu = \sum_{i=1}^{N} i \sum_{j=1}^{N} P_{ij} $$
+
+
+在雷达特征方面，基于2017-2024年逐年中值合成的Sentinel-1数据提取了VV和VH极化方式的后向散射系数。通过极化组合运算衍生出4个特征参数：和值（VV+VH）反映总体散射强度，差值（VV-VH）表征极化差异，乘积（VV×VH）增强交互信息，比值（VV/VH）描述极化比例关系。同时计算了雷达植被指数（RVI）以量化植被散射特性。在此基础上，采用GLCM方法对VV/VH波段分别提取了信息熵、对比度、方差和不相似度（diss）纹理特征，获得8个雷达纹理指标。不相似度的计算公式如下：
+
+$$ \text{diss} = \sum_{i,j} P_{ij} |i - j| $$
+
+地形特征则基于哥白尼数字高程模型数据，提取了高程（Elevation）、坡度（Slope）和坡向（Aspect）三个地形参数。
