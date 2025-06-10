@@ -56,4 +56,4 @@ $$h(\text{AGB})=\sum_{j=1}^{p} B_{j} f\left(x_{j}\right)+\varepsilon $$
 
 $$\widehat{\text{AGB}}=h \left(\sum_{j=1}^{p} \hat{B_{j}} f\left(x_{j}\right)+\varepsilon\right)$$
 
-其中，$B_{j}$是回归系数和$p$个预测因子$x_j$（如RH98、RH50），$f()$是变换函数（恒等式、对数或平方根），$h()$是反变换函数（恒等式、指数函数或二次幂），$\varepsilon$是均值为零的正态分布误差项。
+其中，$B_{j}$是回归系数和 $p$ 个预测因子$x_j$（如RH98、RH50），$f()$是变换函数（恒等式、对数或平方根），$h()$是反变换函数（恒等式、指数函数或二次幂），$\varepsilon$是均值为零的正态分布误差项。
