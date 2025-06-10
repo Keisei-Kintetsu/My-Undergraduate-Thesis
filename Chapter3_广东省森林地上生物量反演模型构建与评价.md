@@ -92,3 +92,23 @@ $$ \text{Shapley}\left(X_{j}\right)=\sum_{S \subseteq N \backslash\{j\}} \frac{k
 
 #### 3.2.1 总体分析
 使用SHAP方法评估各个特征在AGB预测中的相对重要性。从圆环图可以看出，坡度（Slope）所占比例最高（22.3\%），其次是NDVI8A5（8.8\%）、MNDWI（6.0\%）、VV\_diss（5.6\%）等特征，说明这些特征对模型贡献较大。结合蜂窝图与条形图同样观察到，Slope 的 SHAP 值分布范围较大（-100至150），而其平均SHAP值绝对值明显高于其他特征（平均SHAP值绝对值 = 14.39，远高于NDVI8A5的5.69），NDVI8A5、MNDWI 以及 VV\_diss、B3、NDVI87\_contrast 等也展现了较大的影响力，而一些特征（如 NDVI8A5\_ent、VV\_corr）的平均SHAP值绝对值及占比相对较低，表明它们在 AGB 预测中的作用相对有限。
+
+
+
+![这是图片](https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/8a64fe58faa4ebf855f74fcce0a9e3e7c15528bd/figure/%E8%9C%82%E7%AA%9D%E4%B8%8Ebar_%E5%B8%A6%E6%A0%87%E7%AD%BE.svg)
+
+<p align="center">
+图3.2 SHAP 模型解释各特征(a) 蜂窝图; (b) 各特征平均SHAP 值绝对值
+</p>
+
+
+#### 3.2.2 各特征依赖图分析
+
+SHAP依赖图以特定特征的实际取值为 $X$ 轴，该特征对应的SHAP值为 $Y$ 轴，揭示了SHAP值随特征值变化的规律。若SHAP值随特征值的增加而增加，说明该特征值越大，模型预测的输出也越高；反之，若SHAP值随着特征值的增加而减少，则说明该特征对模型输出的贡献随其取值增加而减小，甚至可能产生负向影响。图中若呈现出非线性变化趋势，则说明该特征与模型输出之间存在较为复杂的非线性关系。
+
+为避免原始 SHAP 散点过于离散、难以直观解读，本研究采用广义加性模型（GAM）对每个特征的 SHAP值–特征值关系进行光滑拟合；GAM 具有无需预设函数形式、可灵活捕捉复杂非线性趋势的优势。随后以拟合曲线与SHAP值=0的交点作为“临界点”，并在图中绘制垂直分界线，展示不同取值区间对模型输出由负向到正向（或反向）转换的阈值和趋势。
+
+![这是图片](https://github.com/Keisei-Kintetsu/My-Undergraduate-Thesis/blob/main/figure/GAM%E6%8B%BC%E5%9B%BE1-4-%E5%B8%A6%E6%A0%87%E7%AD%BE.png?raw=true)
+<p align="center">
+图3.3 特征依赖图(a) Slope; (b) NDVI8A5; (c) MNDWI; (d) VV_diss
+</p>
