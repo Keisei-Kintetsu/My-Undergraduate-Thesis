@@ -5,7 +5,7 @@
 
 如图所示，本研究以广东省（北纬20°19′-25°31′，东经109°45′-117°20′）为研究范围。广东省位于中国南部，西与广西壮族自治区接壤，北部与湖南、江西省相邻，与福建交界于东北，总面积 177,900 km<sup>2</sup> 。广东省横跨北回归线，受夏季风和热带气旋的影响，降雨丰富，属亚热带、热带季风气候地区，平均气温为 21.9&deg;C ，年平均降水量1789.3mm。
 
-![这是图片](https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/90c875238e24f3a46b1f33de93efa9e6380cca49/figure/%E7%A0%94%E7%A9%B6%E5%8C%BA2.svg)
+![这是图片](https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/f4069dd7d17ede229ed9225db70ed1e759413ec5/figure/%E7%A0%94%E7%A9%B6%E5%8C%BA2.svg)
 
 <p align="center">
 图2.1 研究区位图(a) 广东省在中国的位置；(b) 广东省高程图；(c) 广东省行政区划图
