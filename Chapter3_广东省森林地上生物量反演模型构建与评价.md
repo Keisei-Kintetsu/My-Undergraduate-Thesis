@@ -112,3 +112,19 @@ SHAP依赖图以特定特征的实际取值为 $X$ 轴，该特征对应的SHAP�
 <p align="center">
 图3.3 特征依赖图(a) Slope; (b) NDVI8A5; (c) MNDWI; (d) VV_diss
 </p>
+
+
+![这是图片](https://github.com/Keisei-Kintetsu/My-Undergraduate-Thesis/blob/main/figure/GAM%E6%8B%BC%E5%9B%BE5-8-%E5%B8%A6%E6%A0%87%E7%AD%BE.png?raw=true)
+<p align="center">
+图3.4 特征依赖图(a) B3; (b) NDVI87_contrast; (c) VV_contrast; (d) Elevation
+</p>
+
+![这是图片](https://github.com/Keisei-Kintetsu/My-Undergraduate-Thesis/blob/main/figure/GAM9-16-%E5%B8%A6%E6%A0%87%E7%AD%BE.png?raw=true)
+<p align="center">
+图3.5 特征依赖图(a) NDVI87_var; (b) NDVI8A7; (c) S1_rept; (d) VH_contrast; (e) B2; (f) S1_RVI; (g) S1_sum; (h) S1_diff
+</p>
+
+![这是图片](https://github.com/Keisei-Kintetsu/My-Undergraduate-Thesis/blob/main/figure/GAM%E6%8B%BC%E5%9B%BE17-20-%E5%B8%A6%E6%A0%87%E7%AD%BE.png?raw=true)
+<p align="center">
+图3.6 特征依赖图(a) NDVI8A6; (b) NDVI8A4_var; (c) VV_corr; (d) NDVI8A5_ent
+</p>
