@@ -38,6 +38,8 @@ GEDI 是在 2018 年 12 月 5 日搭载于国际空间站（International Space 
 
 为展示GEDI观测在广东省内的空间覆盖情况，将研究区划分为1kmx1km的栅格单元，并统计每个栅格内的GEDI足迹数量，生成足迹密度图（单位：个/km$^{2}$）。从数值上看，2022年为观测密度最高的一年，平均密度达108813.38个/km$^{2}$，最大值达到1354648.88个/km$^{2}$。2023年因GEDI任务于3月退役，足迹数量减少，平均值降至17688.98个/km$^{2}$。五年合并后的足迹密度平均值达355393.19 个/km$^{2}$。
 
+
+
 GEDI 数据产品具有不同的形式。1级和2级为较低级数据，由LPDAAC团队提供，提供地理定位波形（L1B），足迹级地面高程、冠层高度、相对高度（L2A）；3、4级较高级由ORNLDAAC负责，包括格网树冠高度指标（L3），足迹级地上生物量指标（L4A）、格网地上生物量密度（L4B）、足迹级波形结构复杂性指数（L4C）。
 
 
@@ -63,6 +65,12 @@ $$\widehat{\text{AGB}}=h \left(\sum_{j=1}^{p} \hat{B_{j}} f\left(x_{j}\right)+\v
 
 模型开发者考虑了1至4个RH指标及其两两交互项的组合，最终筛选出最具解释力且具泛化能力的变量子集。为了进一步提升模型的适用性与准确性，产品在全球范围内引入了“地理分层”的策略，即依据EBT（Evergreen Broadleaf Trees，常绿阔叶树）、ENT（Evergreen Needleleaf Trees，常绿针叶树）、DBT（Deciduous Broadleaf Trees，落叶阔叶树）、GSW（Grasslands/Shrublands/Woodlands，草地/灌木丛/林地）4种植被功能类型（Plant Functional Type, PFT）与地理区域划分建模单元。层次化建模思想极大提升了模型的空间适应性与预测精度。
 
+
+![这是图片](https://github.com/Keisei-Kintetsu/My-Undergraduate-Thesis/blob/main/figure/gedi_agbd_%E6%8B%BC%E5%9B%BE-%E5%B8%A6%E6%A0%87%E7%AD%BE.png?raw=true)
+
+<p align="center">
+GEDI L4A 数据：足迹级地上生物量密度(a) 2019 年; (b) 2020 年; (c) 2021 年; (d) 2022年; (e) 2023 年
+</p>
 
 
 | 字段名称              | 字段含义               | 单位/取值     |
