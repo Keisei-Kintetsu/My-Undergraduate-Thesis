@@ -57,11 +57,11 @@ GEDI 数据产品具有不同的形式。1级和2级为较低级数据，由 LPD
 <div align="center">
 <table>
     <tr>
-        <td>级别名</td>
-        <td>数据形式</td>
-        <td>数据产品</td>
-        <td>分辨率</td>
-        <td>数据负责团队</td>
+        <th>级别名</th>
+        <th>数据形式</th>
+        <th>数据产品</th>
+        <th>分辨率</th>
+        <th>数据负责团队</th>
     </tr>
     <tr>
         <td>L1B</td>
