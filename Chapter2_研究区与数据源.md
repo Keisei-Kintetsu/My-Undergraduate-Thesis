@@ -87,7 +87,7 @@ $$\widehat{\text{AGB}}=h \left(\sum_{j=1}^{p} \hat{B_{j}} f\left(x_{j}\right)+\v
 表2.2 L4A 数据重要字段说明
 </p>
 
-<div style="font-size: 10px;">
+
 
 | 字段名称              | 字段含义               | 单位/取值     |
 |:-------------------:|:--------------------:|:-----------:|
@@ -102,7 +102,7 @@ $$\widehat{\text{AGB}}=h \left(\sum_{j=1}^{p} \hat{B_{j}} f\left(x_{j}\right)+\v
 | sensitivity       | 激光光束灵敏度            | 0.90-1.00 |
 | beam              | 激光（器）编号            | 整数，0-11   |
 
-<div>
+
 
 在GEDI数据处理过程中，通过筛选‘Degradation flag’等于0和‘l4\_quality\_flag’为1的数据。接着，在波束选择过程中，仅保留全功率波束（即Beams编号为0101、0110、1000或1011）并设定波束灵敏度阈值为0.98（‘Sensitivity’大于0.98）。此外，为减少太阳背景光的影响，采用了太阳高度角控制，仅选择夜间（‘solar\_elevation’小于0）的数据。为了应对地形因素对GEDI足迹的干扰，选取坡度低于30°的足迹。同时，通过参考椭球偏离控制，即要求GEDI高程与哥白尼数字高程模型计算出的高程差绝对值小于50m。最后，为降低空间异质性带来的不确定性，将GEDI L4A数据与Sentinel-2数据中的NDVI84进行比值运算，并要求标准差小于1。
 
@@ -171,13 +171,40 @@ Sentinel-1 卫星工作于 C 波段，提供了单极化（HH 或 VV）和双极
 表2.5 Sentinel-1 不同极化方式的参数特征
 </p>
 
-
-| 极化方式 | 空间分辨率 (m) | 波段类型            | 极化描述               |
-|:----:|:---------:|:---------------:|:------------------:|
-| HH   | 10        | C 波段（5.405 GHz） | 单极化，同向 - 水平发射/水平接收 |
-| HV   | 10        | C 波段（5.405 GHz） | 双极化，交叉 - 水平发射/垂直接收 |
-| VV   | 10        | C 波段（5.405 GHz） | 单极化，同向 - 垂直发射/垂直接收 |
-| VH   | 10        | C 波段（5.405 GHz） | 双极化，交叉 - 垂直发射/水平接收 |
+<div align="center">
+<table>
+    <tr>
+        <td>极化方式</td>
+        <td>空间分辨率 (m)</td>
+        <td>波段类型</td>
+        <td>极化描述</td>
+    </tr>
+    <tr>
+        <td>HH</td>
+        <td>10</td>
+        <td>C 波段（5.405 GHz）</td>
+        <td>单极化，同向 - 水平发射/水平接收</td>
+    </tr>
+    <tr>
+        <td>HV</td>
+        <td>10</td>
+        <td>C 波段（5.405 GHz）</td>
+        <td>双极化，交叉 - 水平发射/垂直接收</td>
+    </tr>
+    <tr>
+        <td>VV</td>
+        <td>10</td>
+        <td>C 波段（5.405 GHz）</td>
+        <td>单极化，同向 - 垂直发射/垂直接收</td>
+    </tr>
+    <tr>
+        <td>VH</td>
+        <td>10</td>
+        <td>C 波段（5.405 GHz）</td>
+        <td>双极化，交叉 - 垂直发射/水平接收</td>
+    </tr>
+</table>
+<div>
 
 
 ![这是图片](https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/8b742c4c8ef8e291162abcaf28241c5509218c5d/figure/S1_new.svg)
