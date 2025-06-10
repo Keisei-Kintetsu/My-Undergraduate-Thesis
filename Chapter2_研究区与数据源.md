@@ -113,7 +113,7 @@ $$\widehat{\text{AGB}}=h \left(\sum_{j=1}^{p} \hat{B_{j}} f\left(x_{j}\right)+\v
 |----------|----------------------|------------------------------|--------------------------------------------------|
 | 质量控制     | GEDI L4A             | ‘Degradation flag’=0         |     |
 | 质量控制     | GEDI L4A             | ‘l4\_quality\_flag’=1        |      |
-| 激光器筛选    | GEDI L4A             | \makecell[c]{仅全功率波束     |  | 
+| 激光器筛选    | GEDI L4A             | 仅全功率波束  Beams=0101, 0110,1000 or 1011   |  | 
 | 波束灵敏度筛选  | GEDI L4A             | ‘Sensitivity’>0.98           |  |
 | 太阳高度角筛选  | GEDI L4A             | 仅夜间 ‘solar\_elevation’< 0    |  |
 | 坡度筛选     | GEDI L4A, Glo 30     | 取在‘slope’<30°的GEDI足迹         |  |
