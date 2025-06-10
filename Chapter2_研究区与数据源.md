@@ -673,6 +673,230 @@ $$ \text{diss} = \sum_{i,j} P_{ij} |i - j| $$
 
 地形特征则基于哥白尼数字高程模型数据，提取了高程（Elevation）、坡度（Slope）和坡向（Aspect）三个地形参数。
 
+
+<p align="center">
+表2.7 雷达特征、雷达纹理特征、地形特征
+</p>
+
+
+<div align="center">
+<table>
+    <tr>
+        <th></th>
+        <td>缩写</th>
+        <th>特征</th>
+        <th>计算方式</th>
+    </tr>
+    <tr>
+        <td></td>
+        <td>NDVI84\_const</td>
+        <td>NDVI84对比度</td>
+        <td>$\text{const}= \sum_{i=1}^{N} \sum_{j=1}^{N} (i - j)^2 P_{ij}$</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>NDVI85\_const</td>
+        <td>NDVI85对比度</td>
+        <td>$\text{const}= \sum_{i=1}^{N} \sum_{j=1}^{N} (i - j)^2 P_{ij}$</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>NDVI86\_const</td>
+        <td>NDVI86对比度</td>
+        <td>$\text{const}= \sum_{i=1}^{N} \sum_{j=1}^{N} (i - j)^2 P_{ij}$</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>NDVI87\_const</td>
+        <td>NDVI87对比度</td>
+        <td>$\text{const}= \sum_{i=1}^{N} \sum_{j=1}^{N} (i - j)^2 P_{ij}$</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>NDVI8A4\_const</td>
+        <td>NDVI8A4对比度</td>
+        <td>$\text{const}= \sum_{i=1}^{N} \sum_{j=1}^{N} (i - j)^2 P_{ij}$</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>NDVI8A5\_const</td>
+        <td>NDVI8A5对比度</td>
+        <td>$\text{const}= \sum_{i=1}^{N} \sum_{j=1}^{N} (i - j)^2 P_{ij}$</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>NDVI8A6\_const</td>
+        <td>NDVI8A6对比度</td>
+        <td>$\text{const}= \sum_{i=1}^{N} \sum_{j=1}^{N} (i - j)^2 P_{ij}$</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>NDVI8A7\_const</td>
+        <td>NDVI8A7对比度</td>
+        <td>$\text{const}= \sum_{i=1}^{N} \sum_{j=1}^{N} (i - j)^2 P_{ij}$</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>NDVI84\_var</td>
+        <td>NDVI84方差</td>
+        <td>$\text{var}=\sum_{i=1}^{N} \sum_{j=1}^{N}(i-\mu)^{2} P_{i j}$</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>NDVI85\_var</td>
+        <td>NDVI85方差</td>
+        <td>$\text{var}=\sum_{i=1}^{N} \sum_{j=1}^{N}(i-\mu)^{2} P_{i j}$</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>NDVI86\_var</td>
+        <td>NDVI86方差</td>
+        <td>$\text{var}=\sum_{i=1}^{N} \sum_{j=1}^{N}(i-\mu)^{2} P_{i j}$</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>NDVI87\_var</td>
+        <td>NDVI87方差</td>
+        <td>$\text{var}=\sum_{i=1}^{N} \sum_{j=1}^{N}(i-\mu)^{2} P_{i j}$</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>NDVI8A4\_var</td>
+        <td>NDVI8A4方差</td>
+        <td>$\text{var}=\sum_{i=1}^{N} \sum_{j=1}^{N}(i-\mu)^{2} P_{i j}$</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>NDVI8A5\_var</td>
+        <td>NDVI8A5方差</td>
+        <td>$\text{var}=\sum_{i=1}^{N} \sum_{j=1}^{N}(i-\mu)^{2} P_{i j}$</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>NDVI8A6\_var</td>
+        <td>NDVI8A6方差</td>
+        <td>$\text{var}=\sum_{i=1}^{N} \sum_{j=1}^{N}(i-\mu)^{2} P_{i j}$</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>NDVI8A7\_var</td>
+        <td>NDVI8A7方差</td>
+        <td>$\text{var}=\sum_{i=1}^{N} \sum_{j=1}^{N}(i-\mu)^{2} P_{i j}$</td>
+    </tr>
+    <tr>
+        <td>雷达特征</td>
+        <td>VV</td>
+        <td>垂直-垂直极化</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>(共7个)</td>
+        <td>VH</td>
+        <td>垂直-水平极化</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>S1\_RVI</td>
+        <td>雷达植被指数</td>
+        <td>\( \text{RVI} = \dfrac{4 \text{VH}}{\text{VH} +\text{VV}} \)</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>S1\_sum</td>
+        <td>VV与VH相加</td>
+        <td>VV+VH</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>S1\_diff</td>
+        <td>VV与VH相减</td>
+        <td>VV-VH</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>S1\_prod</td>
+        <td>VV与VH相乘</td>
+        <td>VV $\times$ VH</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>S1\_rept</td>
+        <td>VV与VH相除</td>
+        <td>VV/VH</td>
+    </tr>
+    <tr>
+        <td>雷达纹理</td>
+        <td>VV\_ent</td>
+        <td>VV信息熵</td>
+        <td>$\text{ent}=-\sum_{i=1}^{N} \sum_{j=1}^{N} P_{i j} \log P_{i j}$</td>
+    </tr>
+    <tr>
+        <td>特征 (共8个)</td>
+        <td>VH\_ent</td>
+        <td>VH信息熵</td>
+        <td>$\text{ent}=-\sum_{i=1}^{N} \sum_{j=1}^{N} P_{i j} \log P_{i j}$</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>VV\_const</td>
+        <td>VV对比度</td>
+        <td>$\text{const}=\sum_{i=1}^{N} \sum_{j=1}^{N} (i - j)^2 P_{ij}$</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>VH\_const</td>
+        <td>VH对比度</td>
+        <td>$\text{const}=\sum_{i=1}^{N} \sum_{j=1}^{N} (i - j)^2 P_{ij}$</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>VV\_var</td>
+        <td>VV方差</td>
+        <td>$\text{var}=\sum_{i=1}^{N} \sum_{j=1}^{N}(i-\mu)^{2} P_{i j}$</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>VH\_var</td>
+        <td>VH方差</td>
+        <td>$\text{var}=\sum_{i=1}^{N} \sum_{j=1}^{N}(i-\mu)^{2} P_{i j}$</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>VV\_diss</td>
+        <td>VV不相似度</td>
+        <td>$ \text{diss}=\sum{i,j}P_{i,j}|i-j| $</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>VH\_diss</td>
+        <td>VH不相似度</td>
+        <td>$ \text{diss}=\sum{i,j}P_{i,j}|i-j| $</td>
+    </tr>
+    <tr>
+        <td>地形特征</td>
+        <td>Elevation</td>
+        <td>高程</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>(共3个)</td>
+        <td>Slope</td>
+        <td>坡度</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Aspect</td>
+        <td>坡向</td>
+        <td></td>
+    </tr>
+</table>
+</div>
+
+
+利用 Person 相关系数矩阵展示光学、光学纹理、雷达、雷达纹理和地形特征5大类因素之间及其与GEDI L4A足迹AGB的线性相关关系。同一类因素由于高度的同源性，同一类变量间往往有较强的相关关系，其中光学特征、光学纹理特征之间的相关系数整体最高，此外雷达遥感特征之间也存在较强的相关性，有些甚至达到 0.95 以上，变量两两之间可能存在严重的共线性。因此后续需要通过变量筛选，能够减少特征数量、降维，使模型泛化能力更强，减少过拟合。
+
 ![这是图片](https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/a6cadd3b2bc58e163b4d3dc6e5e24394ee76cf11/figure/%E7%9B%B8%E5%85%B3%E7%83%AD%E5%9B%BE-%E4%B8%AD%E6%96%87.svg)
 
 <p align="center">
