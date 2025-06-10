@@ -54,16 +54,66 @@ GEDI 数据产品具有不同的形式。1级和2级为较低级数据，由 LPD
 表2.1 GEDI 各级数据
 </p>
 
-| 级别名 | 数据形式 | 数据产品                | 分辨率   | 数据负责团队   |
-|:-----:|:------:|:---------------------:|:-------:|:----------:|
-| L1B | 足迹级  | 地理定位波形              | 25m直径 | LPDAAC   |
-| L2A | 足迹级  | 地面高程、冠层高度、相对高度      | 25m直径 | LPDAAC   |
-| L2B | 足迹级  | 冠层覆盖度及其剖面、叶面积指数及其剖面 | 25m直径 | LPDAAC   |
-| L3  | 格网   | 树冠高度指标              | 1km格网 | ORNLDAAC |
-| L4A | 足迹级  | 地上生物量相关指标           | 25m直径 | ORNLDAAC |
-| L4B | 格网   | 地上生物量密度             | 1km格网 | ORNLDAAC |
-| L4C | 足迹级  | 波形结构复杂性指数           | 25m直径 | ORNLDAAC |
-
+<div align="center">
+<table>
+    <tr>
+        <th>级别名</th>
+        <td>数据形式</td>
+        <td>数据产品</td>
+        <td>分辨率</td>
+        <td>数据负责团队</td>
+    </tr>
+    <tr>
+        <th>L1B</th>
+        <td>足迹级</td>
+        <td>地理定位波形</td>
+        <td>25m直径</td>
+        <td>LPDAAC</td>
+    </tr>
+    <tr>
+        <th>L2A</th>
+        <td>足迹级</td>
+        <td>地面高程、冠层高度、相对高度</td>
+        <td>25m直径</td>
+        <td>LPDAAC</td>
+    </tr>
+    <tr>
+        <th>L2B</th>
+        <td>足迹级</td>
+        <td>冠层覆盖度及其剖面、叶面积指数及其剖面</td>
+        <td>25m直径</td>
+        <td>LPDAAC</td>
+    </tr>
+    <tr>
+        <th>L3</th>
+        <td>格网</td>
+        <td>树冠高度指标</td>
+        <td>1km格网</td>
+        <td>ORNLDAAC</td>
+    </tr>
+    <tr>
+        <th>L4A</th>
+        <td>足迹级</td>
+        <td>地上生物量相关指标</td>
+        <td>25m直径</td>
+        <td>ORNLDAAC</td>
+    </tr>
+    <tr>
+        <th>L4B</th>
+        <td>格网</td>
+        <td>地上生物量密度</td>
+        <td>1km格网</td>
+        <td>ORNLDAAC</td>
+    </tr>
+    <tr>
+        <th>L4C</th>
+        <td>足迹级</td>
+        <td>波形结构复杂性指数</td>
+        <td>25m直径</td>
+        <td>ORNLDAAC</td>
+    </tr>
+</table>
+</div>
 
 
 GEDI L4A数据是目前全球唯一在足迹尺度上，结合参数建模与严格误差控制框架，对地上生物量（密度）进行高精度估算的全球尺度卫星产品。于2022年由马里兰大学Duncanson团队开发。该数据在全球13,989个样地中，用机载激光雷达（ALS）数据模拟GEDI波形，并结合已有的地面样地AGB数据，建立校准数据库。以普通最小二乘回归（Ordinary Least Squares，OLS）为基础的参数化模型形式，引入对RH（Relative Height）指标和AGB的变换（对数或平方根变换），即
