@@ -128,13 +128,13 @@ $$\widehat{\text{AGB}}=h \left(\sum_{j=1}^{p} \hat{B_{j}} f\left(x_{j}\right)+\v
     <tr>
         <td>质量控制</td>
         <td>GEDI L4A</td>
-        <td>‘l4\_quality\_flag’=1</td>
+        <td>‘l4_quality_flag’=1</td>
         <td></td>
     </tr>
     <tr>
         <td>激光器筛选</td>
         <td>GEDI L4A</td>
-        <td>仅全功率波束 &lt;br&gt; Beams=0101, 0110,1000 or 1011</td>
+        <td>仅全功率波束 <br> Beams=0101, 0110,1000 or 1011</td>
         <td></td>
     </tr>
     <tr>
@@ -146,7 +146,7 @@ $$\widehat{\text{AGB}}=h \left(\sum_{j=1}^{p} \hat{B_{j}} f\left(x_{j}\right)+\v
     <tr>
         <td>太阳高度角筛选</td>
         <td>GEDI L4A</td>
-        <td>仅夜间 ‘solar\_elevation’&lt; 0</td>
+        <td>仅夜间 ‘solar_elevation’&lt; 0</td>
         <td></td>
     </tr>
     <tr>
@@ -158,7 +158,7 @@ $$\widehat{\text{AGB}}=h \left(\sum_{j=1}^{p} \hat{B_{j}} f\left(x_{j}\right)+\v
     <tr>
         <td>参考椭球偏离筛选</td>
         <td>GEDI L4A, Glo 30</td>
-        <td>\|  GEDI elevation - DEM  \| &lt;  50m</td>
+        <td>|  GEDI elevation - DEM  | &lt;  50m</td>
         <td></td>
     </tr>
     <tr>
