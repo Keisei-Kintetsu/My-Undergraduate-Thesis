@@ -111,11 +111,11 @@ GEDI L4A 数据：足迹级地上生物量密度(a) 2019 年; (b) 2020 年; (c) 
 
 | 过滤方式     | 数据                   | 准则                           | 参考文献                                             |
 |----------|----------------------|------------------------------|--------------------------------------------------|
-| 质量控制     | GEDI L4A             | ‘Degradation flag’=0         | \cite{li2024performance}\cite{liu2022neural}     |
-| 质量控制     | GEDI L4A             | ‘l4\_quality\_flag’=1        | \cite{li2024performance}\cite{liu2022neural}     |
-| 激光器筛选    | GEDI L4A             | \makecell[c]{仅全功率波束          |
-| 波束灵敏度筛选  | GEDI L4A             | ‘Sensitivity’>0.98           | \cite{mohite2024forest}                          |
-| 太阳高度角筛选  | GEDI L4A             | 仅夜间 ‘solar\_elevation’< 0    |                                                  |
-| 坡度筛选     | GEDI L4A, Glo 30     | 取在‘slope’<30°的GEDI足迹         | \cite{shendryk2022fusing}\cite{tang2023improved} |
-| 参考椭球偏离筛选 | GEDI L4A, Glo 30     | |GEDI elevation - DEM| < 50m | \cite{tang2023evaluating}                        |
-| 空间异质性筛选  | GEDI L4A, Sentinel-2 | L4A与NDVI84相除，标准差<1           | \cite{liang2023quantifying} 
+| 质量控制     | GEDI L4A             | ‘Degradation flag’=0         |     |
+| 质量控制     | GEDI L4A             | ‘l4\_quality\_flag’=1        |      |
+| 激光器筛选    | GEDI L4A             | \makecell[c]{仅全功率波束     |  | 
+| 波束灵敏度筛选  | GEDI L4A             | ‘Sensitivity’>0.98           |  |
+| 太阳高度角筛选  | GEDI L4A             | 仅夜间 ‘solar\_elevation’< 0    |  |
+| 坡度筛选     | GEDI L4A, Glo 30     | 取在‘slope’<30°的GEDI足迹         |  |
+| 参考椭球偏离筛选 | GEDI L4A, Glo 30     | |GEDI elevation - DEM| < 50m |  |
+| 空间异质性筛选  | GEDI L4A, Sentinel-2 | L4A与NDVI84相除，标准差<1           | |
