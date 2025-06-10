@@ -172,7 +172,7 @@ Sentinel-1 卫星工作于 C 波段，提供了单极化（HH 或 VV）和双极
 </p>
 
 <div align="center">
-<table  style="font-size: 14px">
+<table  style="font-size: 12px">
     <tr>
         <td>极化方式</td>
         <td>空间分辨率 (m)</td>
