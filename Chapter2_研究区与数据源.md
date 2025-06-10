@@ -5,6 +5,6 @@
 
 如图所示，本研究以广东省（北纬20°19′-25°31′，东经109°45′-117°20′）为研究范围。广东省位于中国南部，西与广西壮族自治区接壤，北部与湖南、江西省相邻，与福建交界于东北，总面积 177,900 km$^2$。广东省横跨北回归线，受夏季风和热带气旋的影响，降雨丰富，属亚热带、热带季风气候地区，平均气温为\qty{21.9}{\degreeCelsius} ，年平均降水量1789.3mm。
 
-![这是图片](https://github.com/Keisei-Kintetsu/My-Undergraduate-Thesis/blob/main/figure/%E7%A0%94%E7%A9%B6%E5%8C%BA2.png?raw=true)
+![这是图片](https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/46edb306e3fdb9fda1d826326f864763f49dfbf7/figure/%E7%A0%94%E7%A9%B6%E5%8C%BA2.svg)
 
 广东省现辖21个地级市，其中广州、深圳两市行政级别为副省级。全省合共有122个县级行政区，包括65个市辖区、20个县级市、34个县、3个自治县。按照地理位置和经济特点划分，全省可分为粤北地区、粤西地区、粤东地区以及珠三角地区。
