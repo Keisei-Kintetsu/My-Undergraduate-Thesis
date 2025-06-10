@@ -181,7 +181,7 @@ Sentinel-1 卫星工作于 C 波段，提供了单极化（HH 或 VV）和双极
 ![这是图片](https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/8b742c4c8ef8e291162abcaf28241c5509218c5d/figure/S1_new.svg)
 
 <p align="center">
-图2.7 (a)Sentinel1 影像在广东省的分布; (b) 本研究涉及的Sentinel1 影像张数
+图2.7 (a) Sentinel1 影像在广东省的分布; (b) 本研究涉及的Sentinel1 影像张数
 </p>
 
 
@@ -201,4 +201,10 @@ Sentinel-1 卫星工作于 C 波段，提供了单极化（HH 或 VV）和双极
 
 光学特征方面，利用2017-2024年逐年中值合成的Sentinel-2多光谱数据，提取12个原始波段（B2-B8、B8A、B11-B12）的表观反射率。为增强植被信息表征能力，计算了11种指数，包括增强型植被指数（EVI）、土壤调节植被指数（SAVI）、大气抗阻植被指数（ARVI）等经典指数。特别地，针对Sentinel-2特有的红边波段优势，构建8种归一化植被指数变体（NDVI84、NDVI85、NDVI86、NDVI87、NDVI8A4、NDVI8A5、NDVI8A6、NDVI8A7），充分挖掘红边波段对植被生理参数的敏感特性。
 
-为提取空间纹理信息，采用灰度共生矩阵（Gray Level Co-occurrence Matrix, GLCM）方法对8种 NDVI 数据进行了纹理特征计算。设置 $5 \times 5$ 像元窗口尺寸，分别计算了信息熵（Entropy）、对比度（Contrast）和方差（Variance）三类纹理指标。其中，信息熵（$\text{ent}$）量化图像信息的不确定性；对比度（$\text{const}$）反映图像局部灰度变化程度；方差（$\text{var}$）描述像元值的离散程度。最终获得 24 个纹理特征（8 种 NDVI × 3 个指标）。设 $P_{ij}$ 表示灰度共生矩阵中灰度级 $(i, j)$ 的归一化概率值，$N$ 为灰度级总数（如 8-bit 图像时 $N=256$），则三种纹理特征的计算公式如下：
+为提取空间纹理信息，采用灰度共生矩阵（Gray Level Co-occurrence Matrix, GLCM）方法对8种 NDVI 数据进行了纹理特征计算。设置 $5 \times 5$ 像元窗口尺寸，分别计算了信息熵（Entropy）、对比度（Contrast）和方差（Variance）三类纹理指标。其中，信息熵（$\text{ent}$）量化图像信息的不确定性；对比度（$\text{const}$）反映图像局部灰度变化程度；方差（$\text{var}$）描述像元值的离散程度。最终获得 24 个纹理特征（8 种 NDVI × 3 个指标）。设 $P_{ij}$ 表示灰度共生矩阵中灰度级 $(i, j)$ 的归一化概率值，$N$ 为灰度级总数（如 8-bit 图像时 $N=256$ ），则三种纹理特征的计算公式如下：
+
+$$ \text{ent} = -\sum_{i=1}^{N} \sum_{j=1}^{N} P_{ij} \log P_{ij} $$
+
+$$ \text{const} = \sum_{i=1}^{N} \sum_{j=1}^{N} (i - j)^2 P_{ij} $$
+
+$$ \text{var} = \sum_{i=1}^{N} \sum_{j=1}^{N} (i - \mu)^2 P_{ij}, \quad \text{其中 } \mu = \sum_{i=1}^{N} i \sum_{j=1}^{N} P_{ij} $$
