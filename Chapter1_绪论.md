@@ -66,8 +66,4 @@
 ### 1.4 技术路线
 本文按照如下的技术路线图展开研究。
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1\textwidth]{figures/研究路线图5.pdf}
-    \caption{技术路线图}
-\end{figure}
+![这是图片](https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/c89abbe6ce5e2d36aebd10b042118c1db6f0fb4c/figure/%E6%8A%80%E6%9C%AF%E8%B7%AF%E7%BA%BF%E5%9B%BE5.svg)
