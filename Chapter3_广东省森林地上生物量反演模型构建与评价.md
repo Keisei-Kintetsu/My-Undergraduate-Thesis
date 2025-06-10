@@ -37,6 +37,10 @@ $$ \text{MAE} = \frac{1}{n}\sum_{i=1}^{n}|y_i - \hat{y}_i| $$
 
 为验证 XGBoost 的优势，选取多元线性回归 (MLR)、支持向量机回归 (SVM) 与随机森林 (RF) 三种常用算法，在相同的15000条样本和同一组20个自变量上独立训练。
 
+<p align="center">
+表3.1 不同算法精度对比
+</p>
+
 <div align="center">
 <table>
     <tr>
@@ -71,3 +75,8 @@ $$ \text{MAE} = \frac{1}{n}\sum_{i=1}^{n}|y_i - \hat{y}_i| $$
     </tr>
 </table>
 </div>
+
+
+对比结果如表所示，XGBoost 以R<sup>2</sup>=0.607、RMSE=36.51 Mg/ha、MAE = 22.51Mg/ha的表现优于其他模型。因此本文后续建模分析均以XGBoost为基准模型开展。
+
+### 3.2 模型构建与评价
