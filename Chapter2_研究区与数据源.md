@@ -87,7 +87,7 @@ $$\widehat{\text{AGB}}=h \left(\sum_{j=1}^{p} \hat{B_{j}} f\left(x_{j}\right)+\v
 表2.2 L4A 数据重要字段说明
 </p>
 
-<div style="font-size: 12px;">
+<div style="font-size: 10px;">
 
 | 字段名称              | 字段含义               | 单位/取值     |
 |:-------------------:|:--------------------:|:-----------:|
