@@ -117,5 +117,5 @@ $$\widehat{\text{AGB}}=h \left(\sum_{j=1}^{p} \hat{B_{j}} f\left(x_{j}\right)+\v
 | 波束灵敏度筛选  | GEDI L4A             | ‘Sensitivity’>0.98           |  |
 | 太阳高度角筛选  | GEDI L4A             | 仅夜间 ‘solar\_elevation’< 0    |  |
 | 坡度筛选     | GEDI L4A, Glo 30     | 取在‘slope’<30°的GEDI足迹         |  |
-| 参考椭球偏离筛选 | GEDI L4A, Glo 30     | $ | $ GEDI elevation - DEM $ | < $ 50m |  |
+| 参考椭球偏离筛选 | GEDI L4A, Glo 30     |  \|  GEDI elevation - DEM  \| <  50m |  |
 | 空间异质性筛选  | GEDI L4A, Sentinel-2 | L4A与NDVI84相除，标准差<1           | |
