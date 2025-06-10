@@ -252,7 +252,7 @@ Sentinel-2 卫星群由两颗同步卫星 Sentinel-2A 和 2B 组成，是目前�
 
 合成孔径雷达（Synthetic Aperture Radar, SAR）不同于传统光学遥感，具有全天候、全天时成像能力，能够克服多云、多雾等复杂天气条件的限制。SAR 对森林冠层的面状结构和垂直结构具有较强的穿透和响应能力，因而被广泛认为是具有较大潜力的森林AGB反演遥感数据源。
 
-Sentinel-1 卫星工作于 C 波段，提供了单极化（HH 或 VV）和双极化（HH+HV 或 VV+VH）观测模式\cite{torres2012gmes}。其中，VV 和 VH 极化组合对地表的散射机制更为敏感，尤其在植被结构识别和森林参数反演方面显示出更大优势。本研究所涉及的Sentinel-1影像共有3458张。
+Sentinel-1 卫星工作于 C 波段，提供了单极化（HH 或 VV）和双极化（HH+HV 或 VV+VH）观测模式。其中，VV 和 VH 极化组合对地表的散射机制更为敏感，尤其在植被结构识别和森林参数反演方面显示出更大优势。本研究所涉及的Sentinel-1影像共有3458张。
 
 
 <p align="center">
@@ -332,3 +332,5 @@ $$ \text{var} = \sum_{i=1}^{N} \sum_{j=1}^{N} (i - \mu)^2 P_{ij}, \quad \text{�
 $$ \text{diss} = \sum_{i,j} P_{ij} |i - j| $$
 
 地形特征则基于哥白尼数字高程模型数据，提取了高程（Elevation）、坡度（Slope）和坡向（Aspect）三个地形参数。
+
+![这是图片](https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/a6cadd3b2bc58e163b4d3dc6e5e24394ee76cf11/figure/%E7%9B%B8%E5%85%B3%E7%83%AD%E5%9B%BE-%E4%B8%AD%E6%96%87.svg)
