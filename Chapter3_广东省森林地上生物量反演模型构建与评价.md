@@ -35,7 +35,39 @@ $$ \text{RMSE} = \sqrt{\frac{1}{n}\sum_{i=1}^{n}(y_i - \hat{y}_i)^2} $$
 
 $$ \text{MAE} = \frac{1}{n}\sum_{i=1}^{n}|y_i - \hat{y}_i| $$
 
-其中 $y_{i}$ 为观测值， $\hat{y}_{i}$ 为预测值， $\bar{y}$ 为观测均值， $n$ 为样本数。
-
-
 为验证 XGBoost 的优势，选取多元线性回归 (MLR)、支持向量机回归 (SVM) 与随机森林 (RF) 三种常用算法，在相同的15000条样本和同一组20个自变量上独立训练。
+
+<div align="center">
+<table>
+    <tr>
+        <th>方法</th>
+        <th>R<sup>2</sup></th>
+        <th>RMSE (Mg/ha)</th>
+        <th>MAE (Mg/ha)</th>
+    </tr>
+    <tr>
+        <td>MLR</td>
+        <td>0.091</td>
+        <td>58.93</td>
+        <td>44.41</td>
+    </tr>
+    <tr>
+        <td>SVM</td>
+        <td>0.147</td>
+        <td>57.10</td>
+        <td>40.35</td>
+    </tr>
+    <tr>
+        <td>RF</td>
+        <td>0.478</td>
+        <td>47.19</td>
+        <td>36.87</td>
+    </tr>
+    <tr>
+        <td>XGBoost</td>
+        <td>0.607</td>
+        <td>36.51</td>
+        <td>22.51</td>
+    </tr>
+</table>
+</div>
