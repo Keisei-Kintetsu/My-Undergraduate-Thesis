@@ -508,7 +508,7 @@ Sentinel-1 卫星工作于 C 波段，提供了单极化（HH 或 VV）和双极
         <td></td>
         <td>GRVI</td>
         <td>绿色归一化植被指数</td>
-        <td>$ \text{GRVI} = \frac{\text{B3} - \text{B4}}{\text{B3} + \text{B4}} $</td>
+        <td>$\text{GRVI} = \frac{\text{B3} - \text{B4}}{\text{B3} + \text{B4}}$</td>
     </tr>
     <tr>
         <td></td>
