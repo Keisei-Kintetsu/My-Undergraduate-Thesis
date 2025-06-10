@@ -111,18 +111,64 @@ $$\widehat{\text{AGB}}=h \left(\sum_{j=1}^{p} \hat{B_{j}} f\left(x_{j}\right)+\v
 表2.3 GEDI 数据处理过程
 </p>
 
-
-| 过滤方式     | 数据                   | 准则                           | 参考文献                                             |
-|:----------:|:----------------------:|:------------------------------:|:--------------------------------------------------:|
-| 质量控制     | GEDI L4A             | ‘Degradation flag’=0         |     |
-| 质量控制     | GEDI L4A             | ‘l4\_quality\_flag’=1        |      |
-| 激光器筛选    | GEDI L4A             | 仅全功率波束 <br> Beams=0101, 0110,1000 or 1011   |  | 
-| 波束灵敏度筛选  | GEDI L4A             | ‘Sensitivity’>0.98           |  |
-| 太阳高度角筛选  | GEDI L4A             | 仅夜间 ‘solar\_elevation’< 0    |  |
-| 坡度筛选     | GEDI L4A, Glo 30     | 取在‘slope’<30°的GEDI足迹         |  |
-| 参考椭球偏离筛选 | GEDI L4A, Glo 30     |  \|  GEDI elevation - DEM  \| <  50m |  |
-| 空间异质性筛选  | GEDI L4A, Sentinel-2 | L4A与NDVI84相除，标准差<1           | |
-
+<div align="center">
+<table>
+    <tr>
+        <td>过滤方式</td>
+        <td>数据</td>
+        <td>准则</td>
+        <td>参考文献</td>
+    </tr>
+    <tr>
+        <td>质量控制</td>
+        <td>GEDI L4A</td>
+        <td>‘Degradation flag’=0</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>质量控制</td>
+        <td>GEDI L4A</td>
+        <td>‘l4\_quality\_flag’=1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>激光器筛选</td>
+        <td>GEDI L4A</td>
+        <td>仅全功率波束 &lt;br&gt; Beams=0101, 0110,1000 or 1011</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>波束灵敏度筛选</td>
+        <td>GEDI L4A</td>
+        <td>‘Sensitivity’&gt;0.98</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>太阳高度角筛选</td>
+        <td>GEDI L4A</td>
+        <td>仅夜间 ‘solar\_elevation’&lt; 0</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>坡度筛选</td>
+        <td>GEDI L4A, Glo 30</td>
+        <td>取在‘slope’&lt;30°的GEDI足迹</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>参考椭球偏离筛选</td>
+        <td>GEDI L4A, Glo 30</td>
+        <td>\|  GEDI elevation - DEM  \| &lt;  50m</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>空间异质性筛选</td>
+        <td>GEDI L4A, Sentinel-2</td>
+        <td>L4A与NDVI84相除，标准差&lt;1</td>
+        <td></td>
+    </tr>
+</table>
+</div>
 
 #### 2.2.2 Sentinel-2 数据
 Sentinel-2 卫星群由两颗同步卫星 Sentinel-2A 和 2B 组成，是目前最常用的高分辨率多光谱遥感影像之一。Sentinel-2 含有 13 波段，涵盖从可见光到近红外和短波红外波长的光谱波段，空间分辨率为 10 至 60 米不等，重访周期为 5 天。
