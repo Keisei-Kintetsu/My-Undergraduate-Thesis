@@ -122,7 +122,7 @@ $$\widehat{\text{AGB}}=h \left(\sum_{j=1}^{p} \hat{B_{j}} f\left(x_{j}\right)+\v
     <tr>
         <td>质量控制</td>
         <td>GEDI L4A</td>
-        <td>‘Degradation flag’=0</td>
+        <td>‘Degradation_flag’=0</td>
         <td></td>
     </tr>
     <tr>
@@ -380,3 +380,7 @@ $$ \text{diss} = \sum_{i,j} P_{ij} |i - j| $$
 地形特征则基于哥白尼数字高程模型数据，提取了高程（Elevation）、坡度（Slope）和坡向（Aspect）三个地形参数。
 
 ![这是图片](https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/a6cadd3b2bc58e163b4d3dc6e5e24394ee76cf11/figure/%E7%9B%B8%E5%85%B3%E7%83%AD%E5%9B%BE-%E4%B8%AD%E6%96%87.svg)
+
+<p align="center">
+图2.9 候选特征集与AGB的相关性热图
+</p>
