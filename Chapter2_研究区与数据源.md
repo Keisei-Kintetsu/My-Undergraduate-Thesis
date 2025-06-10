@@ -138,19 +138,65 @@ $$\widehat{\text{AGB}}=h \left(\sum_{j=1}^{p} \hat{B_{j}} f\left(x_{j}\right)+\v
 </p>
 
 
-
-| 字段名称              | 字段含义               | 单位/取值     |
-|:-------------------:|:--------------------:|:-----------:|
-| shot\_number      | 激光点号               |           |
-| lat\_lowestmode   | 最低模式中心的纬度          | 度         |
-| lon\_lowestmode   | 最低模式中心的经度          | 度         |
-| agbd              | 地上生物量密度            | Mg/ha     |
-| agbd\_pi\_lower   | 地上生物量密度下限预测区间      | Mg/ha     |
-| agbd\_pi\_upper   | 地上生物量密度上限预测区间      | Mg/ha     |
-| 12\_quality\_flag | 标记识别对生物量预测最有用的L2数据 | 0或1       |
-| 14\_quality\_flag | 标记最有用的生物量预测的选择     | 0或1       |
-| sensitivity       | 激光光束灵敏度            | 0.90-1.00 |
-| beam              | 激光（器）编号            | 整数，0-11   |
+<div align="center">
+<table>
+    <tr>
+        <th>字段名称</th>
+        <th>字段含义</th>
+        <th>单位/取值</th>
+    </tr>
+    <tr>
+        <td>shot_number</td>
+        <td>激光点号</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>lat_lowestmode</td>
+        <td>最低模式中心的纬度</td>
+        <td>度</td>
+    </tr>
+    <tr>
+        <td>lon_lowestmode</td>
+        <td>最低模式中心的经度</td>
+        <td>度</td>
+    </tr>
+    <tr>
+        <td>agbd</td>
+        <td>地上生物量密度</td>
+        <td>Mg/ha</td>
+    </tr>
+    <tr>
+        <td>agbd_pi_lower</td>
+        <td>地上生物量密度下限预测区间</td>
+        <td>Mg/ha</td>
+    </tr>
+    <tr>
+        <td>agbd_pi_upper</td>
+        <td>地上生物量密度上限预测区间</td>
+        <td>Mg/ha</td>
+    </tr>
+    <tr>
+        <td>l2_quality_flag</td>
+        <td>标记识别对生物量预测最有用的L2数据</td>
+        <td>0或1</td>
+    </tr>
+    <tr>
+        <td>l4_quality_flag</td>
+        <td>标记最有用的生物量预测的选择</td>
+        <td>0或1</td>
+    </tr>
+    <tr>
+        <td>sensitivity</td>
+        <td>激光光束灵敏度</td>
+        <td>0.90-1.00</td>
+    </tr>
+    <tr>
+        <td>beam</td>
+        <td>激光（器）编号</td>
+        <td>整数，0-11</td>
+    </tr>
+</table>
+</div>
 
 
 
