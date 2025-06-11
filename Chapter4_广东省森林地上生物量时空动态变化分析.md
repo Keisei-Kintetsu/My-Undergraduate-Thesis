@@ -493,43 +493,43 @@ $$
 其中，符号函数其中， $\text{sgn}(\cdot)$ 定义为：
 </p>
 
-```math
+$$
 \text{sgn}(x_j - x_i) =
 \begin{cases} 
 +1, & \text{if } x_j - x_i > 0 \\ 
 0, & \text{if } x_j - x_i = 0 \\ 
 -1, & \text{if } x_j - x_i < 0 
 \end{cases}
-```
+$$
 
 <p align="left">
 计算标准化检验统计量 $Z$ 
 </p>
 
-```math
+$$
 Z =
 \begin{cases}
 \dfrac{S - 1}{\sqrt{\text{Var}(S)}}, & S > 0 \\
 0, & S = 0 \\
 \dfrac{S + 1}{\sqrt{\text{Var}(S)}}, & S < 0
 \end{cases}
-```
+$$
 
 <p align="left">
 其中， $S$ 的方差
 </p>
 
-```math
+$$
     \text{Var}(S)=\frac{n(n-1)(2 n+5)}{18}
-```
+$$
 
 <p align="left">
 统计量 $Z$ 值服从标准正态分布，计算得到
 </p>
 
-```math
+$$
   p = 2 \times (1 - \Phi(|Z|))
-```
+$$
 
 <p align="left">
 其中 $\Phi$ 是标准正态分布的累积分布函数 (CDF)。
@@ -643,33 +643,46 @@ Hurst 指数（又称“依赖指数”）用于衡量时间序列的长期记�
 </p>
 
 设时间序列为 $ \{X_t\} $，其子区间均值为  
-\begin{equation}
+
+$$
 \bar{X}_n=\frac{1}{n}\sum_{t=1}^{n}X_t,
-\end{equation}
+$$
+
 偏差序列为  
-\begin{equation}
+
+$$
 Y_t=X_t-\bar{X}_n,
-\end{equation}
+$$
+
 累积偏差序列为  
-\begin{equation}
+
+$$
 Z(t)=\sum_{i=1}^{t}Y_i,
-\end{equation}
+$$
 极差为  
-\begin{equation}
+
+$$
 R(n)=\max Z(t)-\min Z(t),
-\end{equation}
+$$
+
 标准差为  
-\begin{equation}
+
+$$
 S(n)=\sqrt{\frac{1}{n}\sum_{t=1}^{n}(X_t-\bar{X}_n)^2}.
-\end{equation}
+$$
+
 重标极差统计量为 \( R(n)/S(n) \)，与子区间长度 \( n \) 满足幂律关系  
-\begin{equation}
+
+$$
 \frac{R(n)}{S(n)}\sim C\,n^H,
-\end{equation}
+$$
+
 取对数后为  
-\begin{equation}
+
+$$
 \log\left(\frac{R(n)}{S(n)}\right)=\log C+H\log n,
-\end{equation}
+$$
+
 其中斜率 \( H \) 为Hurst指数。
 
 Hurst值刻画时间序列的变化趋势\cite{wang2022spatio}：当 \( H=0.5 \) 时表示随机游走；\( H>0.5 \) 表示趋势延续，即高值易跟高值、低值易跟低值；\( H<0.5 \) 则表明序列趋于均值回归，即高低值交替出现。由此可揭示森林AGB在未来的潜在演化方向。
