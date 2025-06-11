@@ -48,7 +48,7 @@ This study constructed a forest AGB modeling framework that is interpretable, re
 
 ### 关键词
 
-森林地上生物量，多源遥感，GEDI，XGBoost建模，时空变化分析
+森林地上生物量，多源遥感，GEDI，XGBoost 建模，时空变化分析
 
 ###  Keywords
 
