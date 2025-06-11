@@ -400,3 +400,5 @@ Cai 等人构建的 CFATD 数据集（China Forest Aboveground Biomass Time-seri
 ```math
 \text{CV} = \dfrac{\sigma}{\mu} = \dfrac{\sqrt{\frac{1}{N}\sum_{t=1}^{N}(X_t-\bar{X})^2}}{\frac{1}{N}\sum_{t=1}^{N}X_t} \times 100\%
 ```
+
+式中 $\bar{X}$ 为时间序列 $X_t$ 的算术均值，表征区域森林 AGB 的平均水平； $\sigma$ 为时间序列标准差，反映观测值的离散程度； $N$ 代表时间序列长度（本研究 $N=8$ ）。该指标通过消除量纲影响，实现跨像元、跨区域的可比性分析。当 CV 值大于 30\% 时，通常认为生态系统存在显著波动。
