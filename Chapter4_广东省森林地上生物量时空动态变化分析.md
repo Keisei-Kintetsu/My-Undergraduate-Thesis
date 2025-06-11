@@ -609,6 +609,10 @@ Z =
 图 4.18&ensp;广东省森林 AGB 变化趋势 (a) Sen 斜率估计; (b) MK 检验 $Z$ 统计量
 </p>
 
+<p align="left">
+在广东各市中，揭阳森林 AGB 增长最为显著，显著及极显著增加像元合计达 18.09%，不显著变化仅 72.61%，为全省最低。汕尾（17.93%）、潮州（13.81%）和梅州（13.55%）等地也表现出较强的增长趋势，均高于全省平均水平。深圳、江门等市增长趋势稳健，显著增加比例在12%左右。珠海、中山等地 AGB 变化较平稳，不显著变化比例超 83%。而肇庆、韶关、清远的下降比例略高，分别达 2.83%、2.79% 和 2.51%。
+</p>
+
 
 <div align="center">
     <img src="https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/05306fbca5f5f59f5e14053ca581eaaf774f482b/figure/%E8%B6%8B%E5%8A%BF%E5%88%86%E7%B1%BB_%E5%B8%A6%E5%89%96%E9%9D%A2%E5%9B%BE.svg">
