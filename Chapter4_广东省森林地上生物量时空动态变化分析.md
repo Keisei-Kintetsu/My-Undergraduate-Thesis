@@ -401,7 +401,9 @@ Cai 等人构建的 CFATD 数据集（China Forest Aboveground Biomass Time-seri
 \text{CV} = \dfrac{\sigma}{\mu} = \dfrac{\sqrt{\frac{1}{N}\sum_{t=1}^{N}(X_t-\bar{X})^2}}{\frac{1}{N}\sum_{t=1}^{N}X_t} \times 100\%
 ```
 
+<p align="left">
 式中 $\bar{X}$ 为时间序列 $X_t$ 的算术均值，表征区域森林 AGB 的平均水平； $\sigma$ 为时间序列标准差，反映观测值的离散程度； $N$ 代表时间序列长度（本研究 $N=8$ ）。该指标通过消除量纲影响，实现跨像元、跨区域的可比性分析。当 CV 值大于 30\% 时，通常认为生态系统存在显著波动。
+</p>
 
 
 <div align="center">
@@ -412,6 +414,8 @@ Cai 等人构建的 CFATD 数据集（China Forest Aboveground Biomass Time-seri
 图 4.13&ensp;广东省森林 AGB 变异系数空间分布图
 </p>
 
+
+结果显示，广东省森林AGB变异系数最大值为0.847，整体均值为0.120，中位数0.110，标准差0.055，99\%分位数0.298，经度剖面线的平均数为0.123，纬度剖面线的平均数为0.132。粤北地区CV数值较低，江门、汕尾、惠州东部、河源南部、茂名、湛江存在较高变异系数的像元。由于全广东CV值的第99百分位数没有超过0.3，可以认为广东省森林AGB绝大部分处于稳定状态。
 
 
 <div align="center">
