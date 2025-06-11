@@ -683,7 +683,7 @@ $$ \text{diss} = \sum_{i,j} P_{ij} |i - j| $$
 <table>
     <tr>
         <th></th>
-        <td>缩写</th>
+        <th>缩写</th>
         <th>特征</th>
         <th>计算方式</th>
     </tr>
