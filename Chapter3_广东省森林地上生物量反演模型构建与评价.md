@@ -183,8 +183,8 @@ VV\_diss 是基于雷达 VV 极化通道计算的纹理指标，衡量局部地�
         <th>变量选择</th>
         <th>变量个数</th>
         <th>R<sup>2</sup></th>
-        <th>RMSE</td>
-        <th>MAE</td>
+        <th>RMSE<br>(Mg/ha)</th>
+        <th>MAE<br>(Mg/ha)</th>
     </tr>
     <tr>
         <td>变量组1</td>
