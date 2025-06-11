@@ -431,13 +431,13 @@ GEDI有覆盖激光器与全功率激光器两种激光器。 GEDI的功率光�
         <td>22.73</td>
     </tr>
     <tr>
-        <td>\textbf{激光组8N}</td>
-        <td>\textbf{&gt;0.98}</td>
-        <td>\textbf{仅全功率激光器}</td>
-        <td>\textbf{夜间}</td>
-        <td>\textbf{0.607}</td>
-        <td>\textbf{36.31}</td>
-        <td>\textbf{22.51}</td>
+        <td>激光组8N</td>
+        <td>&gt;0.98</td>
+        <td>仅全功率激光器</td>
+        <td>夜间</td>
+        <td>0.607</td>
+        <td>36.31</td>
+        <td>22.51</td>
     </tr>
 </table>
 </div>
