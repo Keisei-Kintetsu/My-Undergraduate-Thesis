@@ -8,7 +8,7 @@
 </div>
 
 <p align="center">
-图4.1 30m 空间分辨率的广东省 2017-2024 年森林 AGB 反演结果
+图 4.1 30m 空间分辨率的广东省 2017-2024 年森林 AGB 反演结果
 </p>
 
 
@@ -20,7 +20,7 @@
 </div>
 
 <p align="center">
-图4.2 30m 空间分辨率的广东省 2017-2024 年森林 AGB 反演结果细节展示
+图 4.2 30m 空间分辨率的广东省 2017-2024 年森林 AGB 反演结果细节展示
 </p>
 
 对反演结果进行描述性统计分析。如小提琴图及箱线图、描述性统计表所示，各年份森林 AGB 像元的分布范围较宽，最小值约 9–10 Mg/ha，最大值可达 425–459 Mg/ha。每年均值与中值接近（差值 ≤2 Mg/ha），表明分布大体对称；标准差稳定在 27–30 Mg/ha，显示总体离散程度适中。小提琴图主体区域与表中第 25 和 75 百分位数（约 68–118 Mg/ha）一致，密度最高区间集中于 70-110Mg/ha。
@@ -253,7 +253,7 @@
 </p>
 
 <div align="center">
-    <img src="https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/1c7f01129a49894eef9fc4a771e5b148b2cb0b20/figure/%E7%8E%AF%E5%BD%A2%E5%8D%8A%E5%B0%8F%E6%8F%90%E7%90%B4%E5%9B%BE_427.svg" style="width:85%;">
+    <img src="https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/1c7f01129a49894eef9fc4a771e5b148b2cb0b20/figure/%E7%8E%AF%E5%BD%A2%E5%8D%8A%E5%B0%8F%E6%8F%90%E7%90%B4%E5%9B%BE_427.svg" style="width:90%;">
 </div>
 
 <p align="center">
@@ -261,7 +261,7 @@
 </p>
 
 <div align="center">
-    <img src="https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/1c7f01129a49894eef9fc4a771e5b148b2cb0b20/figure/%E6%80%BB%E9%87%8F%E7%BB%9F%E8%AE%A1.svg" style="width:85%;">
+    <img src="https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/1c7f01129a49894eef9fc4a771e5b148b2cb0b20/figure/%E6%80%BB%E9%87%8F%E7%BB%9F%E8%AE%A1.svg" style="width:90%;">
 </div>
 
 <p align="center">
