@@ -394,7 +394,6 @@ Sentinel-2 卫星群由两颗同步卫星 Sentinel-2A 和 2B 组成，是目前�
 
 合成孔径雷达（Synthetic Aperture Radar, SAR）不同于传统光学遥感，具有全天候、全天时成像能力，能够克服多云、多雾等复杂天气条件的限制。SAR 对森林冠层的面状结构和垂直结构具有较强的穿透和响应能力，因而被广泛认为是具有较大潜力的森林 AGB 反演遥感数据源。
 
-Sentinel-1 卫星工作于 C 波段，提供了单极化（HH 或 VV）和双极化（HH+HV 或 VV+VH）观测模式。其中，VV 和 VH 极化组合对地表的散射机制更为敏感，尤其在植被结构识别和森林参数反演方面显示出更大优势。本研究所涉及的 Sentinel-1 影像共有 3458 张。
 
 
 <p align="center">
@@ -436,6 +435,7 @@ Sentinel-1 卫星工作于 C 波段，提供了单极化（HH 或 VV）和双极
 </table>
 </div>
 
+Sentinel-1 卫星工作于 C 波段，提供了单极化（HH 或 VV）和双极化（HH+HV 或 VV+VH）观测模式。其中，VV 和 VH 极化组合对地表的散射机制更为敏感，尤其在植被结构识别和森林参数反演方面显示出更大优势。本研究所涉及的 Sentinel-1 影像共有 3458 张。
 
 ![这是图片](https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/8b742c4c8ef8e291162abcaf28241c5509218c5d/figure/S1_new.svg)
 
