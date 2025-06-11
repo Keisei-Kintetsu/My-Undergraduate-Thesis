@@ -95,6 +95,16 @@ $$ \text{Shapley}\left(X_{j}\right)=\sum_{S \subseteq N \backslash\{j\}} \frac{k
 
 
 
+<div align="center">
+  <img src="https://github.com/Keisei-Kintetsu/My-Undergraduate-Thesis/blob/main/figure/SHAP%E9%A5%BC%E7%8A%B6%E5%9B%BE_00.png?raw=true" style="width:60%;">
+</div>
+
+
+<p align="center">
+图3.1 SHAP 模型解释各特征重要性占比
+</p>
+
+
 ![这是图片](https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/8a64fe58faa4ebf855f74fcce0a9e3e7c15528bd/figure/%E8%9C%82%E7%AA%9D%E4%B8%8Ebar_%E5%B8%A6%E6%A0%87%E7%AD%BE.svg)
 
 <p align="center">
