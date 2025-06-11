@@ -30,28 +30,28 @@
 
 
 ### 2.2 数据源
-#### 2.2.1 GEDI数据
+#### 2.2.1 GEDI 数据
 
-GEDI 是在 2018 年 12 月 5 日搭载于国际空间站（International Space Station, ISS）日本实验舱外设施的星载激光雷达系统，原计划运行两年，后延长至2023年3月，持续提供全球森林动态监测数据。GEDI 仪器同时发射三束激光。其中一束分成两束覆盖光束（Coverage Laser），另外两束激光为全功率光束（Full Power Laser）。这四束激光中，通过每一束都会通过光束摆动单元（Beam Dithering Units, BDUs）进行抖动分束，以产生八条地面轨迹，在约 4.2 公里的幅宽内沿飞行轨迹方向相隔约 600 米。星下轨道左侧的四束覆盖光束均来自上述第一台激光器，而右侧的四束功率光束则来自两台激光器）。每条地面轨道的激光光束覆盖面积直径为 25 米，沿轨道间距为 60 米。
+GEDI 是在 2018 年 12 月 5 日搭载于国际空间站（International Space Station, ISS）日本实验舱外设施的星载激光雷达系统，原计划运行两年，后延长至 2023 年 3 月，持续提供全球森林动态监测数据。GEDI 仪器同时发射三束激光。其中一束分成两束覆盖光束（Coverage Laser），另外两束激光为全功率光束（Full Power Laser）。这四束激光中，通过每一束都会通过光束摆动单元（Beam Dithering Units, BDUs）进行抖动分束，以产生八条地面轨迹，在约 4.2 公里的幅宽内沿飞行轨迹方向相隔约 600 米。星下轨道左侧的四束覆盖光束均来自上述第一台激光器，而右侧的四束功率光束则来自两台激光器）。每条地面轨道的激光光束覆盖面积直径为 25 米，沿轨道间距为 60 米。
 
 ![这是图片](https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/864d045f7c92cea96a111013258b4f82c0c64692/figure/GEDI%E8%BD%A8%E9%81%93%E7%A4%BA%E6%84%8F%E5%9B%BE%E6%B5%8B%E8%AF%95.svg)
 
 <p align="center">
-图2.3 GEDI 地面采样模式示意图
+图 2.3&ensp;GEDI 地面采样模式示意图
 </p>
 
-为展示GEDI观测在广东省内的空间覆盖情况，将研究区划分为1kmx1km的栅格单元，并统计每个栅格内的GEDI足迹数量，生成足迹密度图（单位：个/km<sup>2</sup>）。从数值上看，2022年为观测密度最高的一年，平均密度达108813.38个/km<sup>2</sup>，最大值达到1354648.88个/km<sup>2</sup>。2023年因GEDI任务于3月退役，足迹数量减少，平均值降至17688.98个/km<sup>2</sup>。五年合并后的足迹密度平均值达355393.19 个/km<sup>2</sup>。
+为展示 GEDI 观测在广东省内的空间覆盖情况，将研究区划分为 1km &times; 1km 的栅格单元，并统计每个栅格内的 GEDI 足迹数量，生成足迹密度图（单位：个/km<sup>2</sup>）。从数值上看，2022年为观测密度最高的一年，平均密度达 108813.38 个/km<sup>2</sup>，最大值达到 1354648.88 个/km<sup>2</sup>。2023 年因 GEDI 任务于 3 月退役，足迹数量减少，平均值降至 17688.98 个/km<sup>2</sup>。五年合并后的足迹密度平均值达 355393.19 个/km<sup>2</sup>。
 
 ![这是图片](https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/4dd21984350a334277dd06247f17a37178056a02/figure/%E5%AF%86%E5%BA%A6%E4%BD%9C%E5%9B%BE-%E6%8B%BC%E5%9B%BE-%E5%B8%A6%E6%A0%87%E7%AD%BE.svg)
 
 <p align="center">
-图2.4 广东省 GEDI 足迹密度
+图 2.4&ensp;广东省 GEDI 足迹密度
 </p>
 
-GEDI 数据产品具有不同的形式。1级和2级为较低级数据，由 LPDAAC 团队提供，提供地理定位波形（L1B），足迹级地面高程、冠层高度、相对高度（L2A）；3、4级较高级由 ORNLDAAC 负责，包括格网树冠高度指标（L3），足迹级地上生物量指标（L4A）、格网地上生物量密度（L4B）、足迹级波形结构复杂性指数（L4C）。
+GEDI 数据产品具有不同的形式。1 级和 2 级为较低级数据，由 LPDAAC 团队提供，提供地理定位波形（L1B），足迹级地面高程、冠层高度、相对高度（L2A）；3、4级较高级由 ORNLDAAC 负责，包括格网树冠高度指标（L3），足迹级地上生物量指标（L4A）、格网地上生物量密度（L4B）、足迹级波形结构复杂性指数（L4C）。
 
 <p align="center">
-表2.1 GEDI 各级数据
+表 2.1&ensp;GEDI 各级数据
 </p>
 
 <div align="center">
@@ -67,74 +67,74 @@ GEDI 数据产品具有不同的形式。1级和2级为较低级数据，由 LPD
         <td>L1B</td>
         <td>足迹级</td>
         <td>地理定位波形</td>
-        <td>25m直径</td>
+        <td>25m 直径</td>
         <td>LPDAAC</td>
     </tr>
     <tr>
         <td>L2A</td>
         <td>足迹级</td>
         <td>地面高程、冠层高度、相对高度</td>
-        <td>25m直径</td>
+        <td>25m 直径</td>
         <td>LPDAAC</td>
     </tr>
     <tr>
         <td>L2B</td>
         <td>足迹级</td>
         <td>冠层覆盖度及其剖面、叶面积指数及其剖面</td>
-        <td>25m直径</td>
+        <td>25m 直径</td>
         <td>LPDAAC</td>
     </tr>
     <tr>
         <td>L3</td>
         <td>格网</td>
         <td>树冠高度指标</td>
-        <td>1km格网</td>
+        <td>1km 格网</td>
         <td>ORNLDAAC</td>
     </tr>
     <tr>
         <td>L4A</td>
         <td>足迹级</td>
         <td>地上生物量相关指标</td>
-        <td>25m直径</td>
+        <td>25m 直径</td>
         <td>ORNLDAAC</td>
     </tr>
     <tr>
         <td>L4B</td>
         <td>格网</td>
         <td>地上生物量密度</td>
-        <td>1km格网</td>
+        <td>1km 格网</td>
         <td>ORNLDAAC</td>
     </tr>
     <tr>
         <td>L4C</td>
         <td>足迹级</td>
         <td>波形结构复杂性指数</td>
-        <td>25m直径</td>
+        <td>25m 直径</td>
         <td>ORNLDAAC</td>
     </tr>
 </table>
 </div>
 
 
-GEDI L4A数据是目前全球唯一在足迹尺度上，结合参数建模与严格误差控制框架，对地上生物量（密度）进行高精度估算的全球尺度卫星产品。于2022年由马里兰大学Duncanson团队开发。该数据在全球13,989个样地中，用机载激光雷达（ALS）数据模拟GEDI波形，并结合已有的地面样地AGB数据，建立校准数据库。以普通最小二乘回归（Ordinary Least Squares，OLS）为基础的参数化模型形式，引入对RH（Relative Height）指标和AGB的变换（对数或平方根变换），即
+GEDI L4A 数据是目前全球唯一在足迹尺度上，结合参数建模与严格误差控制框架，对地上生物量（密度）进行高精度估算的全球尺度卫星产品。于 2022 年由马里兰大学 Duncanson 团队开发。该数据在全球 13,989 个样地中，用机载激光雷达（ALS）数据模拟 GEDI 波形，并结合已有的地面样地 AGB 数据，建立校准数据库。以普通最小二乘回归（Ordinary Least Squares，OLS）为基础的参数化模型形式，引入对 RH（Relative Height）指标和 AGB 的变换（对数或平方根变换），即
 
 $$h(\text{AGB})=\sum_{j=1}^{p} B_{j} f\left(x_{j}\right)+\varepsilon $$
 
 $$\widehat{\text{AGB}}=h \left(\sum_{j=1}^{p} \hat{B_{j}} f\left(x_{j}\right)+\varepsilon\right)$$
 
-其中， $B_{j}$ 是回归系数和 $p$ 个预测因子 $x_j$ （如RH98、RH50）， $f()$ 是变换函数（恒等式、对数或平方根）， $h()$ 是反变换函数（恒等式、指数函数或二次幂）， $\varepsilon$ 是均值为零的正态分布误差项。
+其中， $B_{j}$ 是回归系数和 $p$ 个预测因子 $x_j$ （如 RH98、RH50）， $f()$ 是变换函数（恒等式、对数或平方根）， $h()$ 是反变换函数（恒等式、指数函数或二次幂）， $\varepsilon$ 是均值为零的正态分布误差项。
 
-模型开发者考虑了1至4个RH指标及其两两交互项的组合，最终筛选出最具解释力且具泛化能力的变量子集。为了进一步提升模型的适用性与准确性，产品在全球范围内引入了“地理分层”的策略，即依据EBT（Evergreen Broadleaf Trees，常绿阔叶树）、ENT（Evergreen Needleleaf Trees，常绿针叶树）、DBT（Deciduous Broadleaf Trees，落叶阔叶树）、GSW（Grasslands/Shrublands/Woodlands，草地/灌木丛/林地）4种植被功能类型（Plant Functional Type, PFT）与地理区域划分建模单元。层次化建模思想极大提升了模型的空间适应性与预测精度。
+模型开发者考虑了 1 至 4 个 RH 指标及其两两交互项的组合，最终筛选出最具解释力且具泛化能力的变量子集。为了进一步提升模型的适用性与准确性，产品在全球范围内引入了“地理分层”的策略，即依据EBT（Evergreen Broadleaf Trees，常绿阔叶树）、ENT（Evergreen Needleleaf Trees，常绿针叶树）、DBT（Deciduous Broadleaf Trees，落叶阔叶树）、GSW（Grasslands/Shrublands/Woodlands，草地/灌木丛/林地）4 种植被功能类型（Plant Functional Type, PFT）与地理区域划分建模单元。层次化建模思想极大提升了模型的空间适应性与预测精度。
 
 
 ![这是图片](https://github.com/Keisei-Kintetsu/My-Undergraduate-Thesis/blob/main/figure/gedi_agbd_%E6%8B%BC%E5%9B%BE-%E5%B8%A6%E6%A0%87%E7%AD%BE.png?raw=true)
 
 <p align="center">
-图2.5 GEDI L4A 数据：足迹级地上生物量密度(a) 2019 年; (b) 2020 年; (c) 2021 年; (d) 2022年; (e) 2023 年
+图 2.5&ensp;GEDI L4A 数据：足迹级地上生物量密度(a) 2019 年; (b) 2020 年; (c) 2021 年; (d) 2022年; (e) 2023 年
 </p>
 
 <p align="center">
-表2.2 L4A 数据重要字段说明
+表 2.2&ensp;L4A 数据重要字段说明
 </p>
 
 
@@ -183,7 +183,7 @@ $$\widehat{\text{AGB}}=h \left(\sum_{j=1}^{p} \hat{B_{j}} f\left(x_{j}\right)+\v
     <tr>
         <td>l4_quality_flag</td>
         <td>标记最有用的生物量预测的选择</td>
-        <td>0或1</td>
+        <td>0 或 1</td>
     </tr>
     <tr>
         <td>sensitivity</td>
@@ -200,11 +200,11 @@ $$\widehat{\text{AGB}}=h \left(\sum_{j=1}^{p} \hat{B_{j}} f\left(x_{j}\right)+\v
 
 
 
-在GEDI数据处理过程中，通过筛选‘Degradation flag’等于0和‘l4\_quality\_flag’为1的数据。接着，在波束选择过程中，仅保留全功率波束（即Beams编号为0101、0110、1000或1011）并设定波束灵敏度阈值为0.98（‘Sensitivity’大于0.98）。此外，为减少太阳背景光的影响，采用了太阳高度角控制，仅选择夜间（‘solar\_elevation’小于0）的数据。为了应对地形因素对GEDI足迹的干扰，选取坡度低于30°的足迹。同时，通过参考椭球偏离控制，即要求GEDI高程与哥白尼数字高程模型计算出的高程差绝对值小于50m。最后，为降低空间异质性带来的不确定性，将GEDI L4A数据与Sentinel-2数据中的NDVI84进行比值运算，并要求标准差小于1。
+在 GEDI 数据处理过程中，通过筛选‘Degradation flag’等于 0 和‘l4\_quality\_flag’为 1 的数据。接着，在波束选择过程中，仅保留全功率波束（即 Beams 编号为 0101、0110、1000 或 1011）并设定波束灵敏度阈值为 0.98（‘Sensitivity’大于 0.98）。此外，为减少太阳背景光的影响，采用了太阳高度角控制，仅选择夜间（‘solar\_elevation’小于 0）的数据。为了应对地形因素对 GEDI 足迹的干扰，选取坡度低于 30&deg; 的足迹。同时，通过参考椭球偏离控制，即要求 GEDI 高程与哥白尼数字高程模型计算出的高程差绝对值小于 50m。最后，为降低空间异质性带来的不确定性，将 GEDI L4A 数据与 Sentinel-2 数据中的 NDVI84 进行比值运算，并要求标准差小于 1。
 
 
 <p align="center">
-表2.3 GEDI 数据处理过程
+表 2.3&ensp;GEDI 数据处理过程
 </p>
 
 <div align="center">
@@ -248,7 +248,7 @@ $$\widehat{\text{AGB}}=h \left(\sum_{j=1}^{p} \hat{B_{j}} f\left(x_{j}\right)+\v
     <tr>
         <td>坡度筛选</td>
         <td>GEDI L4A, Glo 30</td>
-        <td>取在‘slope’&lt;30°的GEDI足迹</td>
+        <td>取在‘slope’&lt;30&deg; 的 GEDI 足迹</td>
         <td></td>
     </tr>
     <tr>
@@ -260,7 +260,7 @@ $$\widehat{\text{AGB}}=h \left(\sum_{j=1}^{p} \hat{B_{j}} f\left(x_{j}\right)+\v
     <tr>
         <td>空间异质性筛选</td>
         <td>GEDI L4A, Sentinel-2</td>
-        <td>L4A与NDVI84相除，标准差&lt;1</td>
+        <td>L4A 与 NDVI84 相除，标准差&lt;1</td>
         <td></td>
     </tr>
 </table>
