@@ -30,11 +30,9 @@
 本研究采用10折交叉验证（10-fold cross-validation）对模型进行训练与评估。将15000条样本均分为十折，轮流以一折为验证集、其余九折为训练集，记录各折的评估指标，最终以10折平均结果作为模型精度。模型预测精度通过决定系数R<sup>2</sup>、均方根误差(RMSE) 和平均绝对误差(MAE) 进行衡量：
 
 
-$$ 
+```math
 R^2 = 1 - \dfrac{\sum_{i=1}^{n}(y_i - \hat{y}_i)^2}{\sum_{i=1}^{n}(y_i - \bar{y})^2} 
-$$
-
-![R-squared formula](https://latex.codecogs.com/svg.image?R%5E2%20%3D%201%20-%20%5Cdfrac%7B%5Csum_%7Bi%3D1%7D%5E%7Bn%7D(y_i%20-%20%5Chat%7By%7D_i)%5E2%7D%7B%5Csum_%7Bi%3D1%7D%5E%7Bn%7D(y_i%20-%20%5Cbar%7By%7D)%5E2%7D)
+```
 
 
 $$ \text{RMSE} = \sqrt{\frac{1}{n}\sum_{i=1}^{n}(y_i - \hat{y}_i)^2} $$
