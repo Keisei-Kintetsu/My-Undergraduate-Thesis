@@ -481,3 +481,68 @@ Theil-Sen 方法又被称为 Sen 斜率估计，是一种稳健的非参数统�
 其中， $\hat{\beta}$ 是 Theil-Sen 估计的斜率， $(t_i, x_i)$ 是时间序列数据点， $i,j = 1, 2, \dots, n$ ，且 $i < j$ 。
 </p>
 
+<p align="left">
+Mann-Kendall 是一种非参数统计检验方法，最初由 Mann 在 1945年 提出，后由 Kendall 和 Sneyers 进一步完善，其优点是不需要测量值服从正态分布，也不要求趋势是线性的，并且不受缺失值和异常值的影响，在长时间序列数据的趋势显著检验中得到了十分广泛的应用。该方法构建统计量 $S$ 
+</p>
+
+```math
+    S = \sum_{i=1}^{n-1} \sum_{j=i+1}^{n} \text{sgn}(x_j - x_i)
+```
+
+<p align="left">
+其中，符号函数其中， $\text{sgn}(\cdot)$ 定义为：
+</p>
+
+```math
+\text{sgn}(x_j - x_i) =
+\begin{cases} 
++1, & \text{if } x_j - x_i > 0 \\ 
+0, & \text{if } x_j - x_i = 0 \\ 
+-1, & \text{if } x_j - x_i < 0 
+\end{cases}
+```
+
+<p align="left">
+计算标准化检验统计量 $Z$ 
+</p>
+
+```math
+Z =
+\begin{cases}
+\dfrac{S - 1}{\sqrt{\text{Var}(S)}}, & S > 0 \\
+0, & S = 0 \\
+\dfrac{S + 1}{\sqrt{\text{Var}(S)}}, & S < 0
+\end{cases}
+```
+
+<p align="left">
+其中，$S$的方差
+</p>
+
+```math
+    \text{Var}(S)=\frac{n(n-1)(2 n+5)}{18}
+```
+
+<p align="left">
+统计量$Z$值服从标准正态分布，计算得到
+</p>
+
+```math
+  p = 2 \times (1 - \Phi(|Z|))
+```
+<p align="left">
+其中 $\Phi$ 是标准正态分布的累积分布函数 (CDF)。
+</p>
+
+<p align="left">
+将 $p$ 值分成 4 类的显著性水平：极显著: \( p < 0.01 \)（$|Z|$ > 2.58）；
+显著: \( 0.01 \leq p < 0.05 \)（1.96 < $|Z|$ ≤ 2.58）；
+微显著: \( 0.05 \leq p < 0.1 \)（1.645 < $|Z|$ ≤ 1.96）；
+不显著: \( p \geq 0.1 \)（$|Z|$ ≤ 1.645）。
+</p>
+
+<p align="left">
+根据 Sen 斜率的正负和 M-K 检验的显著性划分 7 类趋势
+</p>
+
+
