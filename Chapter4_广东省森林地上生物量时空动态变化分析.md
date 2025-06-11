@@ -325,4 +325,10 @@
 Yang 等人提出基于多源遥感与森林清查数据融合的回归模型，实现了中国 30m 分辨率的 AGB 高精度空间估算。在广东地区，其反演结果在整体均值上与本研究相近（89.2 vs. 89.3 Mg/ha），但其像元值主要集中于 80–100 Mg/ha 的中间区域，缺乏明显的长尾特征，表现出较低的标准差（仅 8.5 Mg/ha）。与本研究的偏态分布相比，Yang 数据展现出较强的“压缩性”，导致在高值森林区域（如粤北山区）与低值地带（如湛江）存在显著低估与高估。
 </p>
 
+<div align="center">
+    <img src="https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/efc20b2aa63bd99abf5adcd45b9eff0e7d3b2ff1/figure/%E9%83%AD%E8%80%81%E5%B8%88%E7%A0%94%E7%A9%B6.svg">
+<div>
 
+<p align="center">
+图 4.7&ensp;与 Yang 等人森林 AGB 产品的比较结果：(a) Yang 原始 AGB 图，(b) 与本研究作差图，(c) 像元尺度相关性图，(d) Bland–Altman 分析图
+</p>
