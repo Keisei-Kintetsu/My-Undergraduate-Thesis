@@ -601,3 +601,28 @@ Z =
     </tr>
 </table>
 
+<div align="center">
+    <img src="https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/05306fbca5f5f59f5e14053ca581eaaf774f482b/figure/sen+mk-%E5%B8%A6%E6%A0%87%E7%AD%BE.svg">
+</div>
+
+<p align="center">
+图 4.18&ensp;广东省森林 AGB 变化趋势 (a) Sen 斜率估计; (b) MK 检验 $Z$ 统计量
+</p>
+
+
+<div align="center">
+    <img src="https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/05306fbca5f5f59f5e14053ca581eaaf774f482b/figure/%E8%B6%8B%E5%8A%BF%E5%88%86%E7%B1%BB_%E5%B8%A6%E5%89%96%E9%9D%A2%E5%9B%BE.svg">
+</div>
+
+<p align="center">
+图 4.19&ensp;广东省森林 AGB 变化 7 类趋势空间分布图
+</p>
+
+
+<div align="center">
+    <img src="https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/05306fbca5f5f59f5e14053ca581eaaf774f482b/figure/%E5%9F%8E%E5%B8%82%E8%B6%8B%E5%8A%BF%E7%99%BE%E5%88%86%E6%AF%94%E6%9F%B1%E7%8A%B6%E5%9B%BE_%E5%8F%8C%E5%9B%BE%E4%BF%AE%E6%94%B9.svg">
+</div>
+
+<p align="center">
+图 4.20&ensp;广东省各市森林 AGB 变化趋势分类所占百分比
+</p>
