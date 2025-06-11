@@ -473,9 +473,9 @@ Cai 等人构建的 CFATD 数据集（China Forest Aboveground Biomass Time-seri
 Theil-Sen 方法又被称为 Sen 斜率估计，是一种稳健的非参数统计的趋势计算方法。该方法计算效率高，对于测量误差和离群数据不敏感，常被用于长时间序列数据的趋势分析中。该方法通过计算时间序列中两两数据对之间的斜率，将斜率中值作为时间序列变化的总体趋势，即
 </p>
 
-```math
+$$
 \hat{\beta} = \text{median} \left( \frac{x_j - x_i}{t_j - t_i} \right), \quad \forall i < j
-```
+$$
 
 <p align="left">
 其中， $\hat{\beta}$ 是 Theil-Sen 估计的斜率， $(t_i, x_i)$ 是时间序列数据点， $i,j = 1, 2, \dots, n$ ，且 $i < j$ 。
@@ -485,9 +485,9 @@ Theil-Sen 方法又被称为 Sen 斜率估计，是一种稳健的非参数统�
 Mann-Kendall 是一种非参数统计检验方法，最初由 Mann 在 1945 年提出，后由 Kendall 和 Sneyers 进一步完善，其优点是不需要测量值服从正态分布，也不要求趋势是线性的，并且不受缺失值和异常值的影响，在长时间序列数据的趋势显著检验中得到了十分广泛的应用。该方法构建统计量 $S$ 
 </p>
 
-```math
+$$
     S = \sum_{i=1}^{n-1} \sum_{j=i+1}^{n} \text{sgn}(x_j - x_i)
-```
+$$
 
 <p align="left">
 其中，符号函数其中， $\text{sgn}(\cdot)$ 定义为：
@@ -634,3 +634,60 @@ Z =
 <p align="center">
 图 4.20&ensp;广东省各市森林 AGB 变化趋势分类所占百分比
 </p>
+
+
+<h3 align="left">广东省森林地上生物量可能的未来变化趋势分析</h3>
+
+<p align="left">
+Hurst 指数（又称“依赖指数”）用于衡量时间序列的长期记忆性，反映其未来变化的可预测性。本研究采用重标极差（R/S）分析法估算森林AGB时间序列的 Hurst 指数。
+</p>
+
+设时间序列为 $ \{X_t\} $，其子区间均值为  
+\begin{equation}
+\bar{X}_n=\frac{1}{n}\sum_{t=1}^{n}X_t,
+\end{equation}
+偏差序列为  
+\begin{equation}
+Y_t=X_t-\bar{X}_n,
+\end{equation}
+累积偏差序列为  
+\begin{equation}
+Z(t)=\sum_{i=1}^{t}Y_i,
+\end{equation}
+极差为  
+\begin{equation}
+R(n)=\max Z(t)-\min Z(t),
+\end{equation}
+标准差为  
+\begin{equation}
+S(n)=\sqrt{\frac{1}{n}\sum_{t=1}^{n}(X_t-\bar{X}_n)^2}.
+\end{equation}
+重标极差统计量为 \( R(n)/S(n) \)，与子区间长度 \( n \) 满足幂律关系  
+\begin{equation}
+\frac{R(n)}{S(n)}\sim C\,n^H,
+\end{equation}
+取对数后为  
+\begin{equation}
+\log\left(\frac{R(n)}{S(n)}\right)=\log C+H\log n,
+\end{equation}
+其中斜率 \( H \) 为Hurst指数。
+
+Hurst值刻画时间序列的变化趋势\cite{wang2022spatio}：当 \( H=0.5 \) 时表示随机游走；\( H>0.5 \) 表示趋势延续，即高值易跟高值、低值易跟低值；\( H<0.5 \) 则表明序列趋于均值回归，即高低值交替出现。由此可揭示森林AGB在未来的潜在演化方向。
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{figures/绘制hurst指数_带剖面.pdf}
+    \caption{广东省森林AGB时间序列Hurst指数空间分布图}
+\end{figure}
+
+从全省来看，Hurst 指数平均值为 0.609，中位数为 0.606，标准差为 0.131，分布范围较广（1\% 为 0.311，99\% 为 0.909），整体表现为中等强度的持续性。
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{figures/各市Hurst指数箱线图.pdf}
+    \caption{广东省各市Hurst指数箱线图}
+\end{figure}
+
+
+各地市的箱线图统计显示，Hurst 指数中位数普遍在 0.60–0.62 之间，第一四分位数 和 第三四分位数区间也高度一致，95\% 分位值均超过 0.82，表明广东各市森林 AGB 时间序列普遍具有一定程度的正相关性和趋势延续性。地市间差异较小，空间分布相对均衡，未表现出明显的区域聚集特征。
