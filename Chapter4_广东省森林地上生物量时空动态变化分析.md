@@ -12,7 +12,7 @@
 </p>
 
 
-<div aling="center">
+<div align="center">
     <img src="https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/f1b6fd1cfe48b7643ae82bd05d0ade021747cded/figure/%E6%8C%91%E5%9B%BE.svg"  style="width:95%;">
 </div>
 
