@@ -531,3 +531,6 @@ GEDI 产品的第一个版本（R01）中，50.5％ 的光束的地理定位误�
     <img src="https://github.com/Keisei-Kintetsu/My-Undergraduate-Thesis/blob/main/figure/%E7%A9%BA%E9%97%B4%E5%B0%BA%E5%BA%A6_%E5%B8%A6%E6%A0%87%E7%AD%BE.png?raw=true" style="width:90%;">
 </div>
 
+<p align="center">
+图3.11 不同空间尺度对模型的影响（XGBoost 模型，变量组8，激光组8N）
+</p>
