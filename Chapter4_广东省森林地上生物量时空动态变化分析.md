@@ -333,8 +333,9 @@ Yang 等人提出基于多源遥感与森林清查数据融合的回归模型，
 图 4.7&ensp;与 Yang 等人森林 AGB 产品的比较结果：(a) Yang 原始 AGB 图，(b) 与本研究作差图，(c) 像元尺度相关性图，(d) Bland–Altman 分析图
 </p>
 
-
+<p align="left">
 Yang 等的 AGB 产品的空间分布图较为均匀，森林空间异质性被显著削弱。在像元尺度上的 Pearson 相关系数为 0.306，表明其与本研究估算结果的线性一致性较低。Bland–Altman 分析显示，两者存在一定正偏差（Bias = 4.95 Mg/ha），但 LoA 范围较宽（-42.57 至 52.46 Mg/ha），表明在个体像元尺度上波动较大。
+</p>
 
 <h4 align="left">4.3.2 与 ESA CCI 森林地上生物量产品对比</h4>
 
@@ -349,9 +350,9 @@ ESA CCI AGB 是当前主流的全球尺度 AGB 产品之一，基于 ENVISAT ASA
 图 4.8&ensp;2017–2021 年ESA CCI AGB 产品与本研究结果的对比图：左列为原始 AGB 图(a, c, e,g, i)，右列为对应作差图(b, d, f, h, j)
 </p>
 
-
+<p align="left">
 如图所示，其 AGB 空间分布呈现出高值与低值同时大量存在的特征，显著不同于实际森林格局。这种双偏分布也体现在频率直方图中，大量低值像元可能源于非森林区域被纳入统计，高值异常像元则可能来自模型外推误差。与本研究结果对比，ESA CCI AGB 在广东整体呈现大幅低估的趋势，其均值普遍在 76–78 Mg/ha 左右，相关系数仅为 0.237–0.331。Bland–Altman 分析显示其系统性偏差极为显著，平均 Bias 在 97–103 Mg/ha 之间，LoA 范围普遍在 -25 至 230 Mg/ha 之间，属于三组对比数据中误差最广、系统性最强的一组。
-
+</p>
 
 <div align="center">
     <img src="https://github.com/Keisei-Kintetsu/My-Undergraduate-Thesis/blob/main/figure/ESA%E7%9B%B8%E5%85%B3ba.png?raw=true">
