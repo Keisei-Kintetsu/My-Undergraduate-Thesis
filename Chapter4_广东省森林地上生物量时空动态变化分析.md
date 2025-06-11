@@ -420,7 +420,7 @@ Cai 等人构建的 CFATD 数据集（China Forest Aboveground Biomass Time-seri
 
 
 <div align="center">
-    <img src="https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/0c82798cc02c12ebe88e4363170b0e6c2f49da8a/figure/%E5%90%84%E5%B8%82CV%E6%8C%87%E6%95%B0%E7%AE%B1%E7%BA%BF%E5%9B%BE.svg">
+    <img src="https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/fa3e749665d116f0981fadd43caf404ef03b54c6/figure/%E5%90%84%E5%B8%82CV%E6%8C%87%E6%95%B0%E7%AE%B1%E7%BA%BF%E5%9B%BE.svg">
 </div>
 
 <p align="center">
