@@ -4,7 +4,7 @@
 
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/4848e7e6e791297fe9d241b20c0738554ea15699/figure/%E5%B9%B3%E5%9D%87%E5%80%BC%E7%BB%98%E5%9B%BE%E6%80%BB%E5%9B%BE3.svg">
+  <img src="https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/4848e7e6e791297fe9d241b20c0738554ea15699/figure/%E5%B9%B3%E5%9D%87%E5%80%BC%E7%BB%98%E5%9B%BE%E6%80%BB%E5%9B%BE3.svg"  style="width:100%;">
 </div>
 
 - 作者：梁而正
