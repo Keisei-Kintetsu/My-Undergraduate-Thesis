@@ -339,8 +339,9 @@ Yang 等的 AGB 产品的空间分布图较为均匀，森林空间异质性被�
 
 <h4 align="left">4.3.2 与 ESA CCI 森林地上生物量产品对比</h4>
 
-
+<p align="left">
 ESA CCI AGB 是当前主流的全球尺度 AGB 产品之一，基于 ENVISAT ASAR 和 Sentinel-1 数据反演得到，时间序列覆盖较广，为全球森林碳储量监测提供了基础支持。然而，该产品分辨率为 100m，显著低于本研究的 30m 空间分辨率，且其训练样地严重不均衡——亚洲区域仅包含 24 个样地，且主要位于印度尼西亚等地，中国地区缺乏足够支撑。
+</p>
 
 <div align="center">
     <img src="https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/9e163bc2e8448a7601ca2086d818d27948695a13/figure/ESA%E6%8B%BC%E5%9B%BE1.svg">
