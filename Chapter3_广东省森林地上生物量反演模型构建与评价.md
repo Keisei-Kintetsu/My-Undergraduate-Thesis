@@ -94,7 +94,7 @@ $$ \text{Shapley}\left(X_{j}\right)=\sum_{S \subseteq N \backslash\{j\}} \frac{k
 
 
 #### 3.2.1 总体分析
-使用 SHAP 方法评估各个特征在 AGB 预测中的相对重要性。从圆环图可以看出，坡度（Slope）所占比例最高（22.3\%），其次是 NDVI8A5（8.8\%）、MNDWI（6.0\%）、VV\_diss（5.6\%）等特征，说明这些特征对模型贡献较大。结合蜂窝图与条形图同样观察到，Slope 的 SHAP 值分布范围较大（-100至150），而其平均 SHAP 值绝对值明显高于其他特征（平均 SHAP 值绝对值 = 14.39，远高于 NDVI8A5 的5.69），NDVI8A5、MNDWI 以及 VV\_diss、B3、NDVI87\_contrast 等也展现了较大的影响力，而一些特征（如 NDVI8A5\_ent、VV\_corr）的平均 SHAP 值绝对值及占比相对较低，表明它们在 AGB 预测中的作用相对有限。
+使用 SHAP 方法评估各个特征在 AGB 预测中的相对重要性。从圆环图可以看出，坡度（Slope）所占比例最高（22.3\%），其次是 NDVI8A5（8.8\%）、MNDWI（6.0\%）、VV\_diss（5.6\%）等特征，说明这些特征对模型贡献较大。结合蜂窝图与条形图同样观察到，Slope 的 SHAP 值分布范围较大（-100 至 150），而其平均 SHAP 值绝对值明显高于其他特征（平均 SHAP 值绝对值 = 14.39，远高于 NDVI8A5 的5.69），NDVI8A5、MNDWI 以及 VV\_diss、B3、NDVI87\_contrast 等也展现了较大的影响力，而一些特征（如 NDVI8A5\_ent、VV\_corr）的平均 SHAP 值绝对值及占比相对较低，表明它们在 AGB 预测中的作用相对有限。
 
 
 
