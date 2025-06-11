@@ -28,6 +28,8 @@
 
 <div align="center">
     <img src="https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/eba0ed0d9375063db602ba26d2dcf426d2b7c96d/figure/%E5%B9%BF%E4%B8%9C%E7%9C%812017-2024%E5%B9%B4%E6%A3%AE%E6%9E%97AGB%E5%B0%8F%E6%8F%90%E7%90%B4%E5%8F%8A%E7%AE%B1%E7%BA%BF%E5%9B%BE.svg" style="width:95%;">
+</div>
+
 <p align="center">
 图4.3 广东省 2017-2024 年森林 AGB 小提琴及箱线图
 </p>
