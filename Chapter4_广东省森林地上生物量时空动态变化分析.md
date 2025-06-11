@@ -245,8 +245,9 @@
     </table>
 </div>
 
-
+<p align="left">
 市域尺度进一步揭示空间差异：最高均值出现在肇庆（101.02 Mg/ha）与韶关（99.91 Mg/ha），其次为云浮、清远、广州等市（约为 95–98 Mg/ha）。湛江均值最低，仅 56.69 Mg/ha，且偏度 0.82，显示少数高值像元对总体右尾拉伸显著。除湛江外，多数城市标准差 20–26 Mg/ha，部分城市最大值可至 370 Mg/ha 以上（云浮、清远、韶关等），而第 1 与 99 百分位数像元大体落在 30–160 Mg/ha 范围，说明大部分地区森林 AGB 集中于中低水平，局部高值像元数量有限。
+</p>
 
 <div align="center">
     <img src="https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/1c7f01129a49894eef9fc4a771e5b148b2cb0b20/figure/%E7%8E%AF%E5%BD%A2%E5%8D%8A%E5%B0%8F%E6%8F%90%E7%90%B4%E5%9B%BE_427.svg" style="width:85%;">
