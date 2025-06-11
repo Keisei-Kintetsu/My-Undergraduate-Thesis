@@ -181,78 +181,84 @@
 </p>
 
 <div align="center">
-<table>
-    <tr>
-        <th>地区</th>
-        <th>最小值</th>
-        <th>最大值</th>
-        <th>平均值</th>
-        <th>中值</th>
-        <th>标准差</th>
-        <th>第 1 百分位数</th>
-        <th>第 99 百分位数</th>
-        <th>偏度</th>
-        <th>峰度</th>
-    </tr>
-    <tr>
-        <td>粤东</td>
-        <td>11.47</td>
-        <td>292.56</td>
-        <td>80.93</td>
-        <td>78.71</td>
-        <td>24.70</td>
-        <td>34.75</td>
-        <td>144.89</td>
-        <td>0.4555</td>
-        <td>-0.0103</td>
-    </tr>
-    <tr>
-        <td>粤北</td>
-        <td>18.05</td>
-        <td>373.41</td>
-        <td>94.42</td>
-        <td>94.07</td>
-        <td>25.71</td>
-        <td>41.97</td>
-        <td>154.56</td>
-        <td>0.1752</td>
-        <td>-0.2204</td>
-    </tr>
-    <tr>
-        <td>粤西</td>
-        <td>11.70</td>
-        <td>324.69</td>
-        <td>83.00</td>
-        <td>79.98</td>
-        <td>28.05</td>
-        <td>34.87</td>
-        <td>152.88</td>
-        <td>0.4701</td>
-        <td>-0.3168</td>
-    </tr>
-    <tr>
-        <td>珠三角</td>
-        <td>10.49</td>
-        <td>415.27</td>
-        <td>95.36</td>
-        <td>95.54</td>
-        <td>25.53</td>
-        <td>40.78</td>
-        <td>153.77</td>
-        <td>0.0700</td>
-        <td>-0.2416</td>
-    </tr>
-</table>
+    <table>
+        <tr>
+            <th>地区</th>
+            <th>最小值</th>
+            <th>最大值</th>
+            <th>平均值</th>
+            <th>中值</th>
+            <th>标准差</th>
+            <th>第 1 百分位数</th>
+            <th>第 99 百分位数</th>
+            <th>偏度</th>
+            <th>峰度</th>
+        </tr>
+        <tr>
+            <td>粤东</td>
+            <td>11.47</td>
+            <td>292.56</td>
+            <td>80.93</td>
+            <td>78.71</td>
+            <td>24.70</td>
+            <td>34.75</td>
+            <td>144.89</td>
+            <td>0.4555</td>
+            <td>-0.0103</td>
+        </tr>
+        <tr>
+            <td>粤北</td>
+            <td>18.05</td>
+            <td>373.41</td>
+            <td>94.42</td>
+            <td>94.07</td>
+            <td>25.71</td>
+            <td>41.97</td>
+            <td>154.56</td>
+            <td>0.1752</td>
+            <td>-0.2204</td>
+        </tr>
+        <tr>
+            <td>粤西</td>
+            <td>11.70</td>
+            <td>324.69</td>
+            <td>83.00</td>
+            <td>79.98</td>
+            <td>28.05</td>
+            <td>34.87</td>
+            <td>152.88</td>
+            <td>0.4701</td>
+            <td>-0.3168</td>
+        </tr>
+        <tr>
+            <td>珠三角</td>
+            <td>10.49</td>
+            <td>415.27</td>
+            <td>95.36</td>
+            <td>95.54</td>
+            <td>25.53</td>
+            <td>40.78</td>
+            <td>153.77</td>
+            <td>0.0700</td>
+            <td>-0.2416</td>
+        </tr>
+    </table>
 </div>
 
 
-
 市域尺度进一步揭示空间差异：最高均值出现在肇庆（101.02 Mg/ha）与韶关 （99.91 Mg/ha），其次为云浮、清远、广州等市（约为 95–98 Mg/ha）。湛江均值最低，仅 56.69 Mg/ha，且偏度 0.82，显示少数高值像元对总体右尾拉伸显著。除湛江外，多数城市标准差 20–26 Mg/ha，部分城市最大值可至 370 Mg/ha 以上（云浮、清远、韶关等），而第 1 与 99 百分位数像元大体落在 30–160 Mg/ha 范围，说明大部分地区森林 AGB 集中于中低水平，局部高值像元数量有限。
+
+<div align="center">
+    <img src="https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/1c7f01129a49894eef9fc4a771e5b148b2cb0b20/figure/%E7%8E%AF%E5%BD%A2%E5%8D%8A%E5%B0%8F%E6%8F%90%E7%90%B4%E5%9B%BE_427.svg">
+</div>
 
 <p align="center">
 图4.5 广东省各市 2017-2024 年各年平均 AGB 小提琴图与箱线图
 </p>
 
+<div align="center">
+    <img src="https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/1c7f01129a49894eef9fc4a771e5b148b2cb0b20/figure/%E6%80%BB%E9%87%8F%E7%BB%9F%E8%AE%A1.svg">
+</div>
 
 <p align="center">
 图4.6 广东省各市 AGB 总量统计
