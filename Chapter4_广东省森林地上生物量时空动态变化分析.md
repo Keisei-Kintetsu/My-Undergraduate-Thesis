@@ -452,7 +452,7 @@ Cai 等人构建的 CFATD 数据集（China Forest Aboveground Biomass Time-seri
 整体时间序列趋势上，如图所示，2017-2024 年广东省森林 AGB 呈现缓慢增长趋势（ y = 1.12x - 2174.79 ，R<sup>2</sup>=0.794， $p$ =0.003）。回归线斜率（1.12 Mg ha<sup>-1</sup>）表明年均 AGB 增加约 1.12 Mg/ha。  
 </p>
 <div align="center">
-    <img src="https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/910abb6b468adfaad28935e10e3855104fdaccb6/figure/%E9%80%90%E5%83%8F%E5%85%83%E5%9B%9E%E5%BD%92%E5%88%86%E6%9E%90_%E5%B8%A6%E5%89%96%E9%9D%A2-%E5%B8%A6%E6%A0%87%E7%AD%BE.svg">
+    <img src="https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/910abb6b468adfaad28935e10e3855104fdaccb6/figure/%E9%80%90%E5%83%8F%E5%85%83%E5%9B%9E%E5%BD%92%E5%88%86%E6%9E%90_%E5%B8%A6%E5%89%96%E9%9D%A2-%E5%B8%A6%E6%A0%87%E7%AD%BE.svg" style="width:85%;">
 </div>
 
 <p align="center">
@@ -469,5 +469,15 @@ Cai 等人构建的 CFATD 数据集（China Forest Aboveground Biomass Time-seri
 
 <h4 align="left">4.4.3 基于 Theil-Sen 方法与 Mann-Kendall 检验的趋势分析</h4>
 
+<p align="left">
+Theil-Sen 方法又被称为 Sen 斜率估计，是一种稳健的非参数统计的趋势计算方法。该方法计算效率高，对于测量误差和离群数据不敏感，常被用于长时间序列数据的趋势分析中。该方法通过计算时间序列中两两数据对之间的斜率，将斜率中值作为时间序列变化的总体趋势，即
+</p>
 
+```math
+\hat{\beta} = \text{median} \left( \frac{x_j - x_i}{t_j - t_i} \right), \quad \forall i < j
+```
+
+<p align="left">
+其中， $\hat{\beta}$ 是 Theil-Sen 估计的斜率, $(t_i, x_i)$ 是时间序列数据点， $ i, j = 1, 2, \dots, n$ ，且 $i < j$ 。
+</p>
 
