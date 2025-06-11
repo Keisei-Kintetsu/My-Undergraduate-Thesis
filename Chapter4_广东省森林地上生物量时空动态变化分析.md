@@ -396,4 +396,7 @@ Cai 等人构建的 CFATD 数据集（China Forest Aboveground Biomass Time-seri
 <p align="left">
 变异系数（Coefficient of Variation, CV）作为衡量时间序列数据相对离散程度的标准化指标，在生态遥感研究中常用于评估生态系统参数的稳定性。其定义为标准差与均值的比值，计算公式为：
 </p>
-$$ \text{CV} = \dfrac{\sigma}{\mu} = \dfrac{\sqrt{\frac{1}{N}\sum_{t=1}^{N}(X_t-\bar{X})^2}}{\frac{1}{N}\sum_{t=1}^{N}X_t} \times 100\% $$
+
+```math
+\text{CV} = \dfrac{\sigma}{\mu} = \dfrac{\sqrt{\frac{1}{N}\sum_{t=1}^{N}(X_t-\bar{X})^2}}{\frac{1}{N}\sum_{t=1}^{N}X_t} \times 100\%
+```
