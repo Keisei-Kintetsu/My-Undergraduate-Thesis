@@ -34,6 +34,8 @@ $$
 R^2 = 1 - \dfrac{\sum_{i=1}^{n}(y_i - \hat{y}_i)^2}{\sum_{i=1}^{n}(y_i - \bar{y})^2} 
 $$
 
+![R-squared formula](https://latex.codecogs.com/svg.image?R%5E2%20%3D%201%20-%20%5Cdfrac%7B%5Csum_%7Bi%3D1%7D%5E%7Bn%7D(y_i%20-%20%5Chat%7By%7D_i)%5E2%7D%7B%5Csum_%7Bi%3D1%7D%5E%7Bn%7D(y_i%20-%20%5Cbar%7By%7D)%5E2%7D)
+
 
 $$ \text{RMSE} = \sqrt{\frac{1}{n}\sum_{i=1}^{n}(y_i - \hat{y}_i)^2} $$
 
