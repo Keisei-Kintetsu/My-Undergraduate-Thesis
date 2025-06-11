@@ -5,7 +5,9 @@
 
 如图所示，本研究以广东省（北纬 20°19′-25°31′，东经 109°45′-117°20′）为研究范围。广东省位于中国南部，西与广西壮族自治区接壤，北部与湖南、江西省相邻，与福建交界于东北，总面积 177,900 km<sup>2</sup> 。广东省横跨北回归线，受夏季风和热带气旋的影响，降雨丰富，属亚热带、热带季风气候地区，平均气温为 21.9&deg;C ，年平均降水量 1789.3 mm。
 
-![这是图片](https://github.com/Keisei-Kintetsu/My-Undergraduate-Thesis/blob/main/figure/%E7%A0%94%E7%A9%B6%E5%8C%BA2.png?raw=true)
+<div align="center">
+    <img src="https://github.com/Keisei-Kintetsu/My-Undergraduate-Thesis/blob/main/figure/%E7%A0%94%E7%A9%B6%E5%8C%BA2.png?raw=true"  style="width:100%;">
+</div>
 
 <p align="center">
 图 2.1&ensp;研究区位图 (a) 广东省在中国的位置；(b) 广东省高程图；(c) 广东省行政区划图
@@ -34,7 +36,9 @@
 
 GEDI 是在 2018 年 12 月 5 日搭载于国际空间站（International Space Station, ISS）日本实验舱外设施的星载激光雷达系统，原计划运行两年，后延长至 2023 年 3 月，持续提供全球森林动态监测数据。GEDI 仪器同时发射三束激光。其中一束分成两束覆盖光束（Coverage Laser），另外两束激光为全功率光束（Full Power Laser）。这四束激光中，通过每一束都会通过光束摆动单元（Beam Dithering Units, BDUs）进行抖动分束，以产生八条地面轨迹，在约 4.2 公里的幅宽内沿飞行轨迹方向相隔约 600 米。星下轨道左侧的四束覆盖光束均来自上述第一台激光器，而右侧的四束功率光束则来自两台激光器）。每条地面轨道的激光光束覆盖面积直径为 25 米，沿轨道间距为 60 米。
 
-![这是图片](https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/864d045f7c92cea96a111013258b4f82c0c64692/figure/GEDI%E8%BD%A8%E9%81%93%E7%A4%BA%E6%84%8F%E5%9B%BE%E6%B5%8B%E8%AF%95.svg)
+<div align="center">
+    <img src="https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/864d045f7c92cea96a111013258b4f82c0c64692/figure/GEDI%E8%BD%A8%E9%81%93%E7%A4%BA%E6%84%8F%E5%9B%BE%E6%B5%8B%E8%AF%95.svg" style="width:100%;">
+</div>
 
 <p align="center">
 图 2.3&ensp;GEDI 地面采样模式示意图
@@ -42,7 +46,9 @@ GEDI 是在 2018 年 12 月 5 日搭载于国际空间站（International Space 
 
 为展示 GEDI 观测在广东省内的空间覆盖情况，将研究区划分为 1km &times; 1km 的栅格单元，并统计每个栅格内的 GEDI 足迹数量，生成足迹密度图（单位：个/km<sup>2</sup>）。从数值上看，2022年为观测密度最高的一年，平均密度达 108813.38 个/km<sup>2</sup>，最大值达到 1354648.88 个/km<sup>2</sup>。2023 年因 GEDI 任务于 3 月退役，足迹数量减少，平均值降至 17688.98 个/km<sup>2</sup>。五年合并后的足迹密度平均值达 355393.19 个/km<sup>2</sup>。
 
-![这是图片](https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/4dd21984350a334277dd06247f17a37178056a02/figure/%E5%AF%86%E5%BA%A6%E4%BD%9C%E5%9B%BE-%E6%8B%BC%E5%9B%BE-%E5%B8%A6%E6%A0%87%E7%AD%BE.svg)
+<div align="center">
+    <img src="https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/4dd21984350a334277dd06247f17a37178056a02/figure/%E5%AF%86%E5%BA%A6%E4%BD%9C%E5%9B%BE-%E6%8B%BC%E5%9B%BE-%E5%B8%A6%E6%A0%87%E7%AD%BE.svg" style="width:100%;">
+</div>
 
 <p align="center">
 图 2.4&ensp;广东省 GEDI 足迹密度
@@ -127,7 +133,9 @@ $$\widehat{\text{AGB}}=h \left(\sum_{j=1}^{p} \hat{B_{j}} f\left(x_{j}\right)+\v
 模型开发者考虑了 1 至 4 个 RH 指标及其两两交互项的组合，最终筛选出最具解释力且具泛化能力的变量子集。为了进一步提升模型的适用性与准确性，产品在全球范围内引入了“地理分层”的策略，即依据EBT（Evergreen Broadleaf Trees，常绿阔叶树）、ENT（Evergreen Needleleaf Trees，常绿针叶树）、DBT（Deciduous Broadleaf Trees，落叶阔叶树）、GSW（Grasslands/Shrublands/Woodlands，草地/灌木丛/林地）4 种植被功能类型（Plant Functional Type, PFT）与地理区域划分建模单元。层次化建模思想极大提升了模型的空间适应性与预测精度。
 
 
-![这是图片](https://github.com/Keisei-Kintetsu/My-Undergraduate-Thesis/blob/main/figure/gedi_agbd_%E6%8B%BC%E5%9B%BE-%E5%B8%A6%E6%A0%87%E7%AD%BE.png?raw=true)
+<div align="center">
+    <img src="https://github.com/Keisei-Kintetsu/My-Undergraduate-Thesis/blob/main/figure/gedi_agbd_%E6%8B%BC%E5%9B%BE-%E5%B8%A6%E6%A0%87%E7%AD%BE.png?raw=true" style="width:100%;">
+</div>
 
 <p align="center">
 图 2.5&ensp;GEDI L4A 数据：足迹级地上生物量密度(a) 2019 年; (b) 2020 年; (c) 2021 年; (d) 2022年; (e) 2023 年
@@ -380,7 +388,9 @@ Sentinel-2 卫星群由两颗同步卫星 Sentinel-2A 和 2B 组成，是目前�
 
 本研究所涉及的 Sentinel-2 影像共有 35110 张，其中 2018-2024 年各年影像数量在 4500 张左右，而 2017 年由于 Sentinel-2 卫星重访周期较长，影像张数约为 2300 张。
 
-![这是图片](https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/8b742c4c8ef8e291162abcaf28241c5509218c5d/figure/S2_new.svg)
+<div align="center">
+    <img src="https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/8b742c4c8ef8e291162abcaf28241c5509218c5d/figure/S2_new.svg" style="width:100%;">
+</div>
 
 <p align="center">
 图 2.6&ensp;(a) Sentinel-2 影像图幅在广东省的分布; (b) 本研究涉及的 Sentinel-2 影像张数
@@ -437,7 +447,9 @@ Sentinel-2 卫星群由两颗同步卫星 Sentinel-2A 和 2B 组成，是目前�
 
 Sentinel-1 卫星工作于 C 波段，提供了单极化（HH 或 VV）和双极化（HH+HV 或 VV+VH）观测模式。其中，VV 和 VH 极化组合对地表的散射机制更为敏感，尤其在植被结构识别和森林参数反演方面显示出更大优势。本研究所涉及的 Sentinel-1 影像共有 3458 张。
 
-![这是图片](https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/8b742c4c8ef8e291162abcaf28241c5509218c5d/figure/S1_new.svg)
+<div align="center">
+    <img src="https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/8b742c4c8ef8e291162abcaf28241c5509218c5d/figure/S1_new.svg" style="width:100%;">
+</div>
 
 <p align="center">
 图 2.7&ensp;(a) Sentinel-1 影像在广东省的分布; (b) 本研究涉及的 Sentinel-1 影像张数
@@ -449,7 +461,9 @@ Sentinel-1 卫星工作于 C 波段，提供了单极化（HH 或 VV）和双极
 地形与森林植被获取光照以及其生长所需的土壤条件直接相关。广东省地形差异较大，地形特征对于预测森林 AGB 至关重要。本文使用欧洲航天局 30m 空间分辨率的哥白尼数字高程模型（Copernicus DEM）。并计算了坡度和坡向。如图为广东省坡度及坡向。
 
 
-![这是图片](https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/9bf218f2f1c2049678e63e654b58354d24466260/figure/%E5%9D%A1%E5%BA%A6%E5%9D%A1%E5%90%91%E5%87%BA%E5%9B%BE%E5%8A%A0%E7%BC%96%E5%8F%B7.svg)
+<div align="center">
+    <img src="https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/9bf218f2f1c2049678e63e654b58354d24466260/figure/%E5%9D%A1%E5%BA%A6%E5%9D%A1%E5%90%91%E5%87%BA%E5%9B%BE%E5%8A%A0%E7%BC%96%E5%8F%B7.svg" style="width:100%;">
+</div>
 
 <p align="center">
 图 2.8&ensp;(a) 广东省坡度;(b) 广东省坡向
@@ -897,7 +911,10 @@ $$ \text{diss} = \sum_{i,j} P_{ij} |i - j| $$
 
 利用 Person 相关系数矩阵展示光学、光学纹理、雷达、雷达纹理和地形特征 5 大类因素之间及其与 GEDI L4A 足迹 AGB 的线性相关关系。同一类因素由于高度的同源性，同一类变量间往往有较强的相关关系，其中光学特征、光学纹理特征之间的相关系数整体最高，此外雷达遥感特征之间也存在较强的相关性，有些甚至达到 0.95 以上，变量两两之间可能存在严重的共线性。因此后续需要通过变量筛选，能够减少特征数量、降维，使模型泛化能力更强，减少过拟合。
 
-![这是图片](https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/a6cadd3b2bc58e163b4d3dc6e5e24394ee76cf11/figure/%E7%9B%B8%E5%85%B3%E7%83%AD%E5%9B%BE-%E4%B8%AD%E6%96%87.svg)
+<div align="center">
+    <img src="https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/a6cadd3b2bc58e163b4d3dc6e5e24394ee76cf11/figure/%E7%9B%B8%E5%85%B3%E7%83%AD%E5%9B%BE-%E4%B8%AD%E6%96%87.svg" style="width:100%;">
+</div>
+
 
 <p align="center">
 图 2.9&ensp;候选特征集与 AGB 的相关性热图
