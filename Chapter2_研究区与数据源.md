@@ -672,7 +672,7 @@ Sentinel-1 卫星工作于 C 波段，提供了单极化（HH 或 VV）和双极
 
 </div>
 
-为提取空间纹理信息，采用灰度共生矩阵（Gray Level Co-occurrence Matrix, GLCM）方法对 8 种 NDVI 数据进行了纹理特征计算。设置 5&times;5 像元窗口尺寸，分别计算了信息熵（Entropy）、对比度（Contrast）和方差（Variance）三类纹理指标。其中，信息熵（ent）量化图像信息的不确定性；对比度（const）反映图像局部灰度变化程度；方差（var）描述像元值的离散程度。最终获得 24 个纹理特征（8 种 NDVI &times; 3 个指标）。设 $P_{ij}$ 表示灰度共生矩阵中灰度级 $(i, j)$ 的归一化概率值，$N$ 为灰度级总数（如 8-bit 图像时 $N=256$ ），则三种纹理特征的计算公式如下：
+为提取空间纹理信息，采用灰度共生矩阵（Gray Level Co-occurrence Matrix, GLCM）方法对 8 种 NDVI 数据进行了纹理特征计算。设置 5&times;5 像元窗口尺寸，分别计算了信息熵（Entropy）、对比度（Contrast）和方差（Variance）三类纹理指标。其中，信息熵（ent）量化图像信息的不确定性；对比度（const）反映图像局部灰度变化程度；方差（var）描述像元值的离散程度。最终获得 24 个纹理特征（8 种 NDVI &times; 3 个指标）。设 $P_{ij}$ 表示灰度共生矩阵中灰度级 $(i, j)$ 的归一化概率值， $N$ 为灰度级总数（如 8-bit 图像时 $N=256$ ），则三种纹理特征的计算公式如下：
 
 $$ \text{ent} = -\sum_{i=1}^{N} \sum_{j=1}^{N} P_{ij} \log P_{ij} $$
 
