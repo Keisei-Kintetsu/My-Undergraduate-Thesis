@@ -430,7 +430,7 @@ Cai 等人构建的 CFATD 数据集（China Forest Aboveground Biomass Time-seri
 <h4 align="left">4.4.2 线性回归分析</h4>
 
 <p align="left">
-用 Slope 线性趋势模型（即斜率线性趋势模型），分析研究区 2017-2024 年广东省森林 AGB 的时间动态变化。设 $n$ 为时间序列长度（ $n=8$ ）；AGB<sub>i</sub> 为 2017-2024 年中的第 $i$ 年的 AGB，则 Slope 为
+用 Slope 线性趋势模型（即斜率线性趋势模型），分析研究区 2017-2024 年广东省森林 AGB 的时间动态变化。设 $n$ 为时间序列长度（ $n=8$ ）；AGB<sub> $i$</sub>为 2017-2024 年中的第 $i$ 年的 AGB，则 Slope 为
 </p>
 
 ```math
@@ -449,5 +449,5 @@ Cai 等人构建的 CFATD 数据集（China Forest Aboveground Biomass Time-seri
 </p>
 
 <p align="left">
-整体时间序列趋势上，如图所示，2017-2024 年广东省森林 AGB 呈现缓慢增长趋势（ $y=1.12x-2174.79$ ，R<sup>2</sup>=0.794， $p$ =0.003）。回归线斜率（1.12 Mg ha<sup>-1</sup>）表明年均 AGB 增加约 1.12 Mg/ha。  
+整体时间序列趋势上，如图所示，2017-2024 年广东省森林 AGB 呈现缓慢增长趋势（ y = 1.12x - 2174.79 ，R<sup>2</sup>=0.794， $p$ =0.003）。回归线斜率（1.12 Mg ha<sup>-1</sup>）表明年均 AGB 增加约 1.12 Mg/ha。  
 </p>
