@@ -415,7 +415,7 @@ Cai 等人构建的 CFATD 数据集（China Forest Aboveground Biomass Time-seri
 </p>
 
 <p align="left">
-结果显示，广东省森林 AGB 变异系数最大值为 0.847，整体均值为 0.120，中位数 0.110，标准差 0.055，99\% 分位数 0.298，经度剖面线的平均数为 0.123，纬度剖面线的平均数为 0.132。粤北地区 CV 数值较低，江门、汕尾、惠州东部、河源南部、茂名、湛江存在较高变异系数的像元。由于全广东 CV 值的第 99 百分位数没有超过0.3，可以认为广东省森林 AGB 绝大部分处于稳定状态。
+结果显示，广东省森林 AGB 变异系数最大值为 0.847，整体均值为 0.120，中位数 0.110，标准差 0.055，99% 分位数 0.298，经度剖面线的平均数为 0.123，纬度剖面线的平均数为 0.132。粤北地区 CV 数值较低，江门、汕尾、惠州东部、河源南部、茂名、湛江存在较高变异系数的像元。由于全广东 CV 值的第 99 百分位数没有超过0.3，可以认为广东省森林 AGB 绝大部分处于稳定状态。
 </p>
 
 
@@ -427,7 +427,7 @@ Cai 等人构建的 CFATD 数据集（China Forest Aboveground Biomass Time-seri
 图 4.14&ensp;广东省 21 个城市变异系数箱线图
 </p>
 
-<h4 align="left">线性回归分析</h4>
+<h4 align="left">4.4.2 线性回归分析</h4>
 
 <p align="left">
 用 Slope 线性趋势模型（即斜率线性趋势模型），分析研究区 2017-2024 年广东省森林 AGB 的时间动态变化。设 $n$ 为时间序列长度（ $n=8$ ）；AGB<sub>i</sub>为 2017-2024 年中的第 $i$ 年的 AGB，则 Slope 为
@@ -436,3 +436,7 @@ Cai 等人构建的 CFATD 数据集（China Forest Aboveground Biomass Time-seri
 ```math
     \text{Slope}=\frac{n \times \sum_{i=1}^{n} i \times \text{AGB}_{i}-\sum_{i=1}^{n} i \sum_{i=1}^{n} \text{AGB}_{i}}{n \times \sum_{i=1}^{n} i^{2}-\left(\sum_{i=1}^{n} i\right)^{2}}
 ```
+
+<p align="left">
+当 Slope > 0 Mg ha<sup>-1</sup> a<sup>-1</sup> 时，表示森林 AGB 在 2017-2024 年间呈现增加趋势；当 Slope < 0 Mg ha<sup>-1</sup> a<sup>-1</sup> 时，表示森林 AGB 呈现减少趋势。
+</p>
