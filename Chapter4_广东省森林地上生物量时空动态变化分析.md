@@ -535,6 +535,17 @@ Z =
 其中 $\Phi$ 是标准正态分布的累积分布函数 (CDF)。
 </p>
 
+
+<div align="center">
+    <img src="https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/05306fbca5f5f59f5e14053ca581eaaf774f482b/figure/sen+mk-%E5%B8%A6%E6%A0%87%E7%AD%BE.svg">
+</div>
+
+<p align="center">
+图 4.18&ensp;广东省森林 AGB 变化趋势 (a) Sen 斜率估计; (b) MK 检验 $Z$ 统计量
+</p>
+
+
+
 <p align="left">
 将 $p$ 值分成 4 类的显著性水平：极显著: \( p < 0.01 \)（ $|Z|$ > 2.58）；
 显著: $0.01 \leq p < 0.05$ （1.96 < $|Z|$ ≤ 2.58）；
@@ -601,13 +612,7 @@ Z =
     </tr>
 </table>
 
-<div align="center">
-    <img src="https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/05306fbca5f5f59f5e14053ca581eaaf774f482b/figure/sen+mk-%E5%B8%A6%E6%A0%87%E7%AD%BE.svg">
-</div>
 
-<p align="center">
-图 4.18&ensp;广东省森林 AGB 变化趋势 (a) Sen 斜率估计; (b) MK 检验 $Z$ 统计量
-</p>
 
 <p align="left">
 在广东各市中，揭阳森林 AGB 增长最为显著，显著及极显著增加像元合计达 18.09%，不显著变化仅 72.61%，为全省最低。汕尾（17.93%）、潮州（13.81%）和梅州（13.55%）等地也表现出较强的增长趋势，均高于全省平均水平。深圳、江门等市增长趋势稳健，显著增加比例在12%左右。珠海、中山等地 AGB 变化较平稳，不显著变化比例超 83%。而肇庆、韶关、清远的下降比例略高，分别达 2.83%、2.79% 和 2.51%。
