@@ -451,3 +451,13 @@ Cai 等人构建的 CFATD 数据集（China Forest Aboveground Biomass Time-seri
 <p align="left">
 整体时间序列趋势上，如图所示，2017-2024 年广东省森林 AGB 呈现缓慢增长趋势（ y = 1.12x - 2174.79 ，R<sup>2</sup>=0.794， $p$ =0.003）。回归线斜率（1.12 Mg ha<sup>-1</sup>）表明年均 AGB 增加约 1.12 Mg/ha。  
 </p>
+
+
+<div align="center">
+    <img src="https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/661693d66d0a6bd19f552a9f694b93b8f9d0378b/figure/%E6%95%B4%E4%BD%93%E5%9B%9E%E5%BD%92%E6%95%B0%E6%8D%AE3.svg">
+</div>
+
+
+<p align="center">
+图 4.16&ensp;逐像元线性回归结果 (a) Slope; (b) R<sup>2<sup> ; (c) $p$ 值
+</p>
