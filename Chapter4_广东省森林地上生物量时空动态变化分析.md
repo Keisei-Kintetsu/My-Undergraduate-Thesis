@@ -293,16 +293,16 @@
     <tr>
         <td>Yang Map</td>
         <td>中国</td>
-        <td>2019年</td>
+        <td>2019 年</td>
         <td>30</td>
-        <td>Yang等</td>
+        <td>Yang 等</td>
     </tr>
     <tr>
         <td>Cai (CFATD)</td>
         <td>中国</td>
         <td>1985–2023 年</td>
         <td>30</td>
-        <td>Cai等</td>
+        <td>Cai 等</td>
     </tr>
     <tr>
         <td>Santoro Map</td>
