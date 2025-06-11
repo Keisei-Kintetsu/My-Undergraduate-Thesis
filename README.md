@@ -2,7 +2,7 @@
 
 # 基于多源遥感数据的广东省 2017-2024 年森林地上生物量反演 <br> Retrieval of forest aboveground biomass in Guangdong Province from 2017 to 2024 based on multi-source remote sensing data
 
-![这是图片](https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/65cc8820fcc0816b8ad139f84694f56feb388e41/figure/%E5%B9%B3%E5%9D%87%E5%80%BC%E7%BB%98%E5%9B%BE%E6%80%BB%E5%9B%BE3.svg)
+![这是图片](https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/4848e7e6e791297fe9d241b20c0738554ea15699/figure/%E5%B9%B3%E5%9D%87%E5%80%BC%E7%BB%98%E5%9B%BE%E6%80%BB%E5%9B%BE3.svg)
 
 - 作者：梁而正
 - Author: Erzheng Liang
