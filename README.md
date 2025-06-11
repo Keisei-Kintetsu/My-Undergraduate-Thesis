@@ -12,6 +12,7 @@
 - 专业：地理信息科学
 - Major: Geographic Information Science
 - 2025.5 
+- [论文原文 Original Paper](https://github.com/Keisei-Kintetsu/My-Undergraduate-Thesis/blob/f4bff9cdda3902361add234aaa9da07fb74f0cb4/%E5%9F%BA%E4%BA%8E%E5%A4%9A%E6%BA%90%E9%81%A5%E6%84%9F%E6%95%B0%E6%8D%AE%E7%9A%84%E5%B9%BF%E4%B8%9C%E7%9C%812017-2024%E5%B9%B4%E6%A3%AE%E6%9E%97%E5%9C%B0%E4%B8%8A%E7%94%9F%E7%89%A9%E9%87%8F%E5%8F%8D%E6%BC%94-%E7%BB%88%E7%A8%BF.pdf)
 
 
 
