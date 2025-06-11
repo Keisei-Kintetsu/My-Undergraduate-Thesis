@@ -707,14 +707,9 @@ Hurst 值刻画时间序列的变化趋势：当 $H$ = 0.5 时表示随机游走
 </p>
 
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1\linewidth]{figures/绘制hurst指数_带剖面.pdf}
-    \caption{广东省森林AGB时间序列Hurst指数空间分布图}
-\end{figure}
 
 <div align="center">
-    <img src="">
+    <img src="https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/25d08cd148174a290334ccd959af8910f8968880/figure/%E7%BB%98%E5%88%B6hurst%E6%8C%87%E6%95%B0_%E5%B8%A6%E5%89%96%E9%9D%A2.svg">
 </div>
 
 <p align="center">
@@ -726,7 +721,7 @@ Hurst 值刻画时间序列的变化趋势：当 $H$ = 0.5 时表示随机游走
 </p>
 
 <div align="center">
-    <img src="">
+    <img src="https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/25d08cd148174a290334ccd959af8910f8968880/figure/%E5%90%84%E5%B8%82Hurst%E6%8C%87%E6%95%B0%E7%AE%B1%E7%BA%BF%E5%9B%BE.svg">
 </div>
 
 <p align="center">
