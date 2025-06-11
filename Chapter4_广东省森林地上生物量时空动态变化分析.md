@@ -260,8 +260,9 @@
 图 4.5&ensp;广东省各市 2017-2024 年各年平均 AGB 小提琴图与箱线图
 </p>
 
-
+<p align="center">
 将 30m 像元累积后（1 像元 = 0.09 ha），各市森林 AGB 以百万 Mg 计差异显著。韶关总量 164 Mt，高居全省首位；清远 158 Mt、肇庆 130 Mt、河源和梅州均约 127 Mt，列第二梯队，这些市林地面积均在 1.1–1.5 万km<sup>2</sup> 且森林覆盖率不低于 77\%。云浮、惠州、茂名、阳江介于 50–75 Mt，对应 0.6–0.8 万km<sup>2</sup> 林地。江门与广州分别 44Mt 和 34Mt，虽覆盖率达 43–46\%，但森林面积不足 5000 km<sup>2</sup>。湛江、潮州、揭阳、汕尾分布于 17–25 Mt 区间；深圳、佛山、东莞、珠海、汕头总量 4–7 Mt；中山最低，仅 2.9 Mt，森林覆盖率 16\%。
+</p>
 
 <div align="center">
     <img src="https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/1c7f01129a49894eef9fc4a771e5b148b2cb0b20/figure/%E6%80%BB%E9%87%8F%E7%BB%9F%E8%AE%A1.svg" style="width:90%;">
