@@ -370,7 +370,23 @@ ESA CCI AGB 是当前主流的全球尺度 AGB 产品之一，基于 ENVISAT ASA
 Cai 等人构建的 CFATD 数据集（China Forest Aboveground Biomass Time-series Dataset）融合 GEDI 样本与 Landsat 时间序列，采用残差神经网络 ResNet 反演 1985–2023 年 AGB，是目前中国国内精度较高、覆盖时间最完整的高分辨率 AGB 产品。其与本研究采用相近数据源和模型结构，因此具有较高的可比性。
 </p>
 
+<div align="center">
+    <img src="https://github.com/Keisei-Kintetsu/My-Undergraduate-Thesis/blob/main/figure/CFATD%E5%8E%9F%E5%9B%BE%E7%BB%98%E5%9B%BE%E4%B8%8E%E5%B7%AE%E5%80%BC%E7%BB%98%E5%9B%BE.png?raw=true">
+</div>
+
+<p align="center">
+图 4.10&ensp;2019–2023 年 CFATD 产品与本研究结果的像元级对比图：左列为 CFATD 原始 AGB 图，右列为与本研究结果的作差图
+</p>
+
 
 <p align="left">
 从空间分布图像上看，其结果在整体趋势上与本研究相对接近：粤北为高值区，粤西次之，粤东与湛江地区相对较低。其平均值整体略高于本研究，偏高幅度在 10–15 Mg/ha 之间，与本研究结果作差后的像元平均值大约为 20 Mg/ha 。但从直方图可见其值域与分布形态高度相似，呈偏态正分布，标准差亦与本研究接近。Bland–Altman 分析中偏差在 -19 至 -23 Mg/ha 之间，LoA范围普遍在 -105 至 60 Mg/ha 之间，说明与本研究结果相对接近。
+</p>
+
+<div align="center">
+    <img src="https://github.com/Keisei-Kintetsu/My-Undergraduate-Thesis/blob/main/figure/CFATD_%E7%9B%B8%E5%85%B3%E5%9B%BE%E4%B8%8Eba%E5%9B%BE.png?raw=true">
+</div>
+
+<p align="center">
+图 4.12&ensp;2017–2023 年 CFATD 产品与本研究结果的统计对比图：(a–g) 为相关性分析图，(h–n) 为 Bland–Altman 分析图
 </p>
