@@ -183,7 +183,7 @@ $$\widehat{\text{AGB}}=h \left(\sum_{j=1}^{p} \hat{B_{j}} f\left(x_{j}\right)+\v
     <tr>
         <td>l4_quality_flag</td>
         <td>标记最有用的生物量预测的选择</td>
-        <td>0 或 1</td>
+        <td>0或1</td>
     </tr>
     <tr>
         <td>sensitivity</td>
@@ -267,10 +267,10 @@ $$\widehat{\text{AGB}}=h \left(\sum_{j=1}^{p} \hat{B_{j}} f\left(x_{j}\right)+\v
 </div>
 
 #### 2.2.2 Sentinel-2 数据
-Sentinel-2 卫星群由两颗同步卫星 Sentinel-2A 和 2B 组成，是目前最常用的高分辨率多光谱遥感影像之一。Sentinel-2 含有 13 波段，涵盖从可见光到近红外和短波红外波长的光谱波段，空间分辨率为 10 至 60 米不等，重访周期为 5 天。
+Sentinel-2 卫星群由两颗同步卫星 Sentinel-2A 和 2B 组成，是目前最常用的高分辨率多光谱遥感影像之一。Sentinel-2 含有 13 个波段，涵盖从可见光到近红外和短波红外波长的光谱波段，空间分辨率为 10 至 60 米不等，重访周期为 5 天。
 
 <p align="center">
-表2.4 Sentinel-2 各波段信息
+表 2.4&ensp;Sentinel-2 各波段信息
 </p>
 
 
@@ -378,17 +378,17 @@ Sentinel-2 卫星群由两颗同步卫星 Sentinel-2A 和 2B 组成，是目前�
 </div>
 
 
-本研究所涉及的Sentinel-2影像共有35110张，其中2018-2024年各年影像数量在4500张左右，而2017年由于Sentinel-2卫星重访周期较长，影像张数约为2300张。
+本研究所涉及的 Sentinel-2 影像共有 35110 张，其中 2018-2024 年各年影像数量在 4500 张左右，而 2017 年由于 Sentinel-2 卫星重访周期较长，影像张数约为 2300 张。
 
 ![这是图片](https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/8b742c4c8ef8e291162abcaf28241c5509218c5d/figure/S2_new.svg)
 
 <p align="center">
-图2.6 (a) Sentinel2 影像图幅在广东省的分布; (b) 本研究涉及的Sentinel2 影像张数
+图 2.6&ensp;(a) Sentinel-2 影像图幅在广东省的分布; (b) 本研究涉及的 Sentinel-2 影像张数
 </p>
 
 
 
-本研究使用S2cloudless算法对Sentinel2数据进行去云处理。S2cloudless是由Sinergise公司EO研究团队开发的高效云检测算法，基于梯度提升机器学习框架，生成的0-1连续型云概率图可通过设定阈值转换为二值云掩膜。
+本研究使用 S2cloudless 算法对 Sentinel2 数据进行去云处理。S2cloudless 是由 Sinergise 公司 EO 研究团队开发的高效云检测算法，基于梯度提升机器学习框架，生成的 0-1 连续型云概率图可通过设定阈值转换为二值云掩膜。
 
 #### 2.2.3 Sentinel-1 数据
 
