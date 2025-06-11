@@ -402,3 +402,22 @@ Cai 等人构建的 CFATD 数据集（China Forest Aboveground Biomass Time-seri
 ```
 
 式中 $\bar{X}$ 为时间序列 $X_t$ 的算术均值，表征区域森林 AGB 的平均水平； $\sigma$ 为时间序列标准差，反映观测值的离散程度； $N$ 代表时间序列长度（本研究 $N=8$ ）。该指标通过消除量纲影响，实现跨像元、跨区域的可比性分析。当 CV 值大于 30\% 时，通常认为生态系统存在显著波动。
+
+
+<div align="center">
+    <img src="https://github.com/Keisei-Kintetsu/My-Undergraduate-Thesis/blob/main/figure/%E7%BB%98%E5%88%B6CV_%E5%B8%A6%E5%89%96%E9%9D%A2.png?raw=true">
+</div>
+
+<p align="center">
+图 4.13&ensp;广东省森林 AGB 变异系数空间分布图
+</p>
+
+
+
+<div align="center">
+    <img src="https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/0c82798cc02c12ebe88e4363170b0e6c2f49da8a/figure/%E5%90%84%E5%B8%82CV%E6%8C%87%E6%95%B0%E7%AE%B1%E7%BA%BF%E5%9B%BE.svg">
+</div>
+
+<p align="center">
+图 4.14&ensp;广东省 21 个城市变异系数箱线图
+</p>
