@@ -273,12 +273,15 @@ VV\_diss 是基于雷达 VV 极化通道计算的纹理指标，衡量局部地�
 
 GEDI有覆盖激光器与全功率激光器两种激光器。 GEDI的功率光束在激光能量方面是覆盖光束的约两倍，直接影响密集树冠的穿透力。全功率光束发射功率更高的集中信号，使其能够穿透茂密的树冠并捕获来自树冠更低高度处的回波，有效增强了有关植被垂直结构的信息。图 3.8 显示了两种激光光束的对比，全功率激光具有比覆盖光束更高的光束灵敏度。此外，有学者提出会影响背景太阳光照对 GEDI 波形质量会产生负面影响。
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1\textwidth]{figures/激光对比2.pdf}
-    \caption{覆盖激光与全功率激光的灵敏度对比}
-    \label{激光对比}
-\end{figure}
+<div align="center">
+    <img src="https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/8a5b8501de5b756a5c8f22a4e6aa7c6c129f0fa1/figure/%E6%BF%80%E5%85%89%E5%AF%B9%E6%AF%942.svg" >
+</div>
+
+
+<p align="center">
+图3.8 覆盖激光与全功率激光的灵敏度对比
+</p>
+
 
 为探究不同类型激光器（全功率激光器与覆盖激光器）及不同光束灵敏度和太阳照射条件对AGB反演精度的影响，基于XGBoost模型，以变量组8（即前20个最重要变量）为输入变量，构建了共16组对比实验。各实验结果如表所示。
 
@@ -287,3 +290,19 @@ GEDI有覆盖激光器与全功率激光器两种激光器。 GEDI的功率光�
 从光束灵敏度分析，在固定激光器类型下，模型性能随灵敏度的提高呈现上升趋势。例如，全天全功率激光器组中，$R^2$从激光组5（>0.95，$R^2=0.550$）逐步提升至激光组7（>0.97，$R^2=0.605$），而RMSE亦从46.63 Mg/ha降至35.40 Mg/ha。这说明高灵敏度波束在信号质量与结构识别方面具有更显著优势。
 
 太阳照射条件方面，考虑夜间（太阳高度角<0）与全天数据的对比，可观察到夜间波束并不总是优于全天波束。例如，在覆盖+全功率激光器组中，夜间数据在低灵敏度（激光组1N）下的$R^2$为0.566，略高于对应全天的0.549，但RMSE反而更高（46.29 vs 43.32 Mg/ha）。在灵敏度>0.97的全功率激光器组中，夜间样本（激光组7N）的表现略优于全天（激光组7），分别为$R^2=0.606$与0.605，RMSE分别为35.04与35.40 Mg/ha，差异较小。这说明虽然夜间背景光照更弱，有利于波形采集质量，但其对最终反演结果的提升有限，可能受到样本数量变化等因素影响。
+
+<div align="center">
+    <img src="https://github.com/Keisei-Kintetsu/My-Undergraduate-Thesis/blob/main/figure/%E6%BF%80%E5%85%89%E7%BB%841-4-%E5%B8%A6%E6%A0%87%E7%AD%BE.png?raw=true" style="width:90%;">
+</div>
+
+<p align="center">
+图3.9 不同激光波束选择对反演模型的影响（激光组1-4N）
+</p>
+
+<div align="center">
+    <img src="https://github.com/Keisei-Kintetsu/My-Undergraduate-Thesis/blob/main/figure/%E6%BF%80%E5%85%89%E7%BB%845-8-%E5%B8%A6%E6%A0%87%E7%AD%BE.png?raw=true" style="width:90%;">
+</div>
+
+<p align="center">
+图3.10 不同激光波束选择对反演模型的影响（激光组5-8N）
+</p>
