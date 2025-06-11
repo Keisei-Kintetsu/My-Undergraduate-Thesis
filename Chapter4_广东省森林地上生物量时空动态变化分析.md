@@ -10,3 +10,11 @@
 <p align="center">
 图4.1 30m 空间分辨率的广东省 2017-2024 年森林 AGB 反演结果
 </p>
+
+<div aling="center">
+    <img src="https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/f1b6fd1cfe48b7643ae82bd05d0ade021747cded/figure/%E6%8C%91%E5%9B%BE.svg">
+</div>
+
+<p align="center">
+图4.2 30m 空间分辨率的广东省 2017-2024 年森林 AGB 反演结果细节展示
+</p>
