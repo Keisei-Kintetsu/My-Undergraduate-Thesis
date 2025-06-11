@@ -571,44 +571,44 @@ $$
     <tr>
         <td>极显著下降</td>
         <td>&lt; 0</td>
-        <td>\(p &lt; 0.01\)</td>
-        <td>0.42\%</td>
+        <td> $p$ &lt; 0.01</td>
+        <td>0.42%</td>
     </tr>
     <tr>
         <td>显著下降</td>
         <td>&lt; 0</td>
-        <td>0.01 ≤ \(p &lt; 0.05\)</td>
-        <td>1.60\%</td>
+        <td>0.01 &le; $p$ &lt; 0.05</td>
+        <td>1.60%</td>
     </tr>
     <tr>
         <td>微显著下降</td>
         <td>&lt; 0</td>
-        <td>0.05 ≤ \(p &lt; 0.1\)</td>
-        <td>1.47\%</td>
+        <td>0.05 &le; $p$ &lt; 0.1</td>
+        <td>1.47%</td>
     </tr>
     <tr>
         <td>不显著变化</td>
         <td>≈ 0</td>
-        <td>\(p ≥ 0.1\)</td>
-        <td>80.62\%</td>
+        <td>$p$ &ge; 0.1</td>
+        <td>80.62%</td>
     </tr>
     <tr>
         <td>微显著增加</td>
         <td>&gt; 0</td>
-        <td>\(0.05 ≤ p &lt; 0.1\)</td>
-        <td>5.30\%</td>
+        <td>0.05 &le; p &lt; 0.1</td>
+        <td>5.30%</td>
     </tr>
     <tr>
         <td>显著增加</td>
         <td>&gt; 0</td>
-        <td>\(0.01 ≤ p &lt; 0.05\)</td>
-        <td>7.56\%</td>
+        <td>0.01 &lt; p &lt; 0.05</td>
+        <td>7.56%</td>
     </tr>
     <tr>
         <td>极显著增加</td>
         <td>&gt; 0</td>
-        <td>\(p &lt; 0.01\)</td>
-        <td>3.04\%</td>
+        <td> $p$ &lt; 0.01</td>
+        <td>3.04%</td>
     </tr>
 </table>
 
