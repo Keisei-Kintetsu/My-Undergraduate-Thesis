@@ -362,3 +362,15 @@ ESA CCI AGB 是当前主流的全球尺度 AGB 产品之一，基于 ENVISAT ASA
 <p align="center">
 图 4.9&ensp;2017–2021 年 ESA CCI AGB 产品与本研究估算结果的统计对比：(a–e) 为相关性分析图，(f–j) 为 Bland–Altman 分析图
 </p>
+
+
+<h4 align="left">4.3.3 与 CFATD 森林地上生物量产品对比</h4>
+
+<p align="left">
+Cai 等人构建的 CFATD 数据集（China Forest Aboveground Biomass Time-series Dataset）融合 GEDI 样本与 Landsat 时间序列，采用残差神经网络 ResNet 反演 1985–2023 年 AGB，是目前中国国内精度较高、覆盖时间最完整的高分辨率 AGB 产品。其与本研究采用相近数据源和模型结构，因此具有较高的可比性。
+</p>
+
+
+<p align="left">
+从空间分布图像上看，其结果在整体趋势上与本研究相对接近：粤北为高值区，粤西次之，粤东与湛江地区相对较低。其平均值整体略高于本研究，偏高幅度在 10–15 Mg/ha 之间，与本研究结果作差后的像元平均值大约为 20 Mg/ha 。但从直方图可见其值域与分布形态高度相似，呈偏态正分布，标准差亦与本研究接近。Bland–Altman 分析中偏差在 -19 至 -23 Mg/ha 之间，LoA范围普遍在 -105 至 60 Mg/ha 之间，说明与本研究结果相对接近。
+</p>
