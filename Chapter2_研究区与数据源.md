@@ -44,7 +44,7 @@ GEDI 是在 2018 年 12 月 5 日搭载于国际空间站（International Space 
 图 2.3&ensp;GEDI 地面采样模式示意图
 </p>
 
-为展示 GEDI 观测在广东省内的空间覆盖情况，将研究区划分为 1km &times; 1km 的栅格单元，并统计每个栅格内的 GEDI 足迹数量，生成足迹密度图（单位：个/km<sup>2</sup>）。从数值上看，2022年为观测密度最高的一年，平均密度达 108813.38 个/km<sup>2</sup>，最大值达到 1354648.88 个/km<sup>2</sup>。2023 年因 GEDI 任务于 3 月退役，足迹数量减少，平均值降至 17688.98 个/km<sup>2</sup>。五年合并后的足迹密度平均值达 355393.19 个/km<sup>2</sup>。
+为展示 GEDI 观测在广东省内的空间覆盖情况，将研究区划分为 1km &times; 1km 的栅格单元，并统计每个栅格内的 GEDI 足迹数量，生成足迹密度图（单位：个/km<sup>2</sup>）。从数值上看，2022 年为观测密度最高的一年，平均密度达 108813.38 个/km<sup>2</sup>，最大值达到 1354648.88 个/km<sup>2</sup>。2023 年因 GEDI 任务于 3 月退役，足迹数量减少，平均值降至 17688.98 个/km<sup>2</sup>。五年合并后的足迹密度平均值达 355393.19 个/km<sup>2</sup>。
 
 <div align="center">
     <img src="https://raw.githubusercontent.com/Keisei-Kintetsu/My-Undergraduate-Thesis/4dd21984350a334277dd06247f17a37178056a02/figure/%E5%AF%86%E5%BA%A6%E4%BD%9C%E5%9B%BE-%E6%8B%BC%E5%9B%BE-%E5%B8%A6%E6%A0%87%E7%AD%BE.svg" style="width:100%;">
